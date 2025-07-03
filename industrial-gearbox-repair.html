@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
+
+<style>
+  .gradient-bg {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #bfdbfe, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  .badge-custom {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  .feature-icon {
+    color: #2563eb;
+  }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
+  .nv-bg {
+  background: linear-gradient(to right, #031b33, #1c284f);
+  color: white !important;
+}
+
+.nv-bg .nav-link,
+.nv-bg .navbar-brand,
+.nv-bg .dropdown-toggle {
+  color: white !important;
+}
+
+.nv-bg .nav-link:hover,
+.nv-bg .dropdown-item:hover {
+  color: #00C2FF !important; /* Optional hover color (gold) */
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+.explore-btn {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+
+.portfolio-btn {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+/* Hover Effects */
+.explore-btn:hover {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+.portfolio-btn:hover {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+</style>
+
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3 nv-bg">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+           <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+           <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+            <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+            <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+            <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+            <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+            <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+            <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+            <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+            <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+            <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="text-white text-center position-relative gradient-bg" 
+         style="background-image: url('/images/gearbox.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 600px;">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Compressor<span class="gradient-text d-block"> Services</span></h1>
+    <p class="lead mt-3 mb-4"> Dynamic balancing service is a process that involves reducing or eliminating vibrations in rotating machinery or equipment.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+      <a href="#" class="btn explore-btn px-4 py-2">Explore Services <i class="bi bi-arrow-right ms-2"></i></a>
+<a href="#" class="btn portfolio-btn px-4 py-2">View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section bg-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">500+</h2>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">50+</h2>
+        <p>Team Members</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">24/7</h2>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-0">
+  <div class="container">
+    <div class="text-left ">
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Futurion can provide Gearbox Repair</h2>
+      <p class="text-muted mx-auto">Industrial gearbox repair and overhaul involves the restoration and optimization of malfunctioning or worn-out gearboxes used in various industrial applications. Our electro-mechanical company specializes in providing professional gearbox repair and refurbishment services. With our expertise, we diagnose gearbox issues, disassemble the unit, and meticulously inspect each component. Our skilled technicians then undertake necessary repairs or replacements using high-quality parts, ensuring optimal functionality and durability. We also perform a thorough cleaning, reassembly, and lubrication to enhance performance and extend the gearbox's lifespan. Our company's commitment to precision, quality, and timely service ensures that we deliver reliable and efficient gearbox repair solutions to our industrial clients, minimizing downtime and maximizing productivity. In addition to expert gearbox repair services, we offer generator rewinding services, DC electric motor repair, and many other electromechanical services. Get in touch with us and get a free quote today!</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-111 " id="services">
+  <div class="container">
+    <div class="underline mb-5 mx-auto text-center"></div>
+    <h2 class="text-center font-weight-bold text-dark-blue mb-4">Our Services</h2>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Expert Gearbox <br /> Diagnosis</h4>
+          <p class="text-muted small">Our skilled technicians use advanced diagnostic tools to accurately assess the condition of your industrial gearbox, identifying any issues or potential problems. </p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Precision Gearbox Rebuilding</h4>
+          <p class="text-muted small">Our experienced team specializes in gearbox rebuilding, meticulously restoring worn-out components, upgrading parts, and improving overall gearbox functionality for improved efficiency.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Comprehensive Gearbox Repair</h4>
+          <p class="text-muted small">We offer a wide range of gearbox repair services, from minor repairs and component replacements to complete gearbox overhauls, ensuring optimal performance and longevity.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Preventive Maintenance Programs</h4>
+          <p class="text-muted small">Our tailored preventive maintenance programs help prevent costly gearbox failures, including regular inspections, lubrication, and proactive component replacements, saving you time and money.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">On-Site Gearbox <br />Services</h4>
+          <p class="text-muted small">We offer on-site gearbox repairs/overhaul and maintenance services, minimizing the need for gearbox removal and transportation, reducing downtime, and ensuring convenience for our clients.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Dynamic Balancing and Laser Alignment</h4>
+          <p class="text-muted small">Our advanced dynamic balancing and laser alignment services ensure smooth operation and minimize vibration, reducing wear and tear on gearbox components and extending their lifespan.</p>
+        </div>
+      </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Performance <br />Optimization</h4>
+          <p class="text-muted small">Our team of experts can analyze your gearbox performance and make necessary adjustments to optimize efficiency, reduce energy consumption, and enhance overall system performance.</p>
+        </div>
+      </div>
+
+                  <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Testing and Quality Assurance</h4>
+          <p class="text-muted small">Before delivering the repaired gearbox, we conduct rigorous testing and quality assurance measures to ensure that it meets or exceeds industry standards, guaranteeing reliable operation.</p>
+        </div>
+      </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Emergency Gearbox <br />Repairs</h4>
+          <p class="text-muted small">We understand the urgency of unexpected breakdowns. Our 24/7 emergency repair service ensures swift response times and efficient repairs to minimize downtime and production losses.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div>
+
+
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Importance of Static Test</h2>
+    <p class="text-center text-muted mb-4">Some of the factors that make this test crucial for electric motors are listed below.</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Quick Turnaround Time and Minimal Downtime</h4>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Comprehensive & Reliable Repair Solutions</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Expertise & Experience in Industrial Gearbox Repair</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Exceptional Customer Service & Support</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div>
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

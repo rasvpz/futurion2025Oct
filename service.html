@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
+<style>
+  .nv-bg .nav-link,
+.nv-bg .navbar-brand,
+.nv-bg .dropdown-toggle {
+  color: white !important;
+}
+
+.nv-bg .nav-link:hover,
+.nv-bg .dropdown-item:hover {
+  color: #00C2FF !important; /* Optional hover color (gold) */
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+.explore-btn {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+
+.portfolio-btn {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+/* Hover Effects */
+.explore-btn:hover {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+.portfolio-btn:hover {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+
+
+</style>
+
+
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-transparent pl-3 nv-bg">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+             <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+             <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+            <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+            <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+            <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+            <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+            <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+            <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+            <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+            <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+            <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+             
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="text-white text-center py-5 position-relative hero-bg">
+  <div class="container">
+    <span class="badge badge-custom py-2 px-3 mb-3">Repair Services</span>
+    <h1 class="display-4 fw-bold">Elevate Your <span class="gradient-text d-block">Motor Rewinding Process</span></h1>
+    <p class="lead mt-3 mb-4">We deliver cutting-edge solutions that transform businesses and drive unprecedented growth.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+      <a href="#" class="btn explore-btn px-4 py-2">Explore Services <i class="bi bi-arrow-right ms-2"></i></a>
+<a href="#" class="btn portfolio-btn px-4 py-2">View Portfolio</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class=" bg-white stats-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">500+</h2>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">50+</h2>
+        <p>Team Members</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">24/7</h2>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="stats-section">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <button class="badge badge-custom py-2 px-3 active mb-2 mb-md-4 brdnone" data-target="rewinding">Rewinding Services</button>
+<button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="transformer">Transformer Repair</button>
+<button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="generator">Generator Rewinding</button>
+<button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="pump">Pump Repair</button>
+<button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="motor">Motor Repair</button>
+
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4">Our Repairing Branches</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">From concept to execution, we provide end-to-end digital services that drive measurable results.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-4" >
+        <div class="card service-card h-100">
+          <img src="https://www.ghaimagroup.com/imgs/win4.jpg" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="text-primary" style="color:rgb(3, 3, 255) !important">Rewinding Service</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle feature-icon"></i> Whether your industry uses a low-power or high-power electric motor, a synchronous or an AC induction motor, they all need rewinding after a while... </li>
+            </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary"></span>
+                <button class="badge badge-custom py-2 px-3 active mb-2 mb-md-4 brdnone" data-target="rewinding"> <i class="bi bi-arrow-down"></i></button>
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100">
+          <img src="https://www.ghaimagroup.com/imgs/power-transformer-repair-services1.jpg" height="284px" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important">Power Transformer Repair</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle feature-icon"></i> Transformers are a vital component in any electrical power system, converting electricity from one voltage level to another. A malfunctioning transformer can... </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary"></span>
+
+<button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="transformer"><i class="bi bi-arrow-down"></i></button>
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100">
+          <img src="https://www.ghaimagroup.com/imgs/professional-generator-rewinding-repair-services1.jpg" height="284" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important"> AC & DC Generator Repair</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle feature-icon"></i> 
+             Our experienced technicians are equipped with the knowledge and expertise to handle a wide range of AC and DC generator repair needs, including fault-finding...<div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold text-primary"></span>
+
+<button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="generator"> <i class="bi bi-arrow-down"></i></button>
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100">
+          <img src="https://www.ghaimagroup.com/imgs/types-of-industrial-pumps-we-repair1.jpg" height="284px" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important">Submersible Pump Repairs</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle feature-icon"></i> 
+           we provide the exclusive reverse engineering service for the complete pump or a particular section. We also offer mechanical...
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary"></span>
+                <button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="pump"><i class="bi bi-arrow-down"></i></button>
+
+
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100">
+          <img src="https://www.ghaimagroup.com/imgs/Our%20Electric%20Motor%20Repair%20Services%20Include2.jpg" height="284px" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important">Electric Motor Repair</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle feature-icon"></i> 
+           A few tests are implemented, such as a static, polarity index test, and resistance test, to guarantee the quality and mechanical integrity of the coils after...
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary"></span>
+              <button class="badge badge-custom py-2 px-3 mb-2 mb-md-4 brdnone" data-target="motor"><i class="bi bi-arrow-down"></i></button>
+
+                </div>
+          </div>
+        </div>
+      </div>
+<div class="col-md-4 mb-4">
+<section class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+  <div class="container">
+    <h4 class="display-5 font-weight-bold mb-4">
+      Ready to Transform Your Business?
+    </h4>
+    <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+      Let's discuss your project and create a custom solution that drives results can save a lot of time and money.
+    </p>
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+      <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+        Get Free Consultation
+      </a>
+    </div>
+  </div>
+</section>
+
+</div>
+    </div>
+
+
+  </div>
+  
+</section>
+<div id="section-rewinding" class="service-section">
+<section class="py-5 bg-white" id="rewindingService">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Column: Text -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+      <h2 class="fw-semi-bold display-5 mt-3"><b>Electric Motor Rewinding</b></h2>
+
+        <h2 class="display-4 font-weight-bold text-primary mb-4">
+          Experience Excellence in Every Project
+        </h2>
+        <p class="lead text-muted mb-4">
+          removing the damaged winding, new winding installation, and insulation. Our experts are trained in the planned upkeep of AC & DC motors.
+        </p>
+        <p class="text-muted mb-4">
+          The cost of replacing the electric motor can be quite high. However, the DC& AC motor rewinding service can cut the cost in half. Our exceptional motor rewind service will have your machine up and running in no time and at the lowest possible cost. Motors can suffer many other damages that may include the destruction of the bearing, the grazing of the rotor on the stator, or the jamming of the shaft. Besides motor rewinding, we also offer an electric motor repair service at Futurion.
+        </p>
+
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-lg-6 text-center">
+        <div class="position-relative">
+<img src="https://www.ghaimagroup.com/imgs/rewind4.jpg" 
+     alt="Office Environment"
+     class="rounded shadow-lg"
+     style="border: 5px solid #2563eb; object-fit: none; object-position: right; width: 100%; height: 600px;">
+
+          
+          <!-- Floating Badge (optional) -->
+          <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+            <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+            <small>Industry Experience</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- More Sections: Why Choose Us, CTA, etc. should follow a similar Bootstrap layout -->
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Column 1: Ghaima Group Expertise -->
+      <div class="col-md-6 mb-4">
+        <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          <h4 class="text-primary font-weight-bold mb-3">Futurions's Expertise in Motor Rewinding</h4>
+          <p class="text-muted">
+            Electric motors are an integral part of various industries. AC/ DC motor is an essential component of machines from household items to industrial-level heavy equipment, right from water pumps, generators, chiller compressors, and refrigerators to conveyor belts and pumps in machine plants. At Futurion Group, we serve many sectors, including marine, oil & gas, and power generation, that use all kinds of electromechanical equipment.
+          </p>
+          <p class="text-muted">
+            The cost of replacing the electric motor can be quite high. However, the DC & AC motor rewinding service can cut the cost in half. Our exceptional motor rewind service will have your machine up and running in no time and at the lowest possible cost. Motors can suffer many other damages that may include the destruction of the bearing, the grazing of the rotor on the stator, or the jamming of the shaft. Besides motor rewinding, we also offer an electric motor repair service at Futurion Group.
+          </p>
+        </div>
+      </div>
+
+      <!-- Column 2: Reasons for Winding Failure -->
+      <div class="col-md-6 mb-4">
+        <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          <h4 class="text-primary font-weight-bold mb-3">Reasons for Winding Failure</h4>
+          <p class="text-muted">
+            Whether your industry uses a low-power or high-power electric motor, a synchronous or an AC induction motor, they all need rewinding after a while. The electric motor rewinding is carried out in accordance with the requirements of the regulations for each type of installation as specified by the manufacturer. For low-voltage machines, this period can be 5–7 years; for high-voltage models, the need arises much less often after 20–25 years.
+          </p>
+          <p class="text-muted">
+            When a motor needs unplanned maintenance, in most cases, the coils are fused, earthed, or completely smashed. One of the most common causes of motor failure is the failure or aging of the winding insulation, exposed to heat, vibration, moisture, oil, and dust. Thermal damage, overload, and electrical jumps can deteriorate motors significantly.
+          </p>
+          <p class="text-muted">
+            Some industries may want to customize a motor to their own specifications. It is possible to rewind a motor and alter the performance according to their requirements.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div>
+
+
+<!-- Transformer Rewinding Content (Initially Hidden) -->
+<div id="section-transformer" class="service-section d-none">
+  <section class="py-5 bg-white" id="rewindingService">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Left Column: Text -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-semi-bold display-5 mt-3  "><b>Service & Repair Inclusions</b></h2>
+  
+          <h2 class="display-4 font-weight-bold text-primary mb-4 ">
+            Experience Excellence in Every Project
+          </h2>
+          <p class="lead text-muted mb-4">
+            Including coil rewinding, core inspection, insulation replacement, tap changer maintenance, and oil filtration—our experts ensure every transformer is restored to optimal performance and reliability.
+          </p>
+          <p class="text-muted mb-4">
+            At Futurion, we take pride in being a trusted leader in the field of mechanical and electrical engineering services, specializing in the comprehensive repair and rewinding of electric transformers. With decades of combined industry experience and a strong commitment to engineering excellence, we have consistently delivered reliable, high-performance solutions that not only meet but surpass the expectations of our valued clients.
+            <br>
+            Our expertise spans a wide range of industrial sectors, including manufacturing, petrochemical processing, oil and gas, marine operations, and other demanding environments that require precise, dependable equipment functionality. 
+          </p>
+
+        </div>
+  
+        <!-- Right Column: Image -->
+        <div class="col-lg-6 text-center">
+          <div class="position-relative">
+  <img src="https://www.ghaimagroup.com/imgs/power-transformer-repair-services2.jpg" 
+       alt="Office Environment"
+       class="rounded shadow-lg"
+       style="border: 5px solid #2563eb; object-fit: none; object-position: right; width: 100%; height: 600px;">
+  
+            
+            <!-- Floating Badge (optional) -->
+            <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+              <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+              <small>Industry Experience</small>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- More Sections: Why Choose Us, CTA, etc. should follow a similar Bootstrap layout -->
+  
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        
+        <!-- Column 1: Ghaima Group Expertise -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Futurion’s Expertise in Transformer Service & Repair</h4>
+            <p class="text-muted">
+              Electric transformers are a critical component of modern infrastructure, powering everything from industrial facilities and energy grids to marine vessels and petrochemical plants. These vital devices play a central role in voltage regulation, power distribution, and safe energy transfer across numerous sectors. At Futurion Group, we specialize in delivering reliable, efficient, and expert-level transformer servicing and repair solutions to ensure uninterrupted performance and long-term asset integrity.
+              
+              
+            </p>
+            <p class="text-muted">
+              We proudly serve a broad spectrum of industries, including power generation, oil & gas, manufacturing, marine, and utilities—industries that rely heavily on transformer systems to maintain their operations. Over time, transformers can suffer from issues such as insulation breakdown, overheating, coil displacement, core damage, or oil contamination. These problems, if left unattended, can lead to serious operational failures and costly downtime.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Column 2: Reasons for Winding Failure -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Reasons for Transformer Servicing & Rewinding</h4>
+            <p class="text-muted">
+              Whether your operations depend on low-capacity distribution transformers or high-voltage power transformers, regular inspection and servicing are essential to ensure safety, efficiency, and long-term performance. At Futurion Group, we understand that over time, even the most robust transformers require attention due to wear, aging components, and changing operational demands.
+            </p>
+            <p class="text-muted">
+              At Futurion, we specialize in diagnosing and resolving a wide range of transformer problems. Our rewinding services address damaged coils, insulation faults, and core alignment issues using high-quality materials and precision techniques. Whether a transformer is showing signs of aging or has sustained electrical or environmental damage, we provide tailored solutions that restore its performance and extend its lifespan.
+            </p>
+            <!-- <p class="text-muted">
+             
+            </p> -->
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  </div>
+<!-- </div> -->
+
+<!-- Generator Section -->
+<div id="section-generator" class="service-section d-none">
+  <section class="py-5 bg-white" id="rewindingService">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Left Column: Text -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-semi-bold display-5 mt-3  "><b>Generator Rewinding & Repair Services</b></h2>
+  
+          <h2 class="display-4 font-weight-bold text-primary mb-4 ">
+            Experience Excellence in Every Project
+          </h2>
+          <p class="lead text-muted mb-4">
+            Our experts specialize in rewinding, insulation, and mechanical repairs to restore generators to peak performance. With precision diagnostics and quality craftsmanship, we ensure reliable, long-lasting operation.
+          </p>
+          <p class="text-muted mb-4">
+            At Futurion, we provide top-tier generator repair and maintenance solutions tailored to clients across a wide range of industries. Our capabilities include generator stator rewinding and servicing for all types and models of generators.
+            <br>
+            Futurion’s electromechanical experts are dedicated to offering customized services that align with each client's specific requirements. Whether you require rewinding, repair, or complete overhaul services, we’re here to support your operational needs.
+          </p>
+
+        </div>
+  
+        <!-- Right Column: Image -->
+        <div class="col-lg-6 text-center">
+          <div class="position-relative">
+  <img src="https://www.ghaimagroup.com/imgs/professional-generator-rewinding-repair-services1.jpg" 
+       alt="Office Environment"
+       class="rounded shadow-lg"
+       style="border: 5px solid #2563eb; object-fit: none; object-position: right; width: 100%; height: 600px;">
+  
+            
+            <!-- Floating Badge (optional) -->
+            <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+              <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+              <small>Industry Experience</small>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- More Sections: Why Choose Us, CTA, etc. should follow a similar Bootstrap layout -->
+  
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        
+        <!-- Column 1: Ghaima Group Expertise -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Futurion’s Expertise in Generator Rewinding & Repair</h4>
+            <p class="text-muted">
+              Generators are essential for powering critical operations across industries—from manufacturing plants and data centers to marine vessels and energy facilities. These machines ensure continuous power supply and operational resilience, making their maintenance and repair a top priority. At Futurion, we specialize in delivering expert generator rewinding and repair services designed to restore performance, extend equipment life, and minimize downtime.
+            </p>
+            <p class="text-muted">
+              We proudly support a wide range of sectors, including oil & gas, utilities, construction, marine, and industrial manufacturing—industries that depend on reliable generator systems. Over time, generators may face issues such as insulation failure, winding damage, bearing wear, or electrical imbalances. Left unresolved, these issues can lead to unexpected failures and costly interruptions.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Column 2: Reasons for Winding Failure -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Reasons for Generator Rewinding & Repair</h4>
+            <p class="text-muted">
+              Whether your operations rely on portable backup units or large industrial generators, routine inspection and servicing are critical to ensure safety, efficiency, and long-term reliability. At Futurion, we recognize that even the most durable generators experience wear and performance decline over time due to continuous use, environmental exposure, and evolving operational demands.
+            </p>
+            <p class="text-muted">
+              Futurion specializes in identifying and resolving a wide range of generator issues. Our rewinding and repair services address problems such as winding degradation, insulation failure, rotor/stator damage, and mechanical wear using premium materials and advanced repair techniques. Whether your generator is aging or has been affected by electrical faults or environmental stress, we deliver customized solutions to restore optimal function and extend its operational life.
+            </p>
+            <!-- <p class="text-muted">
+             
+            </p> -->
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Pump Section -->
+<div id="section-pump" class="service-section d-none">
+  <section class="py-5 bg-white" id="rewindingService">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Left Column: Text -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-semi-bold display-5 mt-3  "><b>Comprehensive Pump Overhaul & Maintenance</b></h2>
+  
+          <h2 class="display-4 font-weight-bold text-primary mb-4 ">
+            Experience Excellence in Every Project
+          </h2>
+          <p class="lead text-muted mb-4">
+            Our experts provide complete pump overhaul and maintenance services to restore efficiency and reliability. Using advanced tools and techniques, we ensure smooth, long-lasting pump performance.
+          </p>
+          <p class="text-muted mb-4">
+            At Futurion, we specialize in delivering high-quality industrial pump repair and overhaul services to clients across a variety of sectors. From submersible and vertical turbine pumps to centrifugal and positive displacement types, our team brings years of experience in handling all major pump systems with precision and care.
+
+            We offer both in-house pump workshop services and on-site repairs, using only high-grade components to ensure long-term reliability and optimal performance. Our services also include multistage pump repairs, helping prevent future breakdowns and costly disruptions.
+        </p>
+
+        </div>
+  
+        <!-- Right Column: Image -->
+        <div class="col-lg-6 text-center">
+          <div class="position-relative">
+  <img src="images/demo.jpeg" 
+       alt="Office Environment"
+       class="rounded shadow-lg"
+       style="border: 5px solid #2563eb; width: 100%; height: 600px;">
+  
+            
+            <!-- Floating Badge (optional) -->
+            <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+              <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+              <small>Industry Experience</small>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- More Sections: Why Choose Us, CTA, etc. should follow a similar Bootstrap layout -->
+  
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        
+        <!-- Column 1: Ghaima Group Expertise -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Futurion’s Expertise in Comprehensive Pump Overhaul & Maintenance</h4>
+            <p class="text-muted">
+              Pumps play a vital role in maintaining fluid movement and system pressure across critical operations—from industrial plants and water treatment facilities to marine systems and petrochemical sites. Ensuring their efficiency and reliability through regular maintenance and timely overhauls is essential to avoiding disruptions. At Futurion, we specialize in comprehensive pump overhaul and maintenance services that restore performance, improve durability, and reduce operational downtime.
+            </p>
+            <p class="text-muted">
+              We proudly serve a broad range of industries, including oil & gas, utilities, manufacturing, marine, and construction—sectors that rely heavily on pump systems for smooth operation. Over time, pumps can encounter issues such as seal leakage, bearing failure, impeller wear, or motor misalignment. If not addressed promptly, these problems can lead to reduced efficiency and costly system failures.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Column 2: Reasons for Winding Failure -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Reasons for Comprehensive Pump Overhaul & Maintenance</h4>
+            <p class="text-muted">
+              Whether your operations depend on high-capacity industrial pumps or specialized fluid handling systems, regular maintenance and overhaul are essential for ensuring reliability, efficiency, and extended service life. At Futurion, we understand that continuous use, wear, and changing operational demands can impact even the most robust pump systems over time.
+            </p>
+            <p class="text-muted">
+              Futurion excels in diagnosing and addressing a wide range of pump-related issues. Our comprehensive overhaul services tackle common problems such as seal failures, bearing wear, impeller damage, and motor misalignment using top-quality parts and precision repair techniques. Whether your pump is underperforming or has been affected by mechanical or environmental stress, we provide tailored solutions to restore full functionality and prevent future breakdowns.
+            </p>
+            <!-- <p class="text-muted">
+             
+            </p> -->
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Motor Section -->
+<div id="section-motor" class="service-section d-none">
+  <section class="py-5 bg-white" id="rewindingService">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Left Column: Text -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-semi-bold display-5 mt-3  "><b>AC/ DC Motor Overhaul</b></h2>
+  
+          <h2 class="display-4 font-weight-bold text-primary mb-4 ">
+            Experience Excellence in Every Project
+          </h2>
+          <p class="lead text-muted mb-4">
+            Our specialists offer complete AC/DC motor overhaul services to restore optimal performance and extend motor lifespan. With precise diagnostics and quality repairs, we ensure reliable and efficient operation in demanding environments.
+          </p>
+          <p class="text-muted mb-4">
+            Futurion provides comprehensive AC/DC motor repair services across the UAE, catering to a wide range of industrial sectors. With over 30 years of experience in electric motor rewinding and complete motor restoration, we have built a strong reputation for delivering expert solutions. Our team of skilled technicians is equipped to handle all types of AC and DC motor repairs, both on-site and in our fully equipped workshop.
+
+            Our state-of-the-art motor repair facility features advanced diagnostic tools and machinery, enabling us to tackle even the most complex repair jobs with precision.
+        </p>
+
+        </div>
+  
+        <!-- Right Column: Image -->
+        <div class="col-lg-6 text-center">
+          <div class="position-relative">
+  <img src="https://www.ghaimagroup.com/imgs/Our%20Electric%20Motor%20Repair%20Services%20Include1.jpg" 
+       alt="Office Environment"
+       class="rounded shadow-lg"
+       style="border: 5px solid #2563eb; object-fit: none; object-position: right; width: 100%; height: 600px;">
+  
+            
+            <!-- Floating Badge (optional) -->
+            <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+              <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+              <small>Industry Experience</small>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- More Sections: Why Choose Us, CTA, etc. should follow a similar Bootstrap layout -->
+  
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        
+        <!-- Column 1: Ghaima Group Expertise -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Futurion’s Expertise in AC/DC Motor Overhaul</h4>
+            <p class="text-muted">
+              AC and DC motors are essential to the operation of countless industrial systems—from manufacturing lines and processing plants to marine equipment and energy facilities. Maintaining their performance through regular servicing and expert overhauls is crucial for minimizing downtime and ensuring operational efficiency. At Futurion, we offer specialized AC/DC motor overhaul services designed to restore functionality, enhance reliability, and extend equipment lifespan.
+            </p>
+            <p class="text-muted">
+              We proudly support a diverse range of industries, including oil & gas, utilities, marine, construction, and industrial manufacturing—sectors where dependable motor performance is non-negotiable. With time, motors may develop issues such as winding faults, bearing wear, insulation breakdown, or rotor misalignment. If left unaddressed, these problems can lead to serious disruptions and equipment failure.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Column 2: Reasons for Winding Failure -->
+        <div class="col-md-6 mb-4">
+          <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+            <h4 class="text-primary font-weight-bold mb-3">Reasons for AC/DC Motor Overhaul</h4>
+            <p class="text-muted">
+              Whether your operations rely on compact drive motors or large industrial AC/DC units, regular overhauls and maintenance are essential to ensure reliable performance, energy efficiency, and long-term durability. At Futurion, we recognize that even the most durable motors degrade over time due to continuous operation, environmental exposure, and evolving workload demands.
+            </p>
+            <p class="text-muted">
+              Futurion specializes in identifying and resolving a wide range of motor-related issues. Our overhaul services address common problems such as winding failures, bearing wear, insulation breakdown, and rotor or commutator damage, using premium components and precision repair methods. Whether your motor is showing signs of wear or has suffered from mechanical or electrical faults, we offer tailored solutions to restore full operational integrity and help prevent costly downtime.
+            </p>
+            <!-- <p class="text-muted">
+             
+            </p> -->
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Our Services</h2>
+    <p class="text-center text-muted mb-4">We offer modern technology and environmentally friendly products to most private, industrial and <br /> governmental sectors</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Diagnostics & Overhaul</h4>
+          <p class="text-muted small">It is important to check the equipment to identify the issue thoroughly. Our specialists will conduct a comprehensive overhaul before starting with the electric motor rewinding steps.</p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Disassembly</h4>
+          <p class="text-muted small">After gathering vital data on the condition of the windings, the damaged motor windings are detached from the inside core of the machine in our machine shop.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Making of New Coil</h4>
+          <p class="text-muted small">What follows the removal of coils is the making of new wire coils. The key attributes of the process include layering, wire tension, and keeping track of the number of turns on the coil.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Insertion</h4>
+          <p class="text-muted small">Once the coils are done, they are fabricated back into the stator slots and connected.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Testing</h4>
+          <p class="text-muted small">A few tests are implemented, such as a static, polarity index test, and resistance test, to guarantee the quality and mechanical integrity of the coils after the maintenance work.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">Need Custom Solutions?</h5>
+            <p class="small">Contact our team for specialized solutions tailored to your unique requirements.</p>
+          </div>
+          <a href="#contact" class="btn btn-light font-weight-bold mt-3">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- JavaScript for Toggle Behavior -->
+<!-- <script>
+  document.getElementById("toggleButton").addEventListener("click", function () {
+    var motorSection = document.getElementById("rewindingService");
+    var transformerSection = document.getElementById("transformerContent");
+
+    if (motorSection.classList.contains("d-none")) {
+      motorSection.classList.remove("d-none");
+      transformerSection.classList.add("d-none");
+    } else {
+      motorSection.classList.add("d-none");
+      transformerSection.classList.remove("d-none");
+    }
+  });
+</script> -->
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("toggleButton");
+    const rewindingService = document.getElementById("rewindingService");
+    const transformerContent = document.getElementById("transformerContent");
+    const rewindingExtra = document.getElementById("rewindingExtra");
+
+    toggleButton.addEventListener("click", function () {
+      rewindingService.classList.toggle("d-none");
+      rewindingExtra.classList.toggle("d-none");
+      transformerContent.classList.toggle("d-none");
+    });
+  });
+</script> -->
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".badge-custom");
+    const sections = document.querySelectorAll(".service-section");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        // Remove 'active' class from all buttons
+        buttons.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+
+        const target = this.getAttribute("data-target");
+
+        sections.forEach(section => {
+          if (section.id === `section-${target}`) {
+            section.classList.remove("d-none");
+
+            // Scroll smoothly to the section
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+
+          } else {
+            section.classList.add("d-none");
+          }
+        });
+      });
+    });
+  });
+</script>
+
+
+</body>
+</html>

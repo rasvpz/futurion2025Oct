@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
+
+<style>
+  .gradient-bg {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #bfdbfe, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  .badge-custom {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  .feature-icon {
+    color: #2563eb;
+  }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
+  
+  .nv-bg {
+  background: linear-gradient(to right, #01101f, #1e2c5a);
+  color: white !important;
+}
+
+.nv-bg .nav-link,
+.nv-bg .navbar-brand,
+.nv-bg .dropdown-toggle {
+  color: white !important;
+}
+
+.nv-bg .nav-link:hover,
+.nv-bg .dropdown-item:hover {
+  color: #00C2FF !important; /* Optional hover color (gold) */
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+.explore-btn {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+
+.portfolio-btn {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+/* Hover Effects */
+.explore-btn:hover {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+.portfolio-btn:hover {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+</style>
+
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3 nv-bg">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+           <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+           <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+            <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+            <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+            <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+            <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+            <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+            <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+            <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+            <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+            <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="text-white text-center position-relative gradient-bg" 
+         style="background-image: url('/images/trouble\ shooting.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 600px;">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Electrical & Mechanical Repair and<span class="gradient-text d-block"> Modification </span></h1>
+    <p class="lead mt-3 mb-4"> Dynamic balancing service is a process that involves reducing or eliminating vibrations in rotating machinery or equipment.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+      <a href="#" class="btn explore-btn px-4 py-2">Explore Services <i class="bi bi-arrow-right ms-2"></i></a>
+<a href="#" class="btn portfolio-btn px-4 py-2">View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section bg-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">500+</h2>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">50+</h2>
+        <p>Team Members</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">24/7</h2>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-0">
+  <div class="container">
+    <div class="text-center mb-5 ">
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Our experts have great expertise in circuit diagnosis change to troubleshooting and diagnosis, repair, and rework.</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;"> offers various services, including refurbishing and modifying electric motors (DC & AC), all types of pumps, generators, transformers, brake coils, CT coils, chiller motors, all types of compressors, all types of gear boxes, rectification of all mechanical irregularities, reconstruction of squirrel cage rotos of LV/MV/HV & EHV.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-4" onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="https://www.ghaimagroup.com/imgs/mod2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="https://www.ghaimagroup.com/imgs/mod3.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="https://www.ghaimagroup.com/imgs/mod4.jpg"  class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          
+            <h2 class="display-6 text-primary p-4"><b>Our Service</b></h2>
+            <p class="px-4 lead" style="font-size: 18px;">
+           Our services give you access to our technical expertise of 35+ years in manufacturing and maintaining a high standard of specialized service, and their ability to recognize and fix faults. We undertake all kind of repairs and troubleshooting, allowing for a quick turn around and economical costs.
+
+We can replace obsolete parts, correct design problems, and clean and restore worn-out components. Qualified experts carry out all adjustments under the supervision of our engineering department.
+          </p>
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-right: 5px solid #276ef1;">
+          
+          <h2 class="display-6 text-primary p-4"><b>A Great Offer For An Excellent Decision</b></h2>
+          <p class="px-4 lead" style="font-size: 16px;">         
+Our uncompromising focus on precision, accuracy and work ethics, together with our responsive customer service and innovative solutions, are the reasons why Ghaima Group is the engineering company of choice for ambitious clients who want to see their goals achieved at the highest level. Join them now!
+          </p>
+        </div>
+      </div>
+<div class="col-md-4 mb-4">
+<section class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+  <div class="container">
+    <h4 class="display-5 font-weight-bold mb-4">
+      Ready to Transform Your Business?
+    </h4>
+    <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+      Let's discuss your project and create a custom solution that drives results can save a lot of time and money.
+    </p>
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+      <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+        Get Free Consultation
+      </a>
+    </div>
+  </div>
+</section>
+
+</div>
+    </div>
+
+
+  </div>
+</section>
+<section class="py-5 bg-white" id="rewindingService">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Column: Text -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="display-4 font-weight-bold text-primary mb-4">
+          Our Key Rework & Modification Specialty Includes
+        </h2>
+  <div>
+    <!-- First List -->
+    <ul class="list-unstyled" style="padding-right: 22px;">
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Troubleshoot difficult electrical and mechanical motor problems and recommend solutions to recurring problems</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Electrical redesign to re-rate, change speed or voltage</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Seal redesign to stop oil leaks</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Conversion from sleeve to ball bearings</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Vibration analysis, balancing and alignment</li>
+    </ul>
+  </div>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-lg-6 text-center">
+        <div class="position-relative">
+          <img src="https://www.ghaimagroup.com/imgs/mod6.jpg" 
+          alt="Office Environment"
+          class="img-fluid rounded shadow-lg"
+          style="border: 5px solid #2563eb; object-fit: none; object-position: right">
+
+          
+          <!-- Floating Badge (optional) -->
+          <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+            <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+            <small>Industry Experience</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">What Services We Offer</h2>
+    <p class="text-center text-muted mb-4">Special consideration has to be given to the insulation limits and if the motor is installed on a height.</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Installation</h4>
+              <p class="small">The environment impacts the kind of motor that needs to be installed.
+              All Variable Frequency Drive controlled motors must be rated by IEC or NEMA inverter duty.
+            Article 430 of NEC must be complied with.
+            Article 430 of NEC must be complied with.
+            If the surface temperature exceeds 60 C, the motor needs to be provided with guarding.
+
+</p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white small">
+
+Clear signs and arrows should be propped up so that no reverse-rotation scenarios occur, causing health hazard or equipment damage.
+RTDs and a temperature relay system are necessary for motors, so they shut down if very high temperatures are reached.
+There are certain performance characteristics that need to be adhered to with an S1 duty rating.
+A wire made of stranded copper must be ground insulated in the motor, with one end in the control panel that has the motor starter.
+Connection of the motor through wire nuts is prohibited except for certain exceptions.
+Boxes that contain the motor junction are supposed to be made of metal.
+
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Repairs</h4>
+          <p class="text-muted small">We fix weak insulation issues, bearing journals, all sorts of mechanical seals, rotor journals to it TOL fits, concentricity of rotating / fixed parts and dynamic balancing.</p>
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Comprehensive Analysis</h4>
+          <p class="text-muted small">We analyze / study / test issues through data collection and this enables us to provide absolute and economical solutions to the customer.</p>
+
+        </div>
+
+
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Transformer Rewinding</h4>
+          <p class="text-muted small">We provide rewinding services and total transformer repair and replacement, matching the footprint of the original applications.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Complete Replacement</h4>
+          <p class="text-muted small">We can provide full replacement services for all types of motors, pumps, generators, transformers and gear boxes that cannot be fixed, or the spares are obsolete.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Circuit Breakers</h4>
+          <p class="text-muted small">Our specialists at Al Ghaima Engineering Company LLC also provide a broad range of services for installing or modernizing trip units. We provide parts and replacement services, overhauls of circuit breakers, diagnostics, and troubleshooting for broken breakers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

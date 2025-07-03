@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
+
+<style>
+  .gradient-bg {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #bfdbfe, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  .badge-custom {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  .feature-icon {
+    color: #2563eb;
+  }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
+  @media (max-width: 576px) {
+    .no-top-space {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
+  .py-101{
+    padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-101 {
+        padding-top: 0rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 0rem !important;
+      }
+    }
+    .py-110{
+    padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-110 {
+        padding-top: 0rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 5rem !important;
+      }
+    }
+    .py-111{
+    padding-top: 3rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-111 {
+        padding-top: 3rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 0rem !important;
+      }
+    }
+    .nv-bg {
+  background: linear-gradient(to right, #101923, #12204e);
+  color: white !important;
+}
+
+.nv-bg .nav-link,
+.nv-bg .navbar-brand,
+.nv-bg .dropdown-toggle {
+  color: white !important;
+}
+
+.nv-bg .nav-link:hover,
+.nv-bg .dropdown-item:hover {
+  color: #00C2FF !important; /* Optional hover color (gold) */
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+.explore-btn {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+
+.portfolio-btn {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+/* Hover Effects */
+.explore-btn:hover {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+.portfolio-btn:hover {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+</style>
+
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3 nv-bg">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+           <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+           <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+            <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+            <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+            <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+            <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+            <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+            <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+            <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+            <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+            <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="text-white text-center position-relative gradient-bg" 
+         style="background-image: url('/images/dynamic.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 600px;">
+  <div class="container">
+    <h1 class="display-4 fw-bold">In House <span class="gradient-text d-block">Dynamic Balancing</span></h1>
+    <p class="lead mt-3 mb-4"> Dynamic balancing service is a process that involves reducing or eliminating vibrations in rotating machinery or equipment.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+      <a href="#" class="btn explore-btn px-4 py-2">Explore Services <i class="bi bi-arrow-right ms-2"></i></a>
+<a href="#" class="btn portfolio-btn px-4 py-2">View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section bg-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">500+</h2>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">50+</h2>
+        <p>Team Members</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">24/7</h2>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-0">
+  <div class="container">
+    <div class="text-center mb-5 ">
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Futurion can provide dynamic balancing services</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">That involves reducing or eliminating vibrations in rotating machinery or equipment.</p>
+    </div>
+
+ 
+
+  </div>
+</section>
+<section class="py-101 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+    <div class="col-md-6 mb-4 mb-md-0 no-top-space">
+      <h2 class="display-4 font-weight-bold text-primary mb-4">Dynamic Balancing Services</h2>
+      <p class="custom-description">
+        Dynamic balancing service is a process that involves reducing or eliminating vibrations in rotating 
+        machinery or equipment. It is essential for ensuring the smooth operation, longevity, and performance 
+        of such equipment. Dynamic balancing is commonly required for various types of rotating systems, 
+        including motors, fans, turbines, pumps, generators, and more. During dynamic balancing, 
+        the equipment is tested while running to identify any imbalances. Imbalances can occur due 
+        to uneven distribution of mass in the rotating parts, such as impellers, rotors, or shafts. 
+        These imbalances can lead to excessive vibrations, decreased efficiency, increased wear and tear, 
+        and even potential damage to the equipment.
+      </p>
+      <p class="lead text-muted">
+        Our electro-mechanical company can provide dynamic balancing services to help address these issues.
+      </p>
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/dynamic%20balancing.jpg" alt="Skill Image" class="img-fluid custom-img">
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-111 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Here's How We Can Assist</h2>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Equipment Assessment</h4>
+          <p class="text-muted small">The company's technicians will assess the rotating equipment to determine the level of imbalance and identify potential areas of concern. </p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Balancing Equipment</h4>
+          <p class="text-muted small">They will utilize specialized equipment, such as dynamic balancing machines or instruments, to accurately measure the magnitude and location of the imbalance.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Balancing Procedure</h4>
+          <p class="text-muted small">The technicians will employ various techniques to correct the imbalance based on the assessment. This may involve adding or removing weights, adjusting the position of components, or modifying the equipment as necessary.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Calibration and Testing</h4>
+          <p class="text-muted small">Once the balancing procedure is complete, the equipment is recalibrated and tested to ensure that vibrations are minimized or eliminated within acceptable limits.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Documentation and Reporting</h4>
+          <p class="text-muted small">Futurion Group will provide a detailed report of the balancing process, including the initial assessment, balancing procedure, and final results. This documentation serves as a reference for future maintenance or troubleshooting needs.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">A Great Offer For An Excellent Decision</h5>
+            <p class="lead">Futorion can provide dynamic balancing services
+That involves reducing or eliminating vibrations in rotating machinery or equipment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+<section class="py-110 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+    <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="display-4 font-weight-bold text-primary mb-4">Professional Dynamic Balancing</h2>
+      <p class="custom-description">
+      By providing dynamic balancing services, Futurion Group enhances the overall performance, efficiency, and reliability of the rotating equipment. Reduced vibrations result in smoother operation, less stress on components, and extended equipment lifespan. This service can ultimately save costs by minimizing downtime, preventing breakdowns, and optimizing the energy consumption of the equipment. Our company is one of the trusted electrical and mechanical services providers in the industry. We help oil and gas, water, petrochemical, and marine engineering companies with a wide range of services, such as ac dc motor repair, submersible pump repair, reciprocating compressor repair, and more. For more information about our services, contact us via call or email or fill out a form on the website. <p class="lead text-muted">
+
+          Our electro-mechanical company can provide dynamic balancing services to help address these issues.</p>
+      </p>
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/fan%20blower%20repair%20service%20dubai.jpg" alt="Skill Image" class="img-fluid custom-img" height="400px">
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

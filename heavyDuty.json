@@ -1,0 +1,29 @@
+[
+  {
+    "product": "AQUAPACK",
+    "description": "AQUAPACK delivers efficient, reliable water supply with compact design, advanced pump control, and durable performance for residential or industrial applications.",
+    "specifications": {
+      "Flowrate": "from 5 to 1,800 m³/h",
+      "Vacuum": "down to 33 mbar"
+    },
+    "image": "images/heavyDuty/1.jpg"
+  },
+  {
+    "product": "AVA606",
+    "description": "AVA606 is a high-performance vacuum system designed for robust industrial use, offering strong suction, efficiency, and corrosion-resistant construction.",
+    "specifications": {
+      "Flowrate": "Designed to meet Off-shore requirements",
+      "Vacuum": " "
+    },
+    "image": "images/heavyDuty/2.jpg"
+  },
+  {
+    "product": "AVD10185",
+    "description": "AVD10185 provides deep vacuum capability with hybrid screw design, ensuring energy savings, low heat, and dependable operation in tough environments. ",
+    "specifications": {
+      "Flowrate": "Made in 316L with special cartridge mechanical seals",
+      "Vacuum": " "
+    },
+    "image": "images/heavyDuty/3.jpg"
+  }
+]
