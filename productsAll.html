@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUTURION - Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .nv-bg .dropdown-item {
+      color: white !important;
+    }
+    .nv-bg .dropdown-item:hover,
+    .nv-bg .dropdown-item:focus,
+    .nv-bg .dropdown-item:active {
+      background-color: #00C2FF !important;
+      color: white !important;
+    }
+    .nv-bg .dropdown-menu {
+      background-color: #1f41b2;
+      border: none;
+    }
+    .mb-12 { margin-bottom: 12px !important; }
+    .brdnone { border: none !important; }
+    .badge-custom {
+      background-color: #e9ecef;
+      color: #333;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .badge-custom.active {
+      background-color: #007bff;
+      color: white;
+    }
+    .video-background {
+      position: relative;
+      /* height: 60vh; */
+      overflow: hidden;
+    }
+    .video-background video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translate(-50%, -50%);
+    }
+    .video-overlay-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .explore-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .explore-btn:hover {
+      background-color: #0056b3;
+      color: white;
+    }
+    .product-section {
+      display: none;
+    }
+    .product-section:first-of-type {
+      display: block;
+    }
+    .card-img-top {
+      object-fit: contain;
+      /* height: 200px; */
+    }
+    .firstImg{
+      height: 350px;
+    }
+    .tblDesign td {
+      padding: 1px;
+      font-size: 0.875rem;
+    }
+    footer {
+      background-color: #1E3A8A;
+      color: white;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 1.5rem;
+    }
+    .footer-section {
+      flex: 1;
+      min-width: 200px;
+      margin-bottom: 1rem;
+    }
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .footer-section ul li {
+      margin-bottom: 0.4rem;
+    }
+    .footer-section a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    .footer-section a:hover {
+      color: white;
+    }
+    .footer-social a {
+      color: white;
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+    .cta-section {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1E3A8A;
+      color: white;
+    }
+    .btn-contact {
+      background-color: white;
+      color: #007bff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .btn-contact:hover {
+      background-color: #f0f0f0;
+    }
+    .spaceing {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+    .h1Alihnmrnt {
+      font-size: 2rem;
+    }
+    .weOffer {
+
+      margin: 0 auto;
+    }
+    .search-bar {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 12px 12px;
+      border-radius: 50px;
+      border: 2px solid #3a3aff;
+    }
+    .gapping .col-md-4 { margin-bottom: 1.5rem; }
+    .cards, .heavy-duty-card, .vacuum-card {
+      border: 1px solid #dee2e6;
+      border-radius: 0.25rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .cards img, .heavy-duty-card img, .vacuum-card img {
+      max-width: 100%;
+      height: auto;
+    }
+    .water-card {
+      border: 1px solid #dee2e6;
+      border-radius: 0.25rem;
+      text-align: center;
+    }
+    .water-card img {
+      max-width: 100%;
+      height: auto;
+    }
+    .badge-custom {
+  background-color: #e6f0ff; /* light blue background */
+  color: #0d47a1;            /* dark blue text */
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.badge-custom:hover {
+  background-color: #1e5fe6; /* bright blue on hover */
+  color: #fff;
+}
+
+.badge-custom.active {
+  background-color: #1e5fe6; /* active blue */
+  color: #fff;
+}
+
+.badge-custom:focus {
+  outline: none;
+  box-shadow: none;
+}
+  .product-card img {
+    width: 100%;
+    object-fit: cover; /* Keeps image aspect ratio */
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .card button:hover{
+    color: white !important;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.75rem !important;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3 nv-bg" style="background-color: ##020f3b;">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+          <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+          <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+          <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+          <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+          <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+          <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+          <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+          <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+          <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+          <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+          <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;">
+    <source src="video/home background2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay-content text-center" style="margin-top: -60px;">
+    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+      Our Products
+    </h1>
+    <p class="homepage-pg text-white lead">
+      Delivering high-performance engineering products from trusted global brands—designed to support innovation, efficiency, and long-term value.
+    </p>
+        <a href="#services" class="btn explore-btn">
+      Explore Our products <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+
+</div>
+
+
+
+<!-- Filter Buttons -->
+<div class="container text-center">
+  <div class="d-flex flex-wrap justify-content-center align-items-center" style="margin-top: 2.7rem;">
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn active" data-target="engineering"><b>Water & Waste Water Valves</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="water"><b>Water Pumps</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="residual"><b>Residual Pumps</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="vertical"><b>Vertical Pumps</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="hydro"><b>Hydro Groups</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="fireEquipment"><b>Fire Fighting Equipment</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="vacuum-section"><b>Vacuum Pumps & System</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="liquid"><b>Kenflow Vacuum Products</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="WaterSupply"><b>Water Supply</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="SubmersiblePumps"><b>Submersible Pumps</b></button>
+  </div>
+</div>
+
+
+
+<!-- Engineering Products -->
+<div class="container product-section" id="engineering">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Engineering Products</h1>
+    <p class="weOffer">We offer a wide range of high-quality products for various engineering applications</p>
+    <div class="search-container mt-4">
+      <input type="text" class="search-bar" placeholder="Search products..." oninput="filterProducts(this.value)" />
+    </div>
+  </section>
+  <div class="row mt-4" id="engineeringRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Water Pumps -->
+<div class="container product-section" id="water">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Water Pumps and Pressure Groups</h1>
+    <p class="weOffer">We offer a wide range of high-quality Water Pumps and Pressure Pumps</p>
+    <div class="search-container mt-4">
+      <input type="text" class="search-bar" placeholder="Search water pumps..." oninput="filterWaterProducts(this.value)" />
+    </div>
+  </section>
+  <div class="row" id="waterRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Residual Pumps -->
+<div class="container product-section" id="residual">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Residual Pumps</h1>
+    <p class="weOffer">Residual Pumps efficiently manage leftover fluids in industrial and commercial settings with precision and durability.</p>
+    <div class="search-container mt-4">
+      <input type="text" class="search-bar" placeholder="Search residual pumps..." oninput="filterResidualProducts(this.value)" />
+    </div>
+  </section>
+  <div class="row" id="residualRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Vertical Pumps -->
+<div class="container product-section" id="vertical">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Vertical Pumps</h1>
+    <p class="weOffer">Vertical Pumps are built for durability and efficiently move large volumes of fluid in deep well and industrial uses.</p>
+  </section>
+  <div class="row justify-content-center" id="verticalRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Hydro Groups -->
+<div class="container product-section" id="hydro">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Hydro Groups</h1>
+    <p class="weOffer">Hydro groups produce electricity using water power.</p>
+    <div class="search-container mt-4">
+      <input type="text" class="search-bar" placeholder="Search hydro groups..." oninput="filterHydroProducts(this.value)" />
+    </div>
+  </section>
+  <div class="row" id="hydroRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Fire Fighting Equipment -->
+<div class="container product-section" id="fireEquipment">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Fire Fighting Equipment</h1>
+    <p class="weOffer">Reliable and efficient, our Fire Fighting Equipment is designed to ensure safety in emergency situations.</p>
+  </section>
+  <div class="row" id="fireEquipmentRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Vacuum Section -->
+<div class="container product-section" id="vacuum-section">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">KENFLO VACUUM PRODUCTS</h1>
+    <p class="weOffer">Kenflo has made great efforts in the application research of liquid ring vacuum pumps. In recent twenty years, various complete sets of vacuum pump and compressor packages designed by Kenflo.</p>
+  </section>
+  <div class="row" id="vacuumRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Liquid Ring Pumps -->
+<div class="container product-section" id="liquid">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">LIQUID RING PUMPS</h1>
+    <p class="weOffer">Liquid ring pumps are a type of rotary vacuum pump commonly used to handle wet gases or vapors.</p>
+  </section>
+  <div class="row justify-content-center gapping" id="liquidRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Heavy Duty Systems (Commented out in original, kept hidden) -->
+<!--
+<div class="container product-section" id="heavy-duty">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">AQUAPACK AVM/AVL/AVA SYSTEMS <br> HEAVY DUTY / SPECIAL EXECUTIONS</h1>
+    <p class="weOffer">AQUAPACK units are compact, pre-engineered vacuum systems by ASCO VACUUM that use fully recirculating liquid ring technology.</p>
+  </section>
+  <div class="row justify-content-center gapping" id="heavyDutyRow">
+  </div>
+</div>
+-->
+
+<!-- Liquid Ring Vacuum Pumps -->
+<div class="container product-section" id="LiquidRingVacumPumps">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Liquid Ring Vacuum Pumps</h1>
+    <p class="weOffer">Liquid ring vacuum pump systems designed to meet most needs of vacuum of the industry.</p>
+  </section>
+  <div class="row justify-content-center gapping" id="liquidRingRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Water Supply -->
+<div class="container product-section" id="WaterSupply">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Water Supply / Circulation Pumps</h1>
+    <p class="weOffer">Teral is one of the leading manufacturers of Pumps and Blowers in the world.</p>
+    <div class="search-container mt-4">
+      <input type="text" class="search-bar" placeholder="Search pumps..." oninput="filterWaterSupply(this.value)" />
+    </div>
+  </section>
+  <div class="row" id="waterSupplyRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Submersible Pumps -->
+<div class="container product-section" id="SubmersiblePumps">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Submersible Pumps</h1>
+    <p class="weOffer">Submersible pumps are designed to operate while fully submerged in water or other fluids.</p>
+  </section>
+  <div class="row" id="submersiblePumpsRow">
+    <!-- Cards injected by JS -->
+  </div>
+</div>
+
+<!-- Modals -->
+<!-- Engineering Modal -->
+<div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content rounded">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Product Name</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex flex-column flex-md-row">
+        <img id="productImage" src="" alt="" class="img-fluid mr-md-3 mb-3 mb-md-0" style="max-width: 400px;">
+        <div>
+          <div id="productSpecs" class="text-muted" style="font-size: 0.75rem;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Water Pump Modal -->
+<div class="modal fade" id="productModalWater" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImage" class="img-fluid mb-3" alt="Product Image">
+        <table class="table table-bordered">
+          <tr><th>Q max</th><td id="modalQMax"></td><td id="modalQMaxGPM"></td></tr>
+          <tr><th>H max</th><td id="modalHMax"></td><td id="modalHMaxFt"></td></tr>
+        </table>
+        <p id="modalDescription" class="text-muted"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom text-center">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+
+<!-- jQuery and Bootstrap 4 JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Custom Scripts -->
+<script>
+  // Navbar active link
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+    link.addEventListener('click', function () {
+      document.querySelectorAll('.navbar-nav .nav-link').forEach(item => item.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+
+<script>
+  // Filter functions
+  function filterProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#engineeringRow .product-card");
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      card.style.display = name.includes(keyword) ? "block" : "none";
+    });
+  }
+  function filterWaterProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#waterRow .product-card");
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      card.style.display = name.includes(keyword) ? "block" : "none";
+    });
+  }
+  function filterResidualProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#residualRow .product-card");
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      card.style.display = name.includes(keyword) ? "block" : "none";
+    });
+  }
+  function filterHydroProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#hydroRow .product-card");
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      card.style.display = name.includes(keyword) ? "block" : "none";
+    });
+  }
+  function filterWaterSupply(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#waterSupplyRow .product-card");
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      card.style.display = name.includes(keyword) ? "block" : "none";
+    });
+  }
+</script>
+
+<script>
+  // Engineering Products
+  document.addEventListener('DOMContentLoaded', () => {
+    const productsById = {};
+    fetch('mainproduct.json')
+      .then(response => response.json())
+      .then(products => {
+        const container = document.getElementById("engineeringRow");
+        products.forEach(product => {
+          productsById[product.dataId] = product;
+          const card = `
+            <div class="col-12 col-md-6 col-lg-4 mb-4 product-card" data-name="${product.name}">
+              <div class="card shadow-sm rounded h-100">
+                <img src="${product.image}" alt="${product.name}" class="card-img-top firstImg">
+                <div class="card-body">
+                  <p class="text-primary font-weight-bold mb-1">${product.subtitle}</p>
+                  <h5 class="card-title font-weight-bold text-dark text-left">${product.name}</h5>
+                  <p class="card-text text-muted small text-left">${product.description}</p>
+                  <a href="#" class="view-details text-primary font-weight-bold" data-id="${product.dataId}">
+                    <button class="btn btn-sm btn-outline-primary text-primary">View Details</button> <i class="fas fa-arrow-right ml-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          `;
+          container.insertAdjacentHTML("beforeend", card);
+        });
+        container.querySelectorAll('.view-details').forEach(link => {
+          link.addEventListener('click', e => {
+            e.preventDefault();
+            const prod = productsById[link.dataset.id];
+            if (!prod) return;
+            document.getElementById('productModalLabel').textContent = prod.name;
+            document.getElementById('productImage').src = prod.image;
+            document.getElementById('productImage').alt = prod.name;
+            document.getElementById('productSpecs').innerHTML = prod.specsHtml;
+            $('#productModal').modal('show');
+          });
+        });
+      })
+      .catch(error => console.error("Failed to load product data:", error));
+  });
+</script>
+
+<script>
+  // Water Pumps
+  fetch('product.json')
+    .then(response => response.json())
+    .then(products => {
+      const container = document.getElementById('waterRow');
+      products.forEach(product => {
+        const card = `
+          <div class="col-12 col-md-6 col-lg-3 mb-4 product-card" data-name="${product.title}">
+            <div class="card h-100">
+              <img src="${product.image}" class="card-img-top" alt="${product.title}">
+              <div class="card-body">
+                <h5 class="card-title mt-2">${product.title}</h5>
+                <table class="table table-bordered tblDesign">
+                  <tr><td bgcolor="#ebebeb">Q max</td><td>${product.q_max}</td><td>${product.q_max_gpm}</td></tr>
+                  <tr><td bgcolor="#ebebeb">H max</td><td>${product.h_max}</td><td>${product.h_max_ft}</td></tr>
+                </table>
+                <p class="card-text text-muted small text-left">${product.description}</p>
+                <a href="#" class="text-primary font-weight-bold text-decoration-none" data-toggle="modal" data-target="#productModalWater" onclick='showModalWater(${JSON.stringify(product).replace(/'/g, "\\'")})'>
+                  View Details <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>`;
+        container.innerHTML += card;
+      });
+    });
+
+  function showModalWater(product) {
+    document.getElementById('modalTitle').innerText = product.title;
+    document.getElementById('modalImage').src = product.image;
+    document.getElementById('modalQMax').innerText = product.q_max;
+    document.getElementById('modalQMaxGPM').innerText = product.q_max_gpm;
+    document.getElementById('modalHMax').innerText = product.h_max;
+    document.getElementById('modalHMaxFt').innerText = product.h_max_ft;
+    document.getElementById('modalDescription').innerText = product.description;
+  }
+</script>
+
+<script>
+  // Residual Pumps
+  fetch('pumbs.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('residualRow');
+      data.forEach(pump => {
+        const col = document.createElement('div');
+        col.className = 'col-12 col-sm-6 col-lg-3 mb-4 product-card';
+        col.setAttribute('data-name', pump.name);
+        col.innerHTML = `
+          <div class="card h-100">
+            <img src="${pump.image}" class="card-img-top" alt="${pump.name}">
+            <div class="card-body">
+              <h5 class="card-title">${pump.name}</h5>
+              <p class="card-text text-muted">${pump.subhead}</p>
+            </div>
+          </div>
+        `;
+        container.appendChild(col);
+      });
+    });
+</script>
+
+<script>
+  // Vertical Pumps
+  fetch('vertical.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('verticalRow');
+      data.forEach(pump => {
+        const card = `
+          <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch">
+            <div class="card w-100 text-center">
+              <img src="${pump.image}" class="card-img-top" alt="${pump.title}" style="max-height: 300px; object-fit: contain;">
+              <div class="card-body">
+                <h5 class="card-title">${pump.title}</h5>
+                <table class="table table-bordered mb-0">
+                  <tr>
+                    <td class="font-weight-bold bg-light">Q max</td>
+                    <td>${pump.q_max}</td>
+                    <td>${pump.q_max_gpm}</td>
+                  </tr>
+                  <tr>
+                    <td class="font-weight-bold bg-light">H max</td>
+                    <td>${pump.h_max}</td>
+                    <td>${pump.h_max_ft}</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>`;
+        container.innerHTML += card;
+      });
+    });
+</script>
+
+<script>
+  // Hydro Groups
+  fetch('hydro.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('hydroRow');
+      data.forEach(pump => {
+        const col = document.createElement('div');
+        col.className = 'col-12 col-sm-6 col-md-4 col-lg-6 mb-4 product-card';
+        col.setAttribute('data-name', pump.title);
+        col.innerHTML = `
+          <div class="card h-100 text-center">
+            <img src="${pump.image}" class="card-img-top" alt="${pump.title}">
+            <div class="card-body">
+              <h5 class="card-title">${pump.title}</h5>
+              <p class="card-text text-muted small">${pump.description}</p>
+            </div>
+          </div>
+        `;
+        container.appendChild(col);
+      });
+    });
+</script>
+
+<script>
+  // Fire Equipment
+  $(document).ready(function() {
+    $.getJSON("fire.json", function(data) {
+      let output = '';
+      $.each(data, function(index, item) {
+        output += `
+          <div class="col-sm-6 col-md-4 mb-4 d-flex align-items-stretch">
+            <div class="card w-100 text-center">
+              <img src="${item.image}" class="card-img-top mx-auto" alt="${item.title}">
+              <div class="card-body">
+                <h5 class="card-title">${item.title}</h5>
+                ${item.standard ? `<p class="card-text">${item.standard}</p>` : ''}
+              </div>
+            </div>
+          </div>
+        `;
+      });
+      $("#fireEquipmentRow").html(output);
+    });
+  });
+</script>
+
+<script>
+  // Vacuum Products (Hardcoded)
+  const vacuumData = {
+    products: [
+      {
+        product: "CDF LIQUID RING VACUUM PUMP",
+        image: "images/vacumPumps/1.jpg",
+        description: "------",
+        specifications: {
+          SuctionPressureRange: "33~1013mbar(A)",
+          CapacityRange: "2 mbar or down to 0.1 mbar",
+          Application: "suitable for limited space, low capacity and simple working conditions. Available material for wetted end parts: standard (carbon steel + cast iron), SS304, SS304L, SS316L, duplex stainless steel."
+        }
+      },
+      {
+        product: "CBF LIQUID RING VACUUM PUMP",
+        image: "images/vacumPumps/2.jpg",
+        description: "------",
+        specifications: {
+          SuctionPressureRange: "33~1013mbar(A)",
+          CapacityRange: "0.5~540 m³/min",
+          Application: "suitable for relatively high vacuum condition.Available materials for wetted end parts: standard (carbon steel +cast iron), SS304, SS304L, SS316L, duplex stainless steel, titanium alloy, Hastelloy, etc."
+        }
+      },
+      {
+        product: "2BE1 LIQUID RING VACCUM PUMP",
+        image: "images/vacumPumps/3.jpg",
+        description: "------",
+        specifications: {
+          SuctionPressureRange: "33~1013mbar(A)",
+          CapacityRange: "0.5~540 m³/min",
+          Application: "Application suitable for relativly high vacuum condition. Available materials for wetted end parts: standard (carbon steel +cast iron), SS304, SS304L, SS316L, duplex stainless steel, titanium alloy, Hastelloy, etc."
+        }
+      },
+      {
+        product: "CBK LIQUID RING COMPRESSOR",
+        image: "images/vacumPumps/4.jpg",
+        description: "------",
+        specifications: {
+          SuctionPressureRange: "25~1013mbar(A)",
+          CapacityRange: "15~100m3/min",
+          Application: "Suitable for high vacuum, medium and low capacity. Available material for wetted end parts: standard (cast iron+ carbon steel), Ss304, SS304L, SS316L, duplex stainless steel."
+        }
+      },
+      {
+        product: "CBE2 TWO-STAGE LIQUID RING VACCUM PUMP",
+        image: "images/vacumPumps/5.jpg",
+        description: "------",
+        specifications: {
+          SuctionPressureRange: "160~1013mbar(A)",
+          CapacityRange: "2~150m’/min",
+          Application: "Suitable for dusty or wearproof conditions.Available material for wetted end parts: cast iron"
+        }
+      },
+      {
+        product: "SK (2yk) LIQUID RING VACCUM PUMP",
+        image: "images/vacumPumps/6.jpg",
+        description: "------",
+        specifications: {
+          SuctionPressureRange: "160~1013mbar(A)",
+          CapacityRange: "2~150m’/min",
+          Application: "Suitable for dusty or wearproof conditions.Available material for wetted end parts: cast iron"
+        }
+      },
+      {
+        product: "2BW4 LIQUID RING VACUMM PUMP PACKAGE CONDENSER EXHAUSTER SYSTEM",
+        image: "images/vacumPumps/7.jpg",
+        description: "------",
+        specifications: {
+          Application: "This package is specially designed for the condenser exhauster system of the thermal power plant. Equipped with spraying device and anti-cavitation valve in compact structure.fully automatic control can be realized.",
+        }
+      },
+      {
+        product: "2BW4 LIQUID RING VACUUM PUMP PACKAGE – CONDENSER EXHAUSTER SYSTEM",
+        image: "images/vacumPumps/8.jpg",
+        description: "------",
+        specifications: {
+          Application: "This package is specially designed for the condenser exhauster system of the thermal power plant. Equipped with spraying device and anti-cavitation valve in compact structure, fully automatic control can be realized.",
+        }
+      },
+      {
+        product: "2BW9 HIGH VACUUM COMPOUND UNIT",
+        image: "images/vacumPumps/9.jpg",
+        description: "------",
+        specifications: {
+          ProductFeatures: "Specially designed for the high vacuum application, Roots vacuum pump or steam eject pump compound with liquid ring vacuum pump together in series, the ultimate vacuum can be up to 0.5 Pa(A). Suitable to be customized with various equipment and control technology required for the process, stable and reliable.",
+        }
+      },
+      {
+        product: "2BWX TANDEM COMPRESSOR UNIT",
+        image: "images/vacumPumps/10.jpg",
+        description: "------",
+        specifications: {
+          ProductFeatures: "Unique design, safe and reliable. The ultimate pressure can be up to 1.3MPa(G). High efficiency and energy saving. The working process is close to isothermal compression, especially suitable for pumping toxic, flammable and explosive gases in the chemical process or all kinds of industrial exhaust gas recovery.",
+        }
+      }
+    ]
+  };
+
+  const container = document.getElementById("vacuumRow");
+  vacuumData.products.forEach(product => {
+    const col = document.createElement("div");
+    col.className = "col-md-6 mb-12";
+    const card = document.createElement("div");
+    card.className = "card h-100 shadow-sm";
+    const imgWrapper = document.createElement("div");
+    imgWrapper.style.padding = "8px";
+    const img = document.createElement("img");
+    img.className = "img-fluid w-100";
+    img.src = product.image;
+    img.alt = product.product;
+    imgWrapper.appendChild(img);
+    card.appendChild(imgWrapper);
+    const body = document.createElement("div");
+    body.className = "card-body d-flex flex-column";
+    let specsHtml = '';
+    for (const [key, val] of Object.entries(product.specifications)) {
+      specsHtml += `<li><strong>${key}:</strong> ${val}</li>`;
+    }
+    body.innerHTML = `
+      <h5 class="card-title font-weight-bold text-left">${product.product}</h5>
+      <p class="card-text text-left">${product.description}</p>
+      <ul class="mt-auto">${specsHtml}</ul>
+    `;
+    card.appendChild(body);
+    col.appendChild(card);
+    container.appendChild(col);
+  });
+</script>
+
+<script>
+  // Liquid Ring Pumps
+  fetch('liquidRingPumps.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('liquidRow');
+      data.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'col-md-4 cards';
+        card.innerHTML = `
+          <img src="${item.image}" alt="${item.product}">
+          <h3>${item.product}</h3>
+          <p><em>${item.version}</em></p>
+          <div class="specs">
+            ${Object.entries(item.specifications).map(([key, value]) => `
+              <p><strong>${key.replace(/_/g, ' ')}:</strong> ${value}</p>
+            `).join('')}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    });
+</script>
+
+<script>
+  // Liquid Ring Vacuum Pumps
+  fetch('liquidRingVAcumPumps.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('liquidRingRow');
+      data.forEach(item => {
+        const name = item.product || item.title || 'Untitled';
+        const img = item.image || 'placeholder.jpg';
+        const desc = item.description && item.description.trim() ? item.description : 'No description available';
+        const specs = item.specifications || {};
+        let specsHTML = '';
+        for (const [k, v] of Object.entries(specs)) {
+          const label = k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+          const value = v && v.toString().trim() ? v : 'N/A';
+          specsHTML += `<p><strong>${label}:</strong> ${value}</p>`;
+        }
+        const card = document.createElement('div');
+        card.className = 'col-md-4 vacuum-card';
+        card.innerHTML = `
+          <img src="${img}" alt="${name}" class="card-image">
+          <h3>${name}</h3>
+          <p>${desc}</p>
+          <div class="vacuum-specs">
+            ${specsHTML}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    });
+</script>
+
+<script>
+  // Water Supply Pumps
+  fetch('waterSupplyPumps.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('waterSupplyRow');
+      data.forEach(item => {
+        const col = document.createElement('div');
+        col.className = 'col-lg-4 col-md-6 col-sm-12 mb-4 product-card';
+        col.setAttribute('data-name', item.name);
+        col.innerHTML = `
+          <div class="water-card p-3">
+            <img src="${item.image}" alt="${item.name}" />
+            <h6 class="mt-3">${item.name}</h6>
+            <p>${item.sepcifics}</p>
+          </div>
+        `;
+        container.appendChild(col);
+      });
+    });
+</script>
+
+<script>
+  // Submersible Pumps
+  fetch('submercibleDeepwell.json')
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById('submersiblePumpsRow');
+      data.forEach(item => {
+        const col = document.createElement('div');
+        col.className = 'col-md-4 mb-4';
+        col.innerHTML = `
+          <div class="card shadow-sm">
+            <img src="${item.image}" class="card-img-top img-fluid" alt="${item.title}">
+            <div class="card-body">
+              <h6 class="card-title">${item.title}</h6>
+              <p class="card-text">${item.description}</p>
+            </div>
+          </div>
+        `;
+        container.appendChild(col);
+      });
+    });
+</script>
+
+<script>
+  // Section Filtering
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const sections = document.querySelectorAll(".product-section");
+
+    function showSection(targetId) {
+      sections.forEach(section => {
+        section.style.display = section.id === targetId ? "block" : "none";
+      });
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+        const target = this.getAttribute("data-target");
+        showSection(target);
+      });
+    });
+
+    const defaultBtn = document.querySelector(".filter-btn.active");
+    if (defaultBtn) {
+      showSection(defaultBtn.getAttribute("data-target"));
+    }
+  });
+</script>
+
+
+<script>
+  function filterWaterProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#waterRow .product-card");
+
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      if (name.includes(keyword)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img src="" alt="">
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

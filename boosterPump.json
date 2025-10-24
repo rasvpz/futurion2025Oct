@@ -1,0 +1,110 @@
+[
+
+  {
+    "dataId": "01",
+    "name": "Serie VIP H",
+    "subtitle": "Horizontal Multicellular Electric Pumps",
+    "description": "<p>This is a silent-operating multicellular centrifugal pump, ideal for use in pressure booster systems</p>",
+    "image": "images/boosterPumps/1.jpg",
+    "qMax1": "9 m3/h",
+    "qMax2": "40 GPM",
+    "hMax1": "80 m",
+    "hMax2": "262 Ft",
+    "multiCategory": "Category : Horizontal, Pressure equipment Tags: Fire protection, Sprinkler irrigation, Supplies",
+    "multiModalDescription": "<p>Quiet running multicellular centrifugal pump suitable for pressure groups regulated by pressure switches or speed variators.</p>",
+    "multiModalCharecteristics":"<p>This system is suitable for pumping clean water efficiently and reliably.</p><p>It is designed to operate at a maximum pressure of 11 bar.</p><p>The maximum allowable liquid temperature for operation is 50ºC.</p>",
+    "multiModalApplications":"<p>This system is ideal for civilian and industrial water supply applications.</p><p>It is also suitable for agricultural use, including sprinkler irrigation systems.</p><p>Additionally, it can be effectively used in fire-fighting equipment and other similar applications.</p>",
+    "multiModalConstruction":"<p>The pump features a <b>stainless steel AISI 304 radial impeller</b> and a <b>graphite/ceramic mechanical seal</b> for durability and efficiency.</p><p>It includes a <b>cast iron GG-25 suction body</b> and <b>fiberglass-reinforced noryl diffusers</b> for enhanced strength and performance.</p><p>The unit has a <b>monobloc configuration with a stainless steel shaft motor</b> and comes equipped with threaded jaws for easy installation.</p>",
+    "multiModalEngine":"<p>The motor is an <b>induction asynchronous type with external ventilation</b>, operating with 2 poles at 50 Hz (2,900 rpm) and featuring <b>insulation type F</b> with <b>IP-55 protection</b> for continuous duty (S1).</p><p>It supports <b>three-phase 230/400V 50Hz</b> and <b>single-phase 230V 50Hz</b> configurations, with permanent condenser starting and built-in thermal protection.</p><p>On request, the system can be supplied with <b>special voltages and frequencies</b>, <b>special mechanical seals</b>, or optional accessories such as <b>Calderín (25L or 50L)</b> and <b>Flumatic, Flucontrol, or Varivip pressure regulators</b>.</p>"
+  },
+  {
+    "dataId": "02",
+    "name": "Series NLV",
+    "subtitle": "Vertical Multicellular Surface Pumps",
+    "description": "<p>Vertical multicellular pumps of the Series NLV of high pressure designed for installation “IN LINE”.</p>",
+    "image": "images/boosterPumps/2.jpg",
+    "qMax1": "...",
+    "qMax2": "...",
+    "hMax1": "...",
+    "hMax2": "...",
+    "multiCategory": "Verticals Tag: Pressure wash",
+    "multiModalDescription": "<p>Vertical multicellular high pressure pumps designed for “IN LINE” installation.</p>",
+    "multiModalCharecteristics":"<p>The equipment is designed to operate efficiently with liquids at temperatures up to <b>50ºC</b>.</p><p>This ensures reliable performance and durability even under moderately high-temperature conditions.</p>",
+    "multiModalApplications":"<p>The system is ideal for <b>hydropneumatic pressure equipment</b> and <b>pressure washing</b> applications, providing efficient and consistent water pressure control.</p><p>It is suitable for various uses such as <b>garage washing</b> and <b>industrial cleaning</b>, ensuring reliable performance under demanding conditions.</p><p>This equipment is also widely used in <b>agriculture</b> and other sectors requiring high-pressure water systems, offering durability and versatility for multiple purposes.</p>",
+    "multiModalConstruction":"<p>The <b>NLV 62</b>, <b>NLV 76</b>, and <b>NLV 82</b> models feature an <b>imperial aspiration body</b> made of <b>GG25</b> and <b>impellers</b> crafted from <b>GG-25</b> with an optional bronze variant.</p><p>Each unit includes <b>diffusers</b> built from <b>GG-25</b> and a robust <b>stainless steel shaft</b> of <b>AISI 420</b> grade, ensuring long-lasting performance and resistance to wear.</p><p>The system is sealed with high-quality <b>EPDM</b> material, providing excellent protection and durability in various operating conditions.</p>",
+    "multiModalEngine":"<p>The equipment features <b>electric motors</b> operating at <b>2900 RPM, 50 Hz</b> with <b>insulation class F</b> and <b>protection IP55</b>, ensuring durability and reliability in demanding environments.</p><p>They are available in <b>three-phase configurations</b> of <b>230/400V</b> or <b>400/690V</b>, designed according to the specified <b>dimensional construction table</b> for optimal performance and compatibility.</p>"
+
+  },
+  {
+    "dataId": "03",
+    "name": "Serie VIP V",
+    "subtitle": "Vertical Multicellular Electric Pumps",
+    "description": "<p>Multicellular centrifugal pump especially indicated for pressure groups regulated by pressure switches.</p>",
+    "image": "images/boosterPumps/3.jpg",
+    "qMax1": "30 m3/h",
+    "qMax2": "132 GPM",
+    "hMax1": "120 m",
+    "hMax2": "394 Ft",
+    "multiCategory": " Verticals Tags: Fire protection, Irrigation, Supplies",
+    "multiModalDescription": "<p>Multicellular centrifugal pump specially indicated for pressure groups regulated by pressure switches or speed variator pumping water or liquids without abrasive elements or additives that can damage the materials of the pump.</p>",
+    "multiModalCharecteristics":"<p>The equipment is designed to operate efficiently with liquids at temperatures up to <b>50ºC</b>.</p><p>This ensures reliable performance and durability even under moderately high-temperature conditions.</p>",
+    "multiModalApplications":"<p>The pump features a common motor-pump shaft and a vertical multi-stage centrifugal design with axial impellers and a mechanical seal for reliable performance.</p><p>It has a monobloc configuration with a stainless steel shaft motor and comes equipped with threaded flanges, including counterflanges, screws, and gaskets.</p><p>The discharge body is versatile and can be oriented in four different positions, allowing flexible installation options.</p>",
+    "multiModalConstruction":"<p>The pump features a <b>suction body in cast iron GG25</b> and an <b>external jacket in stainless steel AISI 304</b>, providing excellent durability and resistance to corrosion.</p><p>It includes <b>impellers in stainless steel AISI 304 radial type</b> and <b>glass-reinforced Noryl diffusers</b> with both aspiration and impeller bodies made of <b>cast iron GG25</b>.</p><p>The <b>shaft is made of stainless steel AISI 420</b> and incorporates a <b>graphite/ceramic mechanical seal</b> with an <b>EPDM seal</b> for enhanced reliability and sealing performance.</p>",
+    "multiModalEngine":"<p>The motor is an induction asynchronous type with external ventilation, operating at 2 poles, 50Hz, and 2900 RPM for efficient performance.</p><p>It features insulation type F, protection class IP-55, and continuous duty S1, available in three-phase 230/400V and single-phase 230V 50Hz with a permanent capacitor and built-in thermal protection.</p><p>On request, the motor can be supplied with special voltages, frequencies, and mechanical seals to suit specific applications.</p>"
+
+  },
+  {
+    "dataId": "04",
+    "name": "Series APM",
+    "subtitle": "Horizontal Multicellular Pumps",
+    "description": "<p>The pumps of the APM series are horizontal-shaft multicellular centrifugal pumps with closed impellers.</p>",
+    "image": "images/boosterPumps/4.jpg",
+    "qMax1": "700 m3/h",
+    "qMax2": "3080 GPM",
+    "hMax1": "500 m",
+    "hMax2": "1640 Ft",
+    "multiCategory": "<p>Horizontal Tags: Air conditioning, Building, Desalination plants, Fire protection, Heat exchangers, Industry, Inverse osmosis, Irrigation, Mining, Naval building, Plantas Térmicas, Refinerias, Supplies</p>",
+    "multiModalDescription": "<p>Vertical multicellular high pressure pumps designed for “IN LINE” installation.</p>",
+    "multiModalCharecteristics":"<p>The APM series pumps are high-pressure multicellular centrifugal pumps designed for transferring clean or slightly dirty fluids without abrasive materials.</p><p>They are built according to ISO 9906 Gr II standards, offering a variety of sizes for optimal efficiency and excellent NPSH values.</p><p>The standard rotation direction is clockwise from the coupling, but it can be modified to suit customer requirements.</p>",
+    "multiModalApplications":"<p>The system is ideal for <b>hydropneumatic pressure equipment</b> and <b>pressure washing</b> applications, providing efficient and consistent water pressure control.</p><p>It is suitable for various uses such as <b>garage washing</b> and <b>industrial cleaning</b>, ensuring reliable performance under demanding conditions.</p><p>This equipment is also widely used in <b>agriculture</b> and other sectors requiring high-pressure water systems, offering durability and versatility for multiple purposes.</p>",
+    "multiModalConstruction":"<p>The <b>NLV 62</b>, <b>NLV 76</b>, and <b>NLV 82</b> models feature an <b>imperial aspiration body</b> made of <b>GG25</b> and <b>impellers</b> crafted from <b>GG-25</b> with an optional bronze variant.</p><p>Each unit includes <b>diffusers</b> built from <b>GG-25</b> and a robust <b>stainless steel shaft</b> of <b>AISI 420</b> grade, ensuring long-lasting performance and resistance to wear.</p><p>The system is sealed with high-quality <b>EPDM</b> material, providing excellent protection and durability in various operating conditions.</p>",
+    "multiModalEngine":"<p>The equipment features <b>electric motors</b> operating at <b>2900 RPM, 50 Hz</b> with <b>insulation class F</b> and <b>protection IP55</b>, ensuring durability and reliability in demanding environments.</p><p>They are available in <b>three-phase configurations</b> of <b>230/400V</b> or <b>400/690V</b>, designed according to the specified <b>dimensional construction table</b> for optimal performance and compatibility.</p>"
+
+  },
+  {
+    "dataId": "05",
+    "name": "Serie NLX",
+    "subtitle": "Vertical Multicellulars in Line, AISI 316",
+    "description": "<p>Sere NLX vertical multicellular pumps, high pressure and stainless steel. AISI 316 designed for IN LINE</p>",
+    "image": "images/boosterPumps/5.jpg",
+    "qMax1": "...",
+    "qMax2": "...",
+    "hMax1": "...",
+    "hMax2": "...",
+    "multiCategory": "<p> Verticals Tags: Air conditioning, Bâtiment, Boiler feed, Building, Desalination plants, Distribution, Domestic, Fire protection, Gardening, Green areas, Irrigation, Osmosis, Pressure wash, Theme Parks, Tto drinking water, Urbanization/p>",
+    "multiModalDescription": "<p>Vertical multicellular high pressure pumps designed for “IN LINE” installation.</p><p>Widely used in civil and industrial installations, pressure equipment for homes, fire-fighting installations, pressure washing, irrigation, water treatment and reverse osmosis, boiler feed, etc.</p>",
+    "multiModalCharecteristics":"<p>The maximum temperature of the pumped liquid is 120°C, ensuring reliable operation under high-temperature conditions.</p>",
+    "multiModalApplications":"<p>The system is ideal for <b>hydropneumatic pressure equipment</b> and <b>pressure washing</b> applications, providing efficient and consistent water pressure control.</p><p>It is suitable for various uses such as <b>garage washing</b> and <b>industrial cleaning</b>, ensuring reliable performance under demanding conditions.</p><p>This equipment is also widely used in <b>agriculture</b> and other sectors requiring high-pressure water systems, offering durability and versatility for multiple purposes.</p>",
+    "multiModalConstruction":"<p>The pump shaft is directly attached to the motor shaft, ensuring efficient power transmission and reliable operation.</p>",
+    "multiModalEngine":"<p>The electric motors operate at 2900 RPM, 50Hz.</p><p>They feature insulation class <b>F</b> and <b>IP55</b> protection.</p><p>Available in single-phase 230V, or three-phase 230/400V and 400/690V configurations.</p>"
+
+  },
+  {
+    "dataId": "06",
+    "name": "Serie NXA - 16/32",
+    "subtitle": "Vertical Multicellular Electric Pumps",
+    "description": "<p>Multicellular centrifugal pump especially indicated for pressure groups regulated by pressure switches or speed.</p>",
+    "image": "images/boosterPumps/6.jpg",
+    "qMax1": "120 m3/h",
+    "qMax2": "528 GPM",
+    "hMax1": "240 m",
+    "hMax2": "787 Ft",
+    "multiCategory": "<p>Verticals Tags: Air conditioning, Bâtiment, Building, Distribution, Domestic, Fire protection, Gardening, Golf Courses, Green areas, Irrigation, Osmosis, Supplies, Theme Parks, Tto drinking water, Urbanization",
+    "multiModalDescription": "<p>Vertical multicellular high pressure electric pumps designed for “IN LINE” installation.</p><p>They are used in civil and industrial installations, pressure equipment for homes, fire-fighting installations, pressure washing, irrigation, water treatment and reverse osmosis, boiler feed, etc.</p>",
+    "multiModalCharecteristics":"<p>Pump shaft attached to the motor</p>",
+    "multiModalApplications":"<p>The system is ideal for <b>hydropneumatic pressure equipment</b> and <b>pressure washing</b> applications, providing efficient and consistent water pressure control.</p><p>It is suitable for various uses such as <b>garage washing</b> and <b>industrial cleaning</b>, ensuring reliable performance under demanding conditions.</p><p>This equipment is also widely used in <b>agriculture</b> and other sectors requiring high-pressure water systems, offering durability and versatility for multiple purposes.</p>",
+    "multiModalConstruction":"<<p>The diffuser is made of <b>AISI-304</b> and the impeller is also <b>AISI-304</b>, with an <b>EPDM</b> seal.</p><p>The pump shaft is made of <b>AISI-316</b> and the aspiration bodies and impellers are <b>AISI-304</b> for NXA 3-4-8-16, and <b>GG-25</b> for NXA 32-42-65-85.</p>",
+    "multiModalEngine":"<p>The electric motors have a speed of 2900 RPM at 50Hz, with a constructive form according to the table of dimensions.</p><p>They feature insulation class F and IP55 protection.</p><p>Available in single-phase 230V and three-phase 230/400V or 400/690V configurations.</p></p>"
+
+  }
+]

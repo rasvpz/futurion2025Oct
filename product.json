@@ -1,76 +1,146 @@
 [
   {
-    
-    "title": "SERIE CP",
+    "id"   : "1", 
+    "title": "CP SERIE",
     "image": "images/horizontalPumps/horizontalPumps/1.jpg",
-    "q_max": "700 m³/h",
-    "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Horizontal Centrifugal Pumps Split Chamber"
-  },
-  {
+    "q_max": "2700 m³/h",
+    "q_max_gpm": "11880 GPM",
+    "h_max": "200 m",
+    "h_max_ft": "656 Ft",
+    "description": "Horizontal Centrifugal Pumps Split Chamber",
+    "modalCategoty":"Horizontal Tags: Bombeo agua de mar, Centrales eléctricas, Granjas Acuícolas, Industria, Irrigation, Obras Hidráulicas, Plantas Térmicas, Sewage treatment plants, Supplies, Theme Parks",
+    "modalDescription": "<p>The Horizontal Centrifugal Pumps of the CP range are highly reliable pumps with very high performance. They can work in very harsh conditions and constant over time. The sturdiness of its structure allows a long duration and a reduced maintenance.</p>",
+    "Characteristics":"<p>The <strong>CP range</strong> is a double-flow, split-case, diffuserless pump available in single-stage or two-stage configurations with replaceable slip rings. The in-line suction and impulse flanges are integral to the lower body, enabling easy disassembly of moving parts without disconnecting the pipes. This design guarantees perfect alignment and reduces vibration problems, ensuring long-term operational stability.</p><p>The impellers are engineered with advanced technology to deliver optimal performance across the full operating range of each pump. Depending on the model, two impellers can be incorporated in a back-to-back arrangement or one with double suction, effectively compensating for axial thrust and enhancing hydraulic balance and efficiency.</p><p>Hydraulic sealing is achieved using packing with a shaft sleeve or an optional balanced mechanical seal. The CP range is suitable for lifting clean or lightly loaded liquids, pumping fluids up to 100ºC, and up to 160ºC in the mechanical seal version. Standard construction is horizontal, with special horizontal arrangements available upon request.</p>",
+    "Applications": "<p>The wide range of pumps available offers impressive performance, with flow capacities reaching up to 3000 l/s and heads up to 200 mca. This versatility allows them to be adapted for numerous industrial, municipal, and environmental applications, ensuring efficient operation in both small and large-scale systems.</p><p>These pumps are ideal for use in <strong>desalination plants</strong> and <strong>reverse osmosis</strong> systems, as well as for <strong>irrigation</strong>, <strong>drinking water supply</strong>, and <strong>wastewater treatment plants</strong>. They are also extensively applied in <strong>heating</strong> and <strong>air-conditioning installations</strong>, <strong>fire-fighting systems</strong>, and <strong>refineries</strong>, providing reliable service across diverse environments.</p><p>Additionally, the pumps serve critical roles in <strong>pipelines</strong>, <strong>thermal power plants</strong>, <strong>cooling towers</strong>, and <strong>sea water pumping</strong> operations. Their robust design makes them suitable for heavy-duty industries such as <strong>steel mills</strong>, <strong>mining</strong>, and the <strong>paper or cellulose industry</strong> (handling up to 15% atro), ensuring high performance and durability in demanding conditions.</p>",
+    "Materials": "<p>The upper and lower body, impeller, front and rear press boxes, and front and rear bearing brackets are constructed in <strong>cast iron GG25</strong>, ensuring high mechanical strength and durability. The design provides solid structural integrity for heavy-duty operation under various conditions.</p><p>The closing rings are made of <strong>90-10 bronze</strong>, while the pump shaft is crafted from <strong>AISI 420</strong> and the press sleeves from <strong>AISI 304</strong>. The packing is made of <strong>graphite</strong>, providing excellent sealing and resistance to wear and temperature variations.</p><p>Optional configurations include an impeller in <strong>AISI 304</strong> or <strong>bronze</strong>, and a pump construction available entirely in <strong>AISI</strong> or <strong>bronze</strong> materials. A <strong>standard mechanical seal</strong> is also available for enhanced sealing performance and reduced maintenance.</p>"
 
-    "title": "SERIE RN",
-    "image": "images/horizontalPumps/horizontalPumps/2.jpg",
-    "q_max": "700 m³/h",
-    "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Horizontal Centrifugal Pumps Normalized Axial Aspiration"
   },
   {
+    "id"   : "2", 
+    "title": "RN SERIE",
+    "image": "images/horizontalPumps/horizontalPumps/2.jpg",
+    "q_max": "6000 m³/h",
+    "q_max_gpm": "26400 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Horizontal Centrifugal Pumps Split Chamber",
+    "modalCategoty":"Horizontal Tags: Bombeo agua de mar, Centrales eléctricas, Granjas Acuícolas, Industria, Irrigation, Obras Hidráulicas, Plantas Térmicas, Sewage treatment plants, Supplies, Theme Parks",
+    "modalDescription": "<p>The RN range are Horizontal Centrifugal Pumps with axial suction, single stage, with high resistance bearings for horizontal axis, great robustness, and tangential drive flange.</p><p>The horizontal pump RN is designed with a bearing bracket for direct drive by electric motor or diesel, through flexible coupling or by friction by V-belt.</p>",
+    "Characteristics": "<p>The pump offers flow rates up to 2000 m³/h and pressures up to 150 meters, operating efficiently at 2 or 4 poles with performance tolerances compliant with ISO 9906 standards. It is engineered to handle clean liquids that do not contain elements capable of damaging the pump materials, ensuring reliable and durable operation.</p><p>Designed for continuous S1 operation at nominal power, the pump maintains optimal performance in environments with ambient temperatures up to 40ºC. The suction and drive flanges are rated PN10, providing secure and robust connections suitable for demanding applications.</p><p>This model is suitable for lifting liquids up to 100ºC, while the mechanical seal version allows operation up to 160ºC. It is available in both mechanical seal and packing configurations, offering flexibility to match various industrial requirements.</p>",
+    "Applications": "<p>Pumps are suitable for lifting and transferring liquids in mines, aquaculture farms, theme parks, and for the elevation of rivers to channels.</p><p>They are also widely used in various industries and for general agricultural irrigation.</p><p>In construction, heating and air-conditioning installations, municipalities, and fire-fighting equipment, pumps play a critical role.</p><p>They are essential for both civilian and industrial supplies, as well as for specialized areas like golf courses and desalination plants.</p><p>Pumps are also used for water sources, green spaces, gardening, sprinkler irrigation, and air conditioning (HVAC) systems.</p><p>Their versatility makes them indispensable for efficient water management and fluid transfer in multiple sectors.</p>",
+    "Materials": "<p><b>Pump body</b>, <b>impeller</b>, <b>closing rings</b>, and <b>support cover</b> are made of <b>cast iron</b>.</p><p>The <b>stainless steel pump shaft</b> is <b>AISI 420</b>.</p><p>In the standard version, it comes with a standard <b>mechanical seal graphite-ceramic</b> according to <b>DIN 24960</b>.</p><p>Optional constructions include <b>bronze</b>, <b>steel</b>, and <b>stainless steel</b> for pump components.</p><p>Special <b>mechanical seals</b> can be provided according to the liquid type and temperature requirements.</p>"
+
+  },
+  {
+     "id"   : "3", 
     "title": "SERIE RNI",
     "image": "images/horizontalPumps/horizontalPumps/3.jpg",
-    "q_max": "700 m³/h",
-    "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Multicellular High Pressure Centrifugal Pumps"
+    "q_max": "1750 m³/h",
+    "q_max_gpm": "7700 GPM",
+    "h_max": "100 m",
+    "h_max_ft": "238 Ft",
+    "description": "Centrifugal Pumps Horizontal Normalized Axial Aspiration",
+    "modalCategoty":"Category: Horizontal Tags: Air conditioning, Building, Desalination plants, Fire protection, Golf Courses, Granjas Acuícolas, Industry, Irrigation, Mining, Parques temático, River elevation, Supplies, Urbanization",
+    "modalDescription": "<p>The RNI range consists of Horizontal Centrifugal Pumps with axial suction and support for horizontal shaft bearing, according to Ex DIN 24255 / NF E-44111, and impellers of hydraulic design optimized for high performance.</p><p>This standardization allows unifying the same parts across a large number of pump sizes, facilitating the service of spare parts by reducing the variety of components.</p><p>Its design allows the revision of all rotating and internal parts without the need to disconnect the pump body from the suction and discharge piping, and it is not necessary to move the motor if a coupling sleeve with spacer is provided.</p>",
+    "Characteristics":"<p>Flow rates up to 2000 m3 / h, pressures up to 150 mts, speed 2 and 4 poles, and operating data tolerance according to ISO 9906.</p><p>Suitable for clean liquids without elements that could damage the pump materials, for continuous operation S1 at nominal power, maximum ambient temperature 40º, and suction/drive flanges PN10.</p><p>It is suitable for lifting liquids up to 100ºC, in the mechanical seal version it can reach 160ºC, and the standard version comes with mechanical seal or packing.</p>",
+    "Applications": "<p>Pumps are suitable for lifting and transferring liquids in mines, aquaculture farms, theme parks, and for the elevation of rivers to channels. They are also widely used in various industries and for general agricultural irrigation.</p><p>In construction, heating and air-conditioning installations, municipalities, and fire-fighting equipment, pumps play a critical role. They are essential for both civilian and industrial supplies, as well as for specialized areas like golf courses and desalination plants.</p><p>Pumps are also used for water sources, green spaces, gardening, sprinkler irrigation, and air conditioning (HVAC) systems. Their versatility makes them indispensable for efficient water management and fluid transfer in multiple sectors.</p>",
+    "Materials": "<p><b>Pump body</b>, <b>impeller</b>, <b>closing rings</b>, and <b>support cover</b> in <b>cast iron</b>. <b>Stainless steel pump shaft</b> <b>AISI 420</b>. In standard version, with standard <b>mechanical seal graphite-ceramic</b> according to <b>DIN 24960</b>.</p><p>Optional constructions include <b>bronze</b>, <b>steel</b>, and <b>stainless steel</b>.</p><p>Special <b>mechanical seals</b> can be provided according to the liquid and temperature requirements.</p>"
+
   },
   {
+     "id"   : "4", 
     "title": "SERIE APM",
     "image": "images/horizontalPumps/horizontalPumps/4.jpg",
     "q_max": "700 m³/h",
     "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Standard High Monoblock Pumps"
+    "h_max": "500 m",
+    "h_max_ft": "1640 Ft",
+    "description": "Multicellular High Pressure Centrifugal Pumps",
+    "modalCategoty":"<p>Category: Horizontal Tags: Air conditioning, Building, Desalination plants, Fire protection, Heat exchangers, Industry, Inverse osmosis, Irrigation, Mining, Naval building, Plantas Térmicas, Refinerias, Supplies</P>",
+    "modalDescription": "<p>The suction and discharge bodies are designed with flanges PN 16 to PN 40 depending on the size. The pump feet are located on the suction and discharge bodies and can be repositioned to suit the type of installation. The stages are fastened externally by means of straps.</p><p>The horizontal axis (vertical on request) is supported by double support with grease-lubricated bearings. The pumps feature closed impellers and are designed to work with temperatures up to 90–110º Celsius (construction with packing or mechanical seal respectively).</p><p>For higher temperatures, external cooling or special mechanical seals are used. The design used in our pumps to compensate the axial load is of rear closing rings, and for high pressures they use a compensation drum.</p>",
+    "Characteristics":"<p>The suction and discharge bodies are designed with flanges PN 16 to PN 40 depending on the size. The pump feet are located on the suction and discharge bodies and can be repositioned to suit the type of installation. The stages are fastened externally by means of straps.</p><p>The horizontal axis (vertical on request) is supported by double support with grease-lubricated bearings. The pumps have closed impellers and are designed to work with temperatures up to 90–110º Celsius (construction with packing or mechanical seal respectively).</p><p>For higher temperatures, external cooling or special mechanical seals are used. The design used in our pumps to compensate the axial load is of rear closing rings, and for high pressures they use a compensation drum.</p>",
+    "Applications": "<p>Water supply and distribution, pressure equipment, water treatment, circulation and condensate systems, and boiler feed installation.</p><p>Washing systems, filter units, irrigation and sprinkler systems, firefighting equipment, pumping of filtrations in deep mines, reverse osmosis, heat exchangers, and refrigeration systems.</p><p>Shipbuilding, conventional or nuclear thermal power stations, refineries, sanitary and cleaning facilities, and industry in general.</p>",
+    "Materials": "<p><b>Suction body</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Drive body</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Pump body</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Diffuser</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Rodete</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>).</p><p><b>Prensa estopas</b> <b>GGG40</b> (Optional <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Press box</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Bearing cover</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>), <b>Bearing support</b> <b>GG25</b> (Optional <b>GGG40</b>), <b>Tapa cierre</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>).</p><p><b>Axis</b> <b>AISI 420</b> (Optional <b>AISI 304</b>; <b>AISI 316</b>), <b>Casquillo</b> <b>AISI 420</b> (Optional <b>AISI 304</b>; <b>AISI 316</b>), <b>Tapa cierre</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>), <b>Bearing support</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>), <b>Bearing cover</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>), <b>Caja prensa</b> <b>GG25</b> (Optional <b>GGG40</b>; <b>BR90-10</b>, <b>AISI 304</b>; <b>AISI 316</b>).</p>"
+
   },
   {
-    "title": "SERIE CEB",
+     "id"   : "5", 
+    "title": "CEB Serie",
     "image": "images/horizontalPumps/horizontalPumps/5.jpg",
     "q_max": "700 m³/h",
     "q_max_gpm": "3080 GPM",
     "h_max": "35 m",
     "h_max_ft": "115 Ft",
-    "description": "Horizontal Centrifugal Pumps Split Chamber"
+    "description": "Self-priming pumps.",
+    "modalCategoty":"<p>Categories: Horizontal, Residuals, self-aspirants Tags: Floods, Mining, Piscifactorías, Pluviales, Sewage plant, Tanque de Tormenta</p>",
+    "modalDescription": "<p>The CEB series are self-priming pumps designed to avoid clogging of work with wastewater. Its self-priming design is recognized as the most advanced in self-priming pumps. Suitable and developed for municipal sewage treatment projects, concentrated sewage treatment systems, industrial wastewater. Its self-priming design is recognized as the most advanced in self-priming pumps. Suitable for working in sanitation and sewerage systems.</p>",
+    "Characteristics":"<p>The CEB series are self-priming pumps designed to avoid clogging when working with wastewater.</p><p>Their self-priming design is recognized as the most advanced among self-priming pumps and is suitable for municipal sewage treatment projects, concentrated sewage treatment systems, and industrial wastewater.</p><p>These pumps are also suitable for working in sanitation and sewerage systems.</p>",
+    "Applications": "<p>Transfer of any non-explosive or non-flammable liquid. Rainwater sewage. Projects of municipal drainage, or of work in construction.</p><p>Wastewater from general industry, paper mills, textiles, food processing plants, chemical industries, power companies, mining. Wastewater discharge in residential areas, water purification systems, tanning industries, fish breeding in river or pond.</p><p>Wine and sugar racking. Discharge of low corrosive and highly contaminated residual liquids.</p>",
+    "Materials": "<p><b>Suction and discharge bodies</b>, <b>suction and discharge body covers</b>, <b>pump body</b>, <b>manhole covers</b> and <b>bearing</b> in <b>GG-20</b>. <b>Check valve</b> <b>rubber-carbon steel</b>. <b>Impeller</b> and <b>pump body</b> in <b>nodular cast iron</b>.</p><p><b>Tungsten carbide mechanical seal</b>. <b>Pump shaft</b> <b>AISI 420</b>. <b>Viton gaskets</b>.</p><p>Optional: <b>Impeller</b> in <b>AISI 304</b>.</p>"
+
   },
   {
+     "id"   : "6", 
     "title": "SERIE RNL",
     "image": "images/horizontalPumps/horizontalPumps/6.jpg",
     "q_max": "700 m³/h",
     "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Horizontal Centrifugal Pumps Normalized Axial Aspiration"
+    "h_max": "90 m",
+    "h_max_ft": "295 Ft",
+    "description": "Vertical Pumps Horizontal In-Line Suction",
+    "modalCategoty":"<p>Categories: Horizontal, Verticals Tags: Air conditioning, Building, Edification, Industry, Vessel</p>",
+    "modalDescription": "<p>The RNL range are vertical suction pumps with horizontal suction and compact design, with one or two stages and EN 733 (ex DIN 2455) standard features. The suction and discharge flanges (in line) for PN10 allow their installation directly in the pipe.</p><p>Its design allows the revision of all rotating and internal parts without the need to disconnect the pump body from the suction and discharge piping.</p><p>Pumps with two stages can operate both in parallel (to increase the flow) or leaving one in reserve.</p>",
+    "Characteristics":"<p>...</p>",
+    "Applications": "<ul><li>Recirculation systems</li><li>Pressure Equipment</li><li>Cooling and heating systems</li><li>Transfer of industrial liquids without solid particles</li><li>Ballast water bilges</li><li>Tank washing</li><li>Flushing</li><li>Domestic hot water</li><li>Industry in general (steelworks, chemistry, petrochemistry, food, paper, …)</li></ul>",
+    "Materials": "<ul><li>Pump body, impeller, closing rings and support cover in cast iron</li><li>Stainless steel pump shaft AISI 420</li><li>Standard version with standard mechanical seal graphite-ceramic according to DIN 24960</li><li>Optional</li><li>Bronze, steel and stainless steel construction</li><li>Special mechanical seals according to liquid and temperature requirements</li></ul>"
+
   },
   {
+     "id"   : "7", 
     "title": "SERIE GNI",
     "image": "images/horizontalPumps/horizontalPumps/7.jpg",
-    "q_max": "700 m³/h",
-    "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Multicellular High Pressure Centrifugal Pumps"
+    "q_max": "1.500 m³/h",
+    "q_max_gpm": "6.604 GPM",
+    "h_max": "100 m",
+    "h_max_ft": "328 Ft",
+    "description": "Standard Monoblock Centrifugal Pumps Ex DIN 24255",
+    "modalCategoty":"Horizontal Tags: Air conditioning, Building, Distribution, Domestic, Edification, Gardening, Golf Courses, Green areas, Irrigation, Parques temático, Sewage treatment plants, Sources, Urbanization",
+    "modalDescription": "The GNI range are monobloc groups, consisting of the standard EN 733 (Ex DIN 24255) pump coupled to a standard motor. This range covers the hydraulic field of application given in the standard with the advantages of its compact construction, easy installation, perfect alignment pump-motor and small dimensions",
+    "Characteristics":"<ul><li>Monoblock group with standard pump according to EN733 – Ex DIN 24255</li><li>Flow rates up to 1500 m3/h.</li><li>Pressures up to 100 mts.</li><li>Power up to 100 hp / 74 kW.</li><li>Speed: 1450 and 2900 RPM.</li><li>Operating data according to ISO 9906.</li><li>Standardized electric motors according to EN 60034 / DIN VDE 0530 / IEC 34-72 / IE-3 asynchronous type with squirrel cage rotor, IP 55, and insulation class F.</li><li>For continuous operation S1 at nominal power.</li><li>Maximum ambient temperature 40ºC.</li></ul>",
+    "Applications": "<ul><li>Civilian supplies</li><li>Industrial applications for pumping non-aggressive clean water</li><li>Pressure Equipment</li><li>Fire fighting equipment</li><li>Air conditioning and heating</li><li>Agricultural</li><li>Sprinkler and drip irrigation systems</li><li>Swimming pool purification</li><li>Golf courses</li><li>Sources</li><li>Green spaces and gardening</li><li>Washing tunnels</li></ul>",
+    "Materials": "<ul><li>Pump body, impeller, closing rings, body cover and support cover in cast iron.</li><li>Pump shaft in stainless steel 13% Cr.</li><li>The standard version with standard mechanical seal according to DIN 24960 is suitable for lifting liquids with temperatures up to 100 °C.</li><li>B5 motors for sizes up to 132.</li><li>B35 motors for larger sizes.</li><li>Optional.</li><li>Pump body bronze/Inox.</li><li>Bronze impeller.</li><li>Axle steel AISI 316.</li><li>With special mechanical seal it can work up to 160 ºC.</li><li>Possibility of incorporating special motors for explosive atmosphere, marine environment, tropical climate, etc.</li></ul>"
+
   },
   {
+     "id"   : "8", 
     "title": "SERIE RFI",
     "image": "images/horizontalPumps/horizontalPumps/8.jpg",
-    "q_max": "700 m³/h",
-    "q_max_gpm": "3080 GPM",
-    "h_max": "35 m",
-    "h_max_ft": "115 Ft",
-    "description": "Standard High Monoblock Pumps"
+    "q_max": "240 m³/h",
+    "q_max_gpm": "1056 GPM",
+    "h_max": "96 m",
+    "h_max_ft": "315 Ft",
+    "description": "Electroblock Long Shaft Monoblock Pumps",
+    "modalCategoty":"Horizontal Tags: Distribution, Domestic, Gardening, Green areas, Irrigation",
+    "modalDescription": "<p>The RFI range are Monoblock electric pump units with standardised pump EN 733 / exDIN 24255 robust and compact, single shaft pump-motor. This range covers the hydraulic field of application given in the standard with the advantages of compact construction, perfect alignment and small dimensions.</p>",
+    "Characteristics":"<ul><li>Monobloc unit with standardised pump according to EN 733 / Ex DIN 24255 and single motor-pump shaft.</li><li>Flow rate up to 96 m3/h</li><li>Services 97 m.c.a.</li><li>Powers up to 30 hp / 22 kW.</li><li>Speed 2,900 rpm</li><li>Operating data according to ISO 9906</li><li>For continuous operation S1 at nominal power</li><li>Maximum ambient temperature 40ºC</li><li>Asynchronous electric motors with squirrel cage rotor IP-55, Insulation Class F</li></ul>",
+    "Applications": "<ul><li>Industrial applications for pumping clean and non-aggressive water.</li><li>Pressure equipment.</li><li>Air conditioning and heating.</li><li>Agricultural</li><li>Sprinkler and drip irrigation systems.</li><li>Firefighting equipment.</li><li>Swimming pool purification</li><li>Golf courses</li><li>Sources</li><li>Green spaces, gardening</li><li>Washing tunnels</li></ul>",
+    "Materials": "<ul><li>Pump body, impeller, closing rings, cover body and support cover in cast iron</li><li>Pump shaft in stainless steel 13% Cr.</li><li>The standard version with standardised mechanical seal according to Ex DIN 24960 is suitable for lifting liquids with temperatures up to 90°C.</li><li>Max. operating pressure PN10</li><li>Optional</li><li>Pump body in bronze / stainless steel</li><li>Bronze / stainless steel impellers</li></ul>"
+
+  },
+    {
+     "id"   : "9", 
+    "title": "RFXA Serie",
+    "image": "images/horizontalPumps/horizontalPumps/9.jpg",
+    "q_max": "240 m³/h",
+    "q_max_gpm": "1056 GPM",
+    "h_max": "96 m",
+    "h_max_ft": "315 Ft",
+    "description": "Electrical pump Monobloc Inox with standard pump EN 733",
+    "modalCategoty":"Horizontal",
+    "modalDescription": "<p>The RFXA range are Monobloc electric pump units with standard EN 733 (ex DIN 24255) stainless steel pump AISI 304 and single pump-motor shaft.</p><p>This range fulfils the hydraulic field included in the standard with the advantages of its compact construction, perfect alignment and small dimensions.</p><p>It is suitable for working at different temperatures, with clean or slightly dirty fluids that do not contain abrasive materials.</p>",
+    "Characteristics":"<ul><li>Pump body in one piece.</li><li>The design of the unit makes it possible to assemble and dismantle the rotating parts without dismantling the suction and discharge lines.</li><li>Possibility of installing the unit in any position, provided that the suction flange is facing upwards.</li><li>Maximum liquid temperature 90ºC</li><li>Ambient temperature up to 40ºC</li><li>Manometric suction height 7 m.</li><li>Maximum working pressure 10 bar.</li><li>Continuous Service</li><li>Low noise level</li></ul>",
+    "Applications": "<ul><li>Water supply and distribution</li><li>Pressure Equipment</li><li>Water treatment</li><li>Boiler feed installation</li><li>Washing systems, filter units.</li><li>Irrigation and sprinkler systems</li><li>Firefighting equipment.</li><li>Heat exchangers</li><li>Refrigeration systems</li><li>Sanitary and cleaning facilities.</li><li>Food industry</li><li>Industry in general</li><li>Swimming Pools</li></ul>",
+    "Materials": "<ul><li>Pump body: Stainless steel AISI 304</li><li>Intermediate cover: Stainless steel AISI 304</li><li>Impeller: Stainless steel AISI 304</li><li>Shaft with rotor: Stainless steel AISI 304</li><li>Mechanical seal: Carbon/ceramic/nitrile</li><li>Motor asynchronous three-phase 2 and 4 poles 50 Hz 230/440 V up to 4 kW, 400/660 V higher powers</li><li>IP 55 protection</li><li>Insulation class F</li><li>IE2 Efficiency</li></ul>"
+
   }
 ]

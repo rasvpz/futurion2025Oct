@@ -1,0 +1,24 @@
+[
+    {
+        "name":"Equipment Control Pressure equipment",
+        "sepcifics":"NLX pumps",
+        "image":"images/controlPanels/1.jpg",
+        "description":"<p>The equipment optimizes the system’s response to variations ...</p>"
+    },
+
+    {
+        "name":"Residual Pumps Control Panels",
+        "sepcifics":"Up to 45 kW",
+        "image":"images/controlPanels/2.jpg",
+        "description":"<p>Control panels for 2, 3 or 4 residual pumps up to 45 kW ...</p>"
+
+    },
+
+    {
+        "name":"Fire Control Panels",
+        "sepcifics":"LS2 / LS",
+        "image":"images/controlPanels/3.jpg",
+        "description":"<p>Fire Control Panels are the central units of a fire alarm ...</p>"
+
+    }
+]

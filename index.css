@@ -834,7 +834,9 @@ border-bottom: 1px solid #ddd;
     }
     .product-section {
       display: none;
-      padding: 40px 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 0px;
     }
     
 

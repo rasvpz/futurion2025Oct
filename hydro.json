@@ -2,36 +2,47 @@
   {
     "image": "images/verticalPumps/3.jpg",
     "title": "Serie VIPH",
-    "description": "Domestic Pressure Equipment"
+    "description": "Domestic Pressure Equipment",
+    "pumpDescription": "<p>The single-phase domestic pressure boosters of the PRES VIP HM series are for decanting clean water, without additives ...</p>"
   },
   {
     "image": "images/verticalPumps/4.jpg",
     "title": "Serie Hydro V",
-    "description": "Pressure Equipment with Vertical Multicellular Electric Pumps"
+    "description": "Pressure Equipment with Vertical Multicellular Electric Pumps",
+    "pumpDescription": "<p>The HYDRO 1V-2V-3V series multicellular electro-pumps are used to transfer clean water, without additives,which could ...</p>"
   },
   {
     "image": "images/verticalPumps/5.jpg",
     "title": "Serie Hydro H",
-    "description": "Pressure Equipment with Horizontal Multicellular Electric Pumps"
+    "description": "Pressure Equipment with Horizontal Multicellular Electric Pumps",
+    "pumpDescription": "<p>The HYDRO 1H-2H-3H series multicellular electro-pump pressure equipment for decanting clean water, without additives ...</p>"
+
   },
   {
     "image": "images/verticalPumps/6.jpg",
     "title": "Serie Hydro NLX",
-    "description": "Pressure Equipment with Vertical Multicellular Electric Pumps"
+    "description": "Pressure Equipment with Vertical Multicellular Electric Pumps",
+    "pumpDescription": "<p>HYDRO NLX series multicellular electro-pumps are used to transfer clean water, without additives, which could damage the ...</p>"
   },
   {
     "image": "images/verticalPumps/7.jpg",
     "title": "Serie Hydro NXA",
-    "description": "Pressure Equipment with Multicellular Electric Pumps"
+    "description": "Pressure Equipment with Multicellular Electric Pumps",
+    "pumpDescription": "<p>HYDRO NXA series multicellular electro-pumps are used to transfer clean water, without additives, which could damage ... </p>"
+
   },
   {
     "image": "images/verticalPumps/8.jpg",
     "title": "Serie Hydro",
-    "description": "Pressure Equipment with Variator"
+    "description": "Pressure Equipment with Variator",
+    "pumpDescription": "<p>VARIVIP2 1H series single-phase pressure equipment is designed to transfer clean water without additives that could ...</p>"
+
   },
   {
     "image": "images/verticalPumps/9.jpg",
     "title": "Serie Hydro VAR",
-    "description": "Pressure Equipment and Variable Speed Frame"
+    "description": "Pressure Equipment and Variable Speed Frame",
+    "pumpDescription": "<p>Pressure equipment with multicellular speed regulator HYDRO VAR series incorporates the latest technical advances ...</p>"
+
   }
 ]
