@@ -1,16 +1,30 @@
 [
     {
-        "name":"Equipment Control Pressure equipment",
-        "sepcifics":"NLX pumps",
+        "name":"Hydro-Var Serie",
+        "sepcifics":"Pressure equipment with speed regulator.",
         "image":"images/controlPanels/1.jpg",
-        "description":"<p>The equipment optimizes the system’s response to variations ...</p>"
+        "description":"<p>The equipment optimizes the system’s response to variations in demand, controlling between 1 and 6 VIPV NX NLX pumps.</p>",
+        "category":"<p>Categories: Control panels, Pressure equipment</p>",
+        "cPanelmodlDescription":"<p>Pressure equipment with multicellular speed regulator HYDRO VAR series incorporates the latest technical advances in speed variation, are to transfer clean water, without additives, which can damage the materials of the equipment</p>",
+        "cPanelmodalCharecteristics":"<p>Equipment for pressurized water distribution in large installations, residential buildings, commercial premises, industries, or any type of installation that requires a constant water pressure, providing an autonomous installation with low maintenance and silent operation.</p><p>In the HYDRO VAR series, the most important features are execution of 1 to 6 pumps, compact and ready-to-install stand-alone pumping unit, design that optimizes the system’s response to variations in demand, alternation between the “all or nothing” pumps (for more than three pumps) or the varied pump itself, and silent pressure equipment.</p><p>Modular manufacture configurable according to the required equipment with outputs ready to tackle the network and the accumulation equipment. Continuous reading of existing pressure by means of pressure transducer; this value is sent to the speed variator, which analyzes its magnitude, comparing it with programmed operating parameters. As a result, it adjusts the speed of the varied pump and, if necessary, starts successive auxiliary pumps at fixed speed.</p><p>Total and automatic rotation of the system with fully integrated control, water hammer reduction, elimination of start-up peaks, system without contactors and relays that minimizes maintenance, and no need for replacement equipment. In the HYDRO-VAR-ROT series, the varied pump alternates between all pumps of the equipment, with optional emergency control by pressure switches. In the MULTIMASTER series, 2 or 3 pumps are controlled with one variator per pump, working as a single system.</p>",
+        "cPanelmodalApplication":"<p>Drinking water networks, Pressure Washing, Sports facilities, Hotels, Pressure Equipment for Houses, Urbanizations.</p><p>Toilet rooms in shops, markets and shopping centres, Water distribution from a tank, Water supply to networks without sufficient pressure.</p><p>Small hydraulic applications, Factories, Laboratories.</p>",
+        "cPanelModalMaterials":"<p>Depending on the needs of the installation itself, contemplated in the project, different configurations can be distinguished, formed by NXA/NLX/NLV three-phase pumps. Vertical high pressure electric pump designed for “IN LINE” installation, with standardised suction and discharge flanges.</p><p>Manometer: Used to see the pressure of the water inside the pipe, able to withstand the maximum pressure. Pressure switch: Closes when pressure drops and opens when it rises. Bench: Steel base, common for pump and electrical panel. Impulse manifold: Joins all the elements by means of valves.</p><p>Shut-off valve: In the drive, mat type. Non-return valve: To avoid returns and water hammering. Control panel with three-phase supply 230/400 V 50 Hz, powers from 1.5 to 40 HP, automatic pump switching in case of failure or disconnection of one pump. Signalling on the front of the panel of the existing pressure and other operating parameters.</p><p>Control lack of water by level switch (optional). Switching to conventional control in case of inverter failure (optional). Other voltages and powers, frequency at 60 Hz, different controls, etc., are available on request.</p>"
+
+
     },
 
     {
         "name":"Residual Pumps Control Panels",
         "sepcifics":"Up to 45 kW",
         "image":"images/controlPanels/2.jpg",
-        "description":"<p>Control panels for 2, 3 or 4 residual pumps up to 45 kW ...</p>"
+        "description":"<p>Control panels for 2, 3 or 4 residual pumps up to 45 kW.</p>",
+        "category":"Category: Control panels",
+        "cPanelmodlDescription":"<p>Power supply 3-400V 50Hz, 60Hz. Power supply relay in 0.37 to 4 kW panels. Micro-automaton 16 inputs / 10 outputs for panels from 5 to 45 kW. Soft starter with pump for panels from 5 to 45 kW.</p><p>Externally operated general cut-off switch.",
+        "cPanelmodalCharecteristics":"<p><p>Power supply 3-400V 50Hz, 60Hz. Power supply relay in 0.37 to 4 kW panels. Micro-automaton 16 inputs / 10 outputs for panels from 5 to 45 kW. Soft starter with pump for panels from 5 to 45 kW.</p><p>Externally operated general cut-off switch. General magneto-thermal and differential (300mA) switches. Magnetothermic switch per pump. Ammeter per pump visible from the outside. Voltmeter with phase selector visible from the outside.</p><p>Operating hours counter visible from the outside. “Manual-Stop-Automatic” Selectors. Pilots who detect: presence of voltage, pump operation, general judgment, acoustic alarm. Take inner Schuko. IP65 protection electrical cabinet made up of self-supporting metal modules. Boards designed for use with switches and level probes.</p><p>On request: GSM communication for remote control and monitoring of parameters.</p>",
+        "cPanelmodalApplication":"<p>For power ratings from 0.37 to 4 kW. In the case of an alternating relay, a circular permutation is possible (cascade pump operation).</p><p>For power ratings from 5 to 45 kW, a micro-automaton manages the circular permutation of the pumps, allowing the user to select the following operating modes:</p><p>1+1 mode: 2 pumps running in rotation. Mode 2: 2 pumps running in rotation and married. Mode 3: 3 pumps running in rotation, maximum 2 in cascade.</p><p>3+1 mode: 4 pumps running in rotation, maximum 3 in cascade. Mode 4: 4 pumps running in rotation and cascade.</p>",
+        "cPanelModalMaterials":"<p>...</p>"
+
+
 
     },
 
@@ -18,7 +32,12 @@
         "name":"Fire Control Panels",
         "sepcifics":"LS2 / LS",
         "image":"images/controlPanels/3.jpg",
-        "description":"<p>Fire Control Panels are the central units of a fire alarm ...</p>"
+        "description":"<p>...</p>",
+        "category":"...",
+        "cPanelmodlDescription":"<p>...</p>",
+        "cPanelmodalCharecteristics":"<p>...</p>",
+        "cPanelmodalApplication":"<p>...</p>",
+        "cPanelModalMaterials":"<p>...</p>"
 
     }
 ]

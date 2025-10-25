@@ -182,7 +182,8 @@
     .water-card {
       border: 1px solid #dee2e6;
       border-radius: 0.25rem;
-      text-align: center;
+
+      
     }
     .water-card img {
       max-width: 100%;
@@ -468,7 +469,7 @@
 <div class="container product-section" id="WaterSupply">
   <section class="product-header text-center spaceing">
     <div class="underline"></div>
-    <h1 class="h1Alihnmrnt">Water Supply / Circulation Pumps</h1>
+    <h1 class="h1Alihnmrnt">Pressure / Pumps / Firefighting Control Panels</h1>
     <p class="weOffer">Teral is one of the leading manufacturers of Pumps and Blowers in the world.</p>
     <div class="search-container mt-4">
       <input type="text" class="search-bar" placeholder="Search pumps..." oninput="filterWaterSupply(this.value)" />
@@ -924,7 +925,136 @@
     </div>
   </div>
 </div>
+<!-- Hydro Modal -->
+<div class="modal fade" id="hydroModal" tabindex="-1" role="dialog" aria-labelledby="hydroTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="hydroTitle">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+             <img id="hydroImage" class="img-fluid mb-3" alt="Product Image" />
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+              <h5 class="modal-title text-primary" id="hydroModalHead"></h5>
+              <p class="text-muted mt-4" id="hydroModalDescription"></p>
+            </div>
+            
+          </div>
+          <p class="text-muted mt-4" id="hydroModalhydroRowDescription"></p>
 
+
+        <div class="container mt-4">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link text-primary font-weight-semi-bold active" id="home-tab" data-toggle="tab" href="#hydroCharacteristics" role="tab">Characteristics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary font-weight-semi-bold " id="profile-tab" data-toggle="tab" href="#hydroApplications" role="tab">Application</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary font-weight-semi-bold " id="contact-tab" data-toggle="tab" href="#hydroMaterials" role="tab">Materials</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active p-3" id="hydroCharacteristics" role="tabpanel">
+              <!-- <h5>Home Tab</h5> -->
+              <p id="hydroModalCharecteristics"></p>
+            </div>
+            <div class="tab-pane fade p-3" id="hydroApplications" role="tabpanel">
+              <h5 class="text-primary">The S 4″ Series pumps</h5>
+              <div id ="hydroModalApplication">
+            </div>
+            </div>
+            <div class="tab-pane fade p-3" id="hydroMaterials" role="tabpanel">
+              <h5 class="text-primary">Construction and Materials</h5>
+                <div id ="hydroModalMaterials">
+                </div>
+            </div>
+          </div>
+        </div>
+
+  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- control Panel Modal -->
+ <div class="modal fade" id="controlPanelModal" tabindex="-1" role="dialog" aria-labelledby="controlPanelModalSepcifics" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="controlPanelModalSepcifics">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+             <img id="controlPanelModalImage" class="img-fluid mb-3" alt="Product Image" />
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+              <h5 class="modal-title text-primary" id="controlPanelModalName"></h5>
+              <p class="text-muted mt-4" id="controlPanelModalDescription"></p>
+              <p class="text-muted mt-4" id="cPanelmodlDescriptionToP"></p>
+              <p class="text-muted mt-4" id="cPanelCategory"></p>
+
+
+              
+            </div>
+            
+          </div>
+          <!-- <p class="text-muted mt-4" id="hydroModalhydroRowDescription"></p> -->
+
+
+        <div class="container mt-4">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link text-primary font-weight-semi-bold active" id="home-tab" data-toggle="tab" href="#cPanelTabCharecteristics" role="tab">Characteristics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary font-weight-semi-bold " id="profile-tab" data-toggle="tab" href="#cPanelModalApplication" role="tab">Application</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary font-weight-semi-bold " id="contact-tab" data-toggle="tab" href="#cPanelModalMaterials" role="tab">Materials</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active p-3" id="cPanelTabCharecteristics" role="tabpanel">
+              <!-- <h5>Home Tab</h5> -->
+              <p id="cPanelmodalCharecteristicsTop"></p>
+            </div>
+            <div class="tab-pane fade p-3" id="cPanelModalApplication" role="tabpanel">
+              <h5 class="text-primary">The S 4″ Series pumps</h5>
+              <div id ="cPanelModalApplicationTop">
+            </div>
+            </div>
+            <div class="tab-pane fade p-3" id="cPanelModalMaterials" role="tabpanel">
+              <h5 class="text-primary">Construction and Materials</h5>
+                <div id ="cPanelModalMaterialsTop">
+                </div>
+            </div>
+          </div>
+        </div>
+
+  
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
 <footer>
   <div class="cta-section">
@@ -1197,7 +1327,6 @@ function showModalSubmerged(pump) {
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('verticalRow');
-      console.log("verticalPump", data);
 
       data.forEach(verticalPump => {
         const card = `
@@ -1257,7 +1386,7 @@ function showModalVerticalPump(verticalPump) {
           <div class="card h-100">
             <img src="${hydro.image}" class="card-img-top" alt="${hydro.title}">
             <div class="card-body">
-              <p class="text-primary small mb-1">${hydro.description}</p>
+              <p class="text-primary mb-1">${hydro.description}</p>
               <h5 class="">${hydro.title}</h5>
               <p class="text-muted small ">${hydro.pumpDescription}</p>
 <div class="mt-auto text-right" style="padding: 16px;">
@@ -1271,6 +1400,17 @@ function showModalVerticalPump(verticalPump) {
         container.appendChild(col);
       });
     });
+
+  function showModalHydro(hydro) {
+  document.getElementById('hydroTitle').innerHTML = hydro.title;
+  document.getElementById('hydroImage').src = hydro.image;
+  document.getElementById('hydroModalDescription').innerHTML = hydro.pumpDescription;
+  document.getElementById('hydroModalHead').innerHTML = hydro.hydroModalHead;
+  document.getElementById('hydroModalhydroRowDescription').innerHTML = hydro.hydroRowDescription;  
+  document.getElementById('hydroCharacteristics').innerHTML = hydro.hydroModalCharecteristcs;
+  document.getElementById('hydroApplications').innerHTML = hydro.hydroModalApplication;
+  document.getElementById('hydroMaterials').innerHTML = hydro.hydroModalMterials;
+}
 </script>
 
 <script>
@@ -1524,12 +1664,13 @@ function showModalFireFighting(item) {
           <div class="water-card p-3">
             <img src="${item.image}" alt="${item.name}" />
 
-              <p class="text-primary small mb-1 text-left">${item.sepcifics}</p>
+              <p class="text-primary mb-1 text-left">${item.sepcifics}</p>
               <h5 class="text-left">${item.name}</h5>
-              <p class="text-left">${item.description}</p>
+              <p style="text-align: left !important;" class="text-left">${item.description}</p>
+
 
 <div class="mt-auto text-right" style="padding: 16px;">
-  <a href="#" class="text-primary text-decoration-none" data-toggle="modal" data-target="#controlPanels" onclick='showModalControlPanels(${JSON.stringify(item).replace(/'/g, "\\'")})'>
+  <a href="#" class="text-primary text-decoration-none" data-toggle="modal" data-target="#controlPanelModal" onclick='showModalControlPanels(${JSON.stringify(item).replace(/'/g, "\\'")})'>
     View Details <i class="fas fa-arrow-right ml-1"></i>
   </a>
 </div>
@@ -1538,6 +1679,23 @@ function showModalFireFighting(item) {
         container.appendChild(col);
       });
     });
+
+function showModalControlPanels(item) {
+    console.log("Modal Data Loaded:", item);
+
+    document.getElementById('controlPanelModalSepcifics').innerHTML = item.sepcifics || '';
+    document.getElementById('controlPanelModalName').innerHTML = item.name || '';
+    document.getElementById('controlPanelModalImage').src = item.image || '';
+    document.getElementById('controlPanelModalDescription').innerHTML = item.description || '';
+    document.getElementById('cPanelCategory').innerHTML = item.category || '';
+    document.getElementById('cPanelmodlDescriptionToP').innerHTML = item.cPanelmodlDescription || '';
+    document.getElementById('cPanelmodalCharecteristicsTop').innerHTML = item.cPanelmodalCharecteristics || '';
+    document.getElementById('cPanelModalApplicationTop').innerHTML = item.cPanelmodalApplication || '';
+    document.getElementById('cPanelModalMaterialsTop').innerHTML = item.cPanelModalMaterials || '';
+
+}
+
+
 </script>
 
 <script>
