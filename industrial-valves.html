@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUTURION - Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+<style>
+  .gradient-bg {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #bfdbfe, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  .badge-custom {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  .feature-icon {
+    color: #2563eb;
+  }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
+  .nv-bg {
+  /* background: linear-gradient(to right, #0f1f31, #3360f3); */
+  color: white !important;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+
+.nv-bg .dropdown-item:hover,
+.nv-bg .dropdown-item:focus,
+.nv-bg .dropdown-item:active {
+  background-color: #00C2FF !important;
+  color: white !important;
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+.explore-btn {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+
+.portfolio-btn {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+/* Hover Effects */
+.explore-btn:hover {
+  background-color: transparent;
+  color: #00C2FF;
+  border: 2px solid #00C2FF;;
+}
+
+.portfolio-btn:hover {
+  background-color: #00C2FF;
+  color: rgb(8, 10, 77);
+  border: 2px solid transparent;
+}
+.card img {
+    /* max-height: 180px; */
+    object-fit: contain;
+    padding: 0px;
+    /* border: 4px solid #276ef1; */
+}
+
+    .badge-custom {
+  background-color: #e6f0ff; /* light blue background */
+  color: #0d47a1;            /* dark blue text */
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0.4rem;
+  transition: all 0.3s ease;
+}
+.badge-custom:hover {
+  background-color: #1e5fe6; /* bright blue on hover */
+  color: #fff;
+}
+  .filter-btn {
+    cursor: pointer;
+    border: none;
+    background-color: #e9ecef;
+    color: #000;
+    margin: 0.3rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+  }
+
+  .filter-btn.active {
+    background-color: var(--bs-primary);
+    color: #fff;
+  }
+
+  .valve-section {
+    display: none;
+  }
+</style>
+
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3 nv-bg" style="background-color: #020f3b;">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <!-- <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li> -->
+      <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownProducts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Products
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+    <a class="dropdown-item" href="water-wastewater-pumps.html">Water & Wastewater Pumps</a>
+    <a class="dropdown-item" href="industrial-water-pumps.html">Industrial Water Pumps</a>
+    <a class="dropdown-item" href="vacuum-pumps.html">Vacuum Pumps & System</a>
+    <a class="dropdown-item" href="water-wastewater-valves.html">Water & Waste Water Valves</a>
+    <a class="dropdown-item" href="industrial-valves.html">Industrial Valves</a>
+    <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a>
+    <a class="dropdown-item" href="fans.html">Fans</a>
+    <a class="dropdown-item" href="electrical-products.html">Electrical Products</a>
+    <a class="dropdown-item" href="metallic-piping-products.html">Metallic Piping Products</a>
+    <a class="dropdown-item" href="frp-grp-piping.html">FRP/GRP Piping</a>
+    <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html">HDPE/CPVC/UPVC Piping Solutions</a>
+  </div>
+</li>
+
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <!-- Services Dropdown -->
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+          <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+          <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+          <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+          <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+          <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+          <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+          <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+          <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+          <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+          <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+          <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li> -->
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;">
+    <source src="video/home background2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay-content text-center" style="margin-top: -60px;">
+    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+      Industrial-valves
+    </h1>
+    <p class="homepage-pg text-white lead">
+      Delivering high-performance Industrial-valves from trusted global brands—designed to support innovation, efficiency, and long-term value.
+    </p>
+        <a href="#services" class="btn explore-btn">
+      Explore Our Industrial-valves <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+
+</div>
+
+
+<div class="container text-center">
+  <div class="d-flex flex-wrap justify-content-center align-items-center" style="margin-top: 2.7rem;">
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn active" data-target="Gate-valves">Gate Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Globe-valves">Globe Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Check-valves">Check Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Butterfly-valves">Butterfly Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Ball-valves">Ball Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Controll-valves">Controll Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Instrumentation-valves">Instrumentation Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Axial-valves">Axial Control & Choke Valve</button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Isolation-valves">Axial Isolation & Hipps Valve</button>
+  </div>
+</div>
+
+
+
+
+<!-- Industrial-valves Section -->
+<section class="py-0" id="Gate-valves">
+  <div class="container"> 
+    <div class="text-center mb-5 ">
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Gate-Valves Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">Material Grade WCB, WCC, A105, LCB, LCC, LF2, WC6, WC9, C5,C12, F11, F22, CA15, CA6NM, CF8M, CF8, CF3M, CF3 Duplex stainless steel, Super duplex stainless steel, Nickel alloys, Copper alloys.</p>
+    </div>
+ 
+
+    <div class="row">
+      <div class="col-md-4 mb-4" onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card">
+<div class="container my-4">
+
+
+
+
+  <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+
+      <p class="pl-4">
+      We offer a wide range of industrial services including 
+      <b>Hot Tapping and Line Stopple</b>, 
+      <b>Under Pressure Leak Sealing</b>, 
+      <b>Online Safety Relief Valve Testing</b>, 
+      and <b>Onsite Machining</b>. 
+      Our expertise also covers <b>Passive Fire Protection</b>, 
+      <b>Online Retrieval and Corrosion Monitoring</b>, 
+      <b>Online Valve Maintenance</b>, 
+      and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+      </p>
+
+    <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+    <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+  
+
+
+
+
+
+</div>
+
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          
+            <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+            <p class="px-4 lead" style="font-size: 18px;">
+Wedge type design, Parallel slide design Extended stem design, Pressure seal bonnet design, Bolted Bonnet, Extended bonnet for cryogenic application, Gate valve with Bypass valve for high pressure service Motor operated valve, Flanged/buttweld end/threaded/ socket weld end Forged steel/Cast steel gate valve API600/AP602/API 603/API 6A Valves
+          </p>
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+          
+            <p class="p-4 lead" style="font-size: 16px;">
+              <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves &  Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC  Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+<div class="col-md-4 mb-4">
+<div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+  <div class="container">
+    <h4 class="mb-4 size-12" style="font-size: 2rem;">
+      Purpose of gate valve
+    </h4>
+    <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+          Purpose Gate - valve used for pipeline isolation purpose 
+        in oil & gas, water segment
+        Application - Hydro carbon, Steam, LNG, LPG, Water
+        Size Range - 1/2" ~ 60"  
+        Class Rating - 150CL ~ 4500CL
+
+    </p>
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+      <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+        Get Free Consultation
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- Globe Valves -->
+<section class="py-0" id="Globe-valves" style="display: none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Globe-Valves Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">Material Grade WCB, WCC, A105, LCB, LCC, LF2, WC6, WC9,
+        C5,C12, F11, F22, CA15, CA6NM, CF8M, CF8, CF3M, CF3 Duplex stainless steel, Super duplex stainless steel, Nickel
+        alloys, Copper alloys.</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/globeValve1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/globeValve2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+            Our globe valves feature <b>Plug type design</b> or <b>Ball type design</b> with <b>Pressure seal bonnet design</b> for leak-proof performance. They include an <b>Extended bonnet for cryogenic application</b>, <b>Motor operated valve</b> options, and are available in <b>Forged steel</b> or <b>Cast steel</b> with <b>Flanged</b>, <b>Buttweld</b>, <b>Threaded</b>, or <b>Socket weld end</b> connections.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Globe valve
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+              Purpose Globe – valve used for throttling and flow regulation purposes in oil & gas and water industries.
+              Application – suitable for Hydrocarbon, Steam, LNG, LPG, and Water services.
+              Size Range – 1/2" ~ 48".
+              Class Rating – 150CL ~ 2500CL.
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- Check Valve-->
+
+<section class="py-0 valve-section" id="Check-valves" style="display:none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Check Valve Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;"> Material Grade: WCB, WCC, A105, LCB, LCC, LF2,WC6, 
+WC9, C12, F11, F22, CA15, CA6NM, CF8M, CF8, CF3M, CF3 
+Duplex stainless steel, Super duplex stainless steel, Nickel 
+alloys, Copper alloys.</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/checValve1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/checValve2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+ Swing check valve, Dual Plate check valve, Axial flow 
+check valve, Piston Check Valve, ball Check valve, 
+water Check valve, Tilting Disc Check valve.
+ Ÿ Pressure seal bonnet design, Bolted bonnet, Welded 
+type.
+ Ÿ Forged steel/Cast steel check valve
+ Ÿ Flanged/buttweld end/threaded/socket weld end  </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Check valve
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+                Purpose: Check valve used in oil & gas, water segment to 
+                arrest the reverse motion of fluid which affects the 
+                pump and compressor.
+                Application: Hydro carbon, Steam, LNG, LPG, Water
+                Size Range: 1/2" ~ 60"  
+                Class Rating: 150CL ~ 4500CL
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- Butterfly Valve -->
+
+<section class="py-0 valve-section" id="Butterfly-valves" style="display:none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Butterfly Valve Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">  Material Grade: WCB, WCC, A105, LCB, LCC, LF2, WC6, 
+WC9, C5, C12, F11, F22, CA15, CA6NM, CF8M, CF8, 
+CF3M, CF3 Duplex stainless steel, Super duplex stainless 
+steel, Nickel alloys, Copper alloys.</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/butterFly1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/butterFly2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+The <b>butterfly valve</b> is designed with <b>soft seated</b> and <b>metal seated construction</b> to ensure superior sealing and durability. Its <b>concentric</b>, <b>double offset</b>, and <b>triple offset designs</b> make it suitable for various pressure and temperature applications. Featuring an <b>extended stem design</b> and <b>motor operated valve</b>, it delivers efficient, automated flow control. </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Butterfly valve
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+ Purpose: Butterfly valve is used  in oil & gas, water 
+segment  for isolation and throttling purpose.
+ Application: Hydro carbon, Steam, LNG, LPG, Water
+ Size Range: 1/2" ~ 120"  
+Class Rating: 150CL ~ 4500CL
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- Ball valves -->
+
+<section class="py-0 valve-section" id="Ball-valves" style="display:none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Ball Valve Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;"> Material Grade: WCB, WCC, A105, LCB, LCC, LF2, WC6, 
+WC9, C5, C12, F11, F22, CA15, CA6NM, CF8M, CF8, 
+CF3M, CF3 Duplex stainless steel, Super duplex stainless 
+steel, Nickel alloys, Copper alloys.</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/ballValve1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/ballValve2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+The <b>ball valve</b> incorporates advanced designs such as <b>floating ball valve design</b> and <b>trunnion mounted ball valve design</b> for optimal sealing and strength. It features an <b>extended spindle for buried applications</b>, <b>metal seated</b> and <b>soft seated ball valves</b>, along with <b>top entry</b>, <b>fully welded construction</b>, and <b>single/two/three-piece construction</b> for versatile industrial use.      </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Ball valve
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+ Purpose: Ball valve is quarter turn valve used in oil & 
+gas, water segment  for isolation purpose.
+ Application: Hydro carbon, Steam, LNG, LPG, Water
+ Size Range: 1/2" ~ 48"  
+Class Rating: 150CL ~ 4500CL
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- Conreoll Valve -->
+
+<section class="py-0 valve-section" id="Controll-valves" style="display:none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Axial Control Valve & Choke Valves Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;"> 
+ Material Grade: Carbon steel, Stainless steel, Dupex, 
+Super Duplex, low-high Alloy, Nickel alloy, Titanium 
+alloy.
+
+</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/controllValve1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/controllValve2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+The <b>control valve</b> is engineered for <b>severe duty applications</b>, providing reliable performance under extreme conditions. It includes <b>
+  linear motion valves</b> such as <b>globe</b>, <b>diaphragm</b>, and <b>pinch type valves</b> for precise flow regulation, as well as <b>rotary motion valves</b>
+   like <b>ball</b>, <b>butterfly</b>, and <b>plug type valves</b> for efficient industrial fluid control.  
+</p>
+</div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Ball valve
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+ Purpose: Control valves is used in oil & gas, water 
+segment to control the process by controlling the fluid 
+in the process.
+ Application: Hydro carbon, Steam, LNG, LPG, Water
+ Size Range: 1/2" ~ 24"  
+Class Rating: 150CL ~ 4500CL
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- InstrumentationVAlve -->
+
+<section class="py-0 valve-section" id="Instrumentation-valves" style="display:none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Instrumentation Valves Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;"> 
+ Purpose: Instrumentation valve is used in oil & gas, water 
+segment to assist temperature and pressure gauge, 
+sampling  of process fluid etc.  
+Application: Hydro carbon, Steam, LNG, LPG, Water
+ Size Range: 1/2" ~ 6"  
+Class Rating: 150CL ~ 4500CL
+
+</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/InstrumentationValve1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/InstrumentationValve2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+              The <b>valve system</b> offers multiple configurations including <b>single block and bleed type</b> and <b>double block and bleed type</b> 
+              for safe isolation. It features <b>monoflange type</b> and <b>modular type design</b> for compact installation, along with <b>sampling valves</b>, 
+              <b>chemical injection valves</b>, <b>needle valves</b>, and <b>manifold valves</b> for precise and reliable industrial operations.
+          </p>
+</div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Instrumentation valve
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+                Purpose: Instrumentation valve is used in oil & gas, water 
+                segment to assist temperature and pressure gauge, 
+                sampling  of process fluid etc.  
+                Application: Hydro carbon, Steam, LNG, LPG, Water
+                Size Range: 1/2" ~ 6"  
+                Class Rating: 150CL ~ 4500CL
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+
+<section class="py-0 valve-section" id="Axial-valves" style="display:none;">
+  <div class="container">
+    <div class="text-center mb-5 ">
+      <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Axial Control & Choke Valves Material Guide</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;"> 
+        Material Grade: Carbon steel, Stainless steel, Dupex, 
+        Super Duplex, low-high Alloy, Nickel alloy, Titanium 
+        alloy.
+
+</p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-4"
+        onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="images/valvesDivision/AxialControl1.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="images/valvesDivision/AxialControl2.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <div class="container my-4">
+
+
+
+
+            <h2 class="display-6 text-primary p-4">SPECIALIZED SERVICES</h2>
+
+            <p class="pl-4">
+              We offer a wide range of industrial services including
+              <b>Hot Tapping and Line Stopple</b>,
+              <b>Under Pressure Leak Sealing</b>,
+              <b>Online Safety Relief Valve Testing</b>,
+              and <b>Onsite Machining</b>.
+              Our expertise also covers <b>Passive Fire Protection</b>,
+              <b>Online Retrieval and Corrosion Monitoring</b>,
+              <b>Online Valve Maintenance</b>,
+              and <b>Pipe Freezing</b> to ensure safe and efficient plant operations.
+            </p>
+
+            <h2 class="display-6 text-primary  pl-4">Ready to Start Your Project?</h2>
+            <p class="pl-4">Contact our team today to discuss how FUTURION can help with your engineering and technical
+              needs.</p>
+       </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+
+          <h2 class="display-6 text-primary p-4"><b>Technical Specification</b></h2>
+          <p class="px-4 lead" style="font-size: 18px;">
+            The <b>control system</b> is designed for <b>severe service applications</b> and <b>critical service</b> environments, ensuring dependable performance under high stress. It includes specialized functions such as <b>anti-surge application</b>, <b>recycle control</b>, and <b>pressure let down</b>, while incorporating <b>noise attenuation</b> and <b>anti-cavitation</b> features for enhanced safety, stability, and operational efficiency.
+          </p>
+</div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card h-100"
+          style="background-color: #e8f1ff; border-right: 5px solid #276ef1; padding-left: 16px;">
+
+          <p class="p-4 lead" style="font-size: 16px;">
+            <i class="bi bi-check-circle feature-icon display-5"></i><br /><br />
+          <ul class="list-unstyled ">
+            <li>💙 Valves & Isolation Kits, Gaskets, Studs</li>
+            <li>💙 Reactors and Columns & Pipes</li>
+            <li>💙 Fittings, Olets and Flangeolets</li>
+            <li>💙 Instrumentation Valves & Strainers</li>
+            <li>💙 Corrosion Monitoring System</li>
+            <li>💙 Heat Exchangers / Pressure Vessels</li>
+            <li>💙 Branch Fittings</li>
+            <li>💙 Expansion Joints / Bellows</li>
+            <li>💙 Orifice Plates, Orifice flange</li>
+            <li>💙 Potable Water Valves and pumps</li>
+            <li>💙 CPVC Fittings, valves, strainers</li>
+            <li>💙 Spectacle blinds and Spades</li>
+
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+          <div class="container">
+            <h4 class="mb-4 size-12" style="font-size: 2rem;">
+              Purpose of Axial control valves
+            </h4>
+            <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+                Purpose: Axial control valves are used in highly 
+                demanding application where tight shut off, high 
+                reliability and fast opening/Closing  and precise control 
+                are desired.  
+                Application: Hydro carbon, energy, and process 
+                industries, Axial control valves are used in a diversity of 
+                liquid, gas and multi-phase fluid application.
+                Size Range: 2" ~ 48"  
+                Class Rating: 150CL ~ 2500CL, API 3000PSI - 15000 PSI
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+              <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+                Get Free Consultation
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<section class="py-0 valve-section" id="Isolation-valves" style="display:none;">
+  <h3>Isolation Valves</h3>
+  <p>Content for Isolation Valves...</p>
+</section>
+
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <div class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Why Choose Us</h2>
+    <p class="text-center text-muted mb-4">We offer modern technology and environmentally friendly products to most private, industrial and <br /> governmental sectors</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Skilled Technicians and Professionals</h4>
+          <p class="text-muted small">Our team comprises industry professionals, skilled technicians with well-equipped infrastructure, and an in-house machine shop. </p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Flexible Services</h4>
+          <p class="text-muted small">We offer on-site and internal machine shop services. Your specific needs will be considered as our experienced experts provide you with recommendations.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Quick Response</h4>
+          <p class="text-muted small">Our crew responds promptly, is aware of the time limits, and offers quick turnaround repair work and services to reduce expensive downtime.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Detailed Reports</h4>
+          <p class="text-muted small">For all your electro mechanical & marine engineering services, repairs & overhauls, we offer comprehensive reports.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Total Maintenance</h4>
+          <p class="text-muted small">We are committed to providing comprehensive maintenance services at economical pricing.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">Low-cost Services</h5>
+            <p class="lead">We are experts in industrial mechanical and electric motor repair services like reciprocating compressor repair, single phase motor repair, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const sections = document.querySelectorAll("section");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        // Remove 'active' class from all buttons
+        buttons.forEach(btn => btn.classList.remove("active"));
+        // Add 'active' class to clicked button
+        button.classList.add("active");
+
+        // Hide all sections
+        sections.forEach(section => section.style.display = "none");
+
+        // Show the selected section
+        const target = button.getAttribute("data-target");
+        document.getElementById(target).style.display = "block";
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
