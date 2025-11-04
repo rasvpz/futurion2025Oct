@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FUTURION - Piping Products</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    :root {
+      --primary-blue: #0056b3;
+      --primary-blue-light: #e6f2ff;
+      --primary-blue-dark: #003d80;
+      --accent-gold: #ffd700;
+      --text-dark: #2c3e50;
+      --bg-light: #f8f9fa;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+.nv-bg .dropdown-item:hover,
+.nv-bg .dropdown-item:focus,
+.nv-bg .dropdown-item:active {
+  background-color: #00C2FF !important;
+  color: white !important;
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+    .badge-custom {
+      background-color: #e6f0ff;
+      color: #0d47a1;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      margin: 0.4rem;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      padding: 0.5rem 0.75rem;
+    }
+
+    .badge-custom:hover {
+      background-color: #1e5fe6;
+      color: white;
+    }
+
+    .section-title {
+      position: relative;
+      padding-bottom: 0.75rem;
+      margin: 2rem 0 1.5rem;
+      font-weight: 700;
+      color: var(--primary-blue-dark);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1.6rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary-blue), var(--accent-gold));
+      border-radius: 2px;
+    }
+
+    /* Card Design */
+    .product-card {
+      transition: all 0.4s ease;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 86, 179, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+      margin-bottom: 1.5rem;
+      /* display: flex; */
+      flex-direction: row;
+      height: auto;
+      border : 1px solid rgb(189, 223, 255)
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 25px rgba(0, 86, 179, 0.2);
+    }
+
+    .card-header {
+      background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-dark));
+      color: white;
+      padding: 1rem 1.25rem;
+      font-weight: 600;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-top-left-radius: 12px !important;
+      border-top-right-radius: 12px !important;
+    }
+
+    .product-image {
+      height: 100%;
+      min-height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      border-right: 1px solid rgba(0, 86, 179, 0.1);
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      padding: 10px;
+    }
+    .leftText{
+      background: linear-gradient(45deg, var(--primary-blue-light), #cce5ff);
+    }
+    .spec-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+
+    .spec-list li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .spec-list li:last-child {
+      border-bottom: none;
+    }
+
+    .spec-list li i {
+      color: var(--primary-blue);
+      margin-right: 0.5rem;
+      min-width: 20px;
+      font-size: 0.9rem;
+    }
+
+    .tech-specs {
+      background: #f1f8ff;
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .feature-tag {
+      display: inline-block;
+      background: #e6f2ff;
+      color: var(--primary-blue-dark);
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      margin-right: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .section-container {
+      padding: 2rem;
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-card {
+        flex-direction: column;
+      }
+      .product-image {
+        /* height: 140px; */
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 86, 179, 0.1);
+      }
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      background: var(--primary-blue-dark);
+      color: white;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #00C2FF;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg nv-bg" style="background-color: #020f3b;">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button" data-toggle="dropdown">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+          <a class="dropdown-item" href="water-wastewater-pumps.html">Water & Wastewater Pumps</a>
+          <a class="dropdown-item" href="industrial-water-pumps.html">Industrial Water Pumps</a>
+          <a class="dropdown-item" href="vacuum-pumps.html">Vacuum Pumps & System</a>
+          <a class="dropdown-item" href="water-wastewater-valves.html">Water & Waste Water Valves</a>
+          <a class="dropdown-item" href="industrial-valves.html">Industrial Valves</a>
+          <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a>
+          <a class="dropdown-item" href="fans.html">Fans</a>
+          <a class="dropdown-item" href="electrical-products.html">Electrical Products</a>
+          <a class="dropdown-item" href="metallic-piping-products.html">Metallic Piping Products</a>
+          <a class="dropdown-item" href="frp-grp-piping.html">FRP/GRP Piping</a>
+          <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html">HDPE/CPVC/UPVC Piping Solutions</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+    <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;">
+    <source src="video/home background2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay-content text-center" style="margin-top: -60px;">
+    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+      Metalic Piping
+    </h1>
+    <p class="homepage-pg text-white lead">
+      Delivering high-performance Industrial-valves from trusted global brands—designed to support innovation, efficiency, and long-term value.
+    </p>
+        <a href="#services" class="btn explore-btn">
+      Explore Our Metalic-Piping <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+
+</div>
+<!-- Filter Buttons -->
+<div class="container py-4">
+  <div class="d-flex flex-wrap justify-content-center align-items-center mb-4">
+    <a href="#pipes" class="badge badge-custom filter-btn">Pipes</a>
+    <a href="#fittings" class="badge badge-custom filter-btn">Fittings</a>
+    <a href="#flanges" class="badge badge-custom filter-btn">Flanges</a>
+    <a href="#isolation-kits" class="badge badge-custom filter-btn">Isolation Kits</a>
+    <a href="#studs-gaskets" class="badge badge-custom filter-btn">Stud Bolts & Gaskets</a>
+    <a href="#threaded-fittings" class="badge badge-custom filter-btn">Threaded Fittings (Forged)</a>
+    <a href="#branch-fittings" class="badge badge-custom filter-btn">Branch Fittings</a>
+  </div>
+
+
+
+
+  <!-- Pipes Section -->
+  <section id="pipes" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">PIPES</h2>
+      
+      <!-- Card 1 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/1.png" alt="Pipes">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-cube"></i> Pipes</div>
+          <div class="card-body p-0 mt-2">
+            <p>Pipes are made from several alloys and metals such as carbon steel, stainless steel, Duplex etc. We supply a wide range of Pipes from small quantities to large scale projects.</p>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> 1/4" to 48" ODs in Various Schedules and Material Grades</li>
+              <li><i class="fas fa-check"></i> Schedule walls ranging from 3mm to 100mm</li>
+              <li><i class="fas fa-check"></i> ASTM/ASME A53 Grade B / A53 Grade B (A333 Grade 6/API 5L B, X42, X52)</li>
+              <li><i class="fas fa-check"></i> S31803/S32750, S32760, TP316/316L</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Carbon Steel</span>
+              <span class="feature-tag">Stainless Steel</span>
+              <span class="feature-tag">Duplex</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="leftText p-4">
+           <h1>Trustworthy</h1> 
+              <p>Precision-engineered Seamless and Welded constructions, 
+                available in SRL and DRL lengths, designed to meet the most demanding, 
+                high-integrity applications. Choose from Seamless or Welded 
+                constructions — Available in SRL & DRL lengths to ensure superior reliability 
+                in every critical application. Built for strength and performance — Seamless & 
+                Welded options available in SRL and DRL lengths, engineered for critical, 
+                high-integrity use.</p> 
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-cube"></i> Seamless & Welded Construction</div>
+          <div class="card-body p-0 mt-2">
+            <p>Available in Seamless and Welded Construction in SRL and DRL Lengths.</p>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> SRL: Standard Random Length</li>
+              <li><i class="fas fa-check"></i> DRL: Double Random Length</li>
+              <li><i class="fas fa-check"></i> For critical applications requiring high integrity</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">SRL</span>
+              <span class="feature-tag">DRL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fittings Section -->
+  <section id="fittings" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">FITTINGS</h2>
+      
+      <!-- Card 3 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/2.png" alt="Fittings">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-cogs"></i> Wrought Carbon & Alloy Steel Fittings</div>
+          <div class="card-body p-0 mt-2">
+            <p>Wrought carbon steel and alloy steel fittings of seamless and welded construction covered by the latest revision are for use in pressure piping and in pressure vessel fabrication for service at moderate and elevated temperatures.</p>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> LR & SR Elbows, Equal Tee, Reducing Tee, Concentric & Eccentric Reducers, Caps, Laterals, Bends</li>
+              <li><i class="fas fa-check"></i> Size 1/2" to 72" in Various Schedules and Material Grades</li>
+              <li><i class="fas fa-check"></i> ANSI B16.9, MSS SP-75, MSS SP-97</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Seamless</span>
+              <span class="feature-tag">Welded</span>
+              <span class="feature-tag">ANSI B16.9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="leftText p-4">
+           <h1>Comprehensive range</h1> 
+              <p>Discover a comprehensive range of butt-weld fittings 
+                including LR & SR Elbows, Equal and Reducing Tees, Reducers, Caps, 
+                Laterals, and Bends — available from ½" to 72" in diverse schedules 
+                and material grades. Manufactured to ANSI, MSS, and ASTM standards, ensuring superior 
+                strength, durability, and reliability for critical industrial applications.</p> 
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-cogs"></i> Specification & Grades</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> ASTM/ASME/SA234 Grade WPB / A20 Grade WPL6</li>
+              <li><i class="fas fa-check"></i> ASTM/ASME A/SA860 WPHY52, 60 & 65</li>
+              <li><i class="fas fa-check"></i> UNS S31803 / UNS S32750 / S32760 / UNS S31254 / Alloy 400, 625, 800 & 825</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">ASTM</span>
+              <span class="feature-tag">ASME</span>
+              <span class="feature-tag">UNS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flanges Section -->
+  <section id="flanges" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">FLANGES</h2>
+      
+      <!-- Card 5 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/3.png" alt="Flanges">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-bolt"></i> Flange Types</div>
+          <div class="card-body p-0 mt-2">
+            <p>Flanges are used as a connection profile in Pipeline and associated equipment to provide means of assembling and disassembling components. Most flanges in Oil and Gas Industry feature a bolt-hole pattern to allow the joint to be secured and a gasket profile to ensure a pressure tight seal.</p>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Weld neck, Blind, Slip On, Socket weld, Threaded Blind, Orifice Flanges, Spades, Spacers & Spectacle</li>
+              <li><i class="fas fa-check"></i> 1/8" to 48" Size in Various Schedules and Material Grades</li>
+              <li><i class="fas fa-check"></i> With FF, RF and RTJ Facings</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Weld Neck</span>
+              <span class="feature-tag">Slip On</span>
+              <span class="feature-tag">RTJ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="leftText p-4">
+           <h1>Explore our extensive</h1> 
+              <p>Explore our extensive range of flanges including Weld Neck, Blind, 
+                Slip-On, Socket Weld, Threaded, Orifice, Spades, Spacers, and 
+                Spectacle Blinds — available from ⅛" to 48" in multiple schedules and material grades. 
+                Designed with FF, RF, and RTJ facings, conforming to ANSI, API, and ASTM standards 
+                for exceptional strength, precision, and reliability.</p> 
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-bolt"></i> Specification & Grades</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> ANSI B16.5, ANSI B16.47 Ser. A and B(MSS SP-44), API 605/6A/6B/9</li>
+              <li><i class="fas fa-check"></i> ASTM/ASME ASA 105N / A/SA 350 LF2 CL 1/2 / 694 F52</li>
+              <li><i class="fas fa-check"></i> ASTM/ASME ASA 516 Grade 65/70</li>
+              <li><i class="fas fa-check"></i> ASTM/ASME ASA 182 F316/316L / 304 / 304 L</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">ANSI B16.5</span>
+              <span class="feature-tag">ASTM</span>
+              <span class="feature-tag">API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Isolation Kits Section -->
+  <section id="isolation-kits" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">ISOLATION KITS</h2>
+      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/4.png" alt="Isolation Kits">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-shield-alt"></i> Flange Isolation Kits</div>
+          <div class="card-body p-0 mt-2">
+            <p>Flange Isolation Kits are used in critical and extreme application to avoid corrosion. Flange Isolation Kits are designed to work in conjunction with isolating gaskets to effect a complete electrical isolation of a flanged assembly.</p>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Defender / Defender FS / Defender RG / Iso Guard / IsoMate</li>
+              <li><i class="fas fa-check"></i> 1/2" to 48" Size in Various Schedules and Material Grades</li>
+              <li><i class="fas fa-check"></i> 150 - 2500 pressure rating</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Corrosion Protection</span>
+              <span class="feature-tag">Electrical Isolation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/5.png" alt="Materials">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-shield-alt"></i> Materials & Standards</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Used for Flange Facing with FF, RF and RTJ Facings</li>
+              <li><i class="fas fa-check"></i> Material: Non-Metallic, Composite</li>
+              <li><i class="fas fa-check"></i> Designed for high-pressure environments</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Non-Metallic</span>
+              <span class="feature-tag">High Pressure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="studs-gaskets" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">STUDBOLTS AND GASKETS</h2>
+      
+      <!-- Card 9 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/6.png" alt="Gaskets">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-screwdriver"></i> Gaskets</div>
+          <div class="card-body p-0 mt-2">
+            <p>A Gasket is a Mechanical Seal which fills the space between two or more mating flange surfaces, generally to prevent leakage from or into the joined objects while under compression and StudBolts are used to hold this Assembly.</p>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Supplier of SPW Gaskets, Tanged Insert Gaskets, Ring Jount Gaskets, Metal Jacketed Gaskets, Kamprofile</li>
+              <li><i class="fas fa-check"></i> High Tensile Fasteners, Blind Rivets, Anchor Bolts</li>
+              <li><i class="fas fa-check"></i> Hot Dip Galvanizing and Fluoropolymer coated could be supplied</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">SPW</span>
+              <span class="feature-tag">Metal Jacketed</span>
+              <span class="feature-tag">Fluoropolymer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/7.png" alt="Stud Specs">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-screwdriver"></i> Specification & Grades</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> ASTM A 193 Grade B7, B7M, B8, B8M & B16 / ASTM A 320 Grade L7 & L7M</li>
+              <li><i class="fas fa-check"></i> Stainless Steel 304, 304L, 316, 316L, A2 - 70/80, A4 - 70/80</li>
+              <li><i class="fas fa-check"></i> BS 3692 / BS 4190 grade 4.6, 4.8, 5.6, 8.8, 10.9 and 12.9</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">ASTM A193</span>
+              <span class="feature-tag">Stainless Steel</span>
+              <span class="feature-tag">BS 3692</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Threaded Fittings (Forged) Section -->
+  <section id="threaded-fittings" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">THREADED FITTINGS (FORGED)</h2>
+      
+      <!-- Card 11 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/8.png" alt="Threaded Fittings">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-tools"></i> Threaded Fittings</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> 1/8" - 4"</li>
+              <li><i class="fas fa-check"></i> Elbow 90 Degree, Elbow 45 Degree, Tee, Cross, Union, Coupling, Half Coupling, Reducing Coupling, Cap, Hex Head Bushing, Hex Head Plug, Square Head Plug, Round Head Plug, Bull Plug, Hex Nipple, Swage Nipple</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Forged</span>
+              <span class="feature-tag">Threaded</span>
+              <span class="feature-tag">90° Elbow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 12 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="leftText p-4">
+           <h1>Forged Fittings</h1> 
+              <p>Experience precision-engineered forged fittings including Elbows (45° & 90°), 
+                Tees, Crosses, Couplings, Unions, Caps, Nipples, and Plugs, available from ⅛" to 4". 
+                Manufactured to ASME 16.11, MSS, and BS standards using ASTM/ASME-certified materials, 
+                ensuring superior strength, corrosion resistance, and reliability for demanding 
+                industrial and high-pressure applications.</p> 
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-tools"></i> Specification & Grades</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> ASME 16.11, MSS SP-79, 83, BS 3799</li>
+              <li><i class="fas fa-check"></i> ASTM/ASME A/SA105N / SA350 LF2 CL1/2 /SA694 F52 /SA 182 F304/304L, F316/316L</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">ASME 16.11</span>
+              <span class="feature-tag">MSS SP-79</span>
+              <span class="feature-tag">ASTM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Branch Fittings Section -->
+  <section id="branch-fittings" class="mb-5">
+    <div class="section-container">
+      <h2 class="section-title">BRANCH FITTINGS</h2>
+      
+      <!-- Card 13 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-5 p-0">
+          <div class="product-image">
+            <img src="images/metalicFittings/9.png" alt="Branch Fittings">
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-sitemap"></i> Branch Fittings</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Size: 1/2" to 48" - ANSI 3000, 6000, 9000 lb and in a whole range of schedules</li>
+              <li><i class="fas fa-check"></i> Socket Weld, Butt Weld, Threaded Nipple, Elbow & Lateral Sweep Radial Outlet, Insert Outlet, the Lightweight Outlet, Branch Vessel Insert Connections</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">Socket Weld</span>
+              <span class="feature-tag">Butt Weld</span>
+              <span class="feature-tag">Lateral Sweep</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 14 -->
+      <div class="product-card row">
+        <div class="col-md-5 p-0">
+          <div class="leftText p-4">
+           <h1>Branch Connections</h1> 
+              <p>Manufactured in accordance with MSS SP-97, our premium Outlets and Branch 
+                Connections are available in Socket Weld, Butt Weld, Threaded, Nipple, Elbow, 
+                and Lateral Sweep designs. Offered in sizes ½" to 48" (ANSI 3000–9000 lb), 
+                using Carbon Steel, Stainless, Duplex, Super Duplex, and Alloy Steels for 
+                unmatched strength, precision, and performance.</p> 
+          </div>
+        </div>
+        <div class="col-md-7 p-3">
+          <div class="card-header"><i class="fas fa-sitemap"></i> Specification & Grades</div>
+          <div class="card-body p-0 mt-2">
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> In Accordance with MSSSP 97</li>
+              <li><i class="fas fa-check"></i> Carbon Steel / Stainless Steel ASTM A182 F304L / F316L / F321</li>
+              <li><i class="fas fa-check"></i> Duplex Stainless Steel to UNS S31803 (ASTM A182 F51) Super Duplex Stainless Steel (to UNS S32760 and UNS S32750) Alloy Steels (ASTM A182 F5 / F9 / F11 / F22)</li>
+            </ul>
+            <div class="tech-specs">
+              <span class="feature-tag">MSSSP 97</span>
+              <span class="feature-tag">Duplex</span>
+              <span class="feature-tag">Super Duplex</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
