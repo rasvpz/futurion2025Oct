@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FUTURION - Piping Products</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    :root {
+      --primary-blue: #0056b3;
+      --primary-blue-light: #e6f2ff;
+      --primary-blue-dark: #003d80;
+      --accent-gold: #ffd700;
+      --text-dark: #2c3e50;
+      --bg-light: #f8f9fa;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+.nv-bg .dropdown-item:hover,
+.nv-bg .dropdown-item:focus,
+.nv-bg .dropdown-item:active {
+  background-color: #00C2FF !important;
+  color: white !important;
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+    .badge-custom {
+      background-color: #e6f0ff;
+      color: #0d47a1;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      margin: 0.4rem;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      padding: 0.5rem 0.75rem;
+    }
+
+    .badge-custom:hover {
+      background-color: #1e5fe6;
+      color: white;
+    }
+
+    .section-title {
+      position: relative;
+      padding-bottom: 0.75rem;
+      margin: 2rem 0 1.5rem;
+      font-weight: 700;
+      color: var(--primary-blue-dark);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1.6rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary-blue), var(--accent-gold));
+      border-radius: 2px;
+    }
+
+    /* Card Design */
+    .product-card {
+      transition: all 0.4s ease;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 86, 179, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+      margin-bottom: 1.5rem;
+      /* display: flex; */
+      flex-direction: row;
+      height: auto;
+      border : 1px solid rgb(189, 223, 255)
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 25px rgba(0, 86, 179, 0.2);
+    }
+
+    .card-header {
+      background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-dark));
+      color: white;
+      padding: 1rem 1.25rem;
+      font-weight: 600;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-top-left-radius: 12px !important;
+      border-top-right-radius: 12px !important;
+    }
+
+    .product-image {
+      height: 100%;
+      min-height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      /* border-right: 1px solid rgba(0, 86, 179, 0.1); */
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      padding: 10px;
+    }
+    .leftText{
+      background: linear-gradient(45deg, var(--primary-blue-light), #cce5ff);
+    }
+    .spec-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+
+    .spec-list li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .spec-list li:last-child {
+      border-bottom: none;
+    }
+
+    .spec-list li i {
+      color: var(--primary-blue);
+      margin-right: 0.5rem;
+      min-width: 20px;
+      font-size: 0.9rem;
+    }
+
+    .tech-specs {
+      background: #f1f8ff;
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .feature-tag {
+      display: inline-block;
+      background: #e6f2ff;
+      color: var(--primary-blue-dark);
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      margin-right: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .section-container {
+      padding: 2rem;
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-card {
+        flex-direction: column;
+      }
+      .product-image {
+        /* height: 140px; */
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 86, 179, 0.1);
+      }
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      background: var(--primary-blue-dark);
+      color: white;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #00C2FF;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg nv-bg" style="background-color: #020f3b;">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button" data-toggle="dropdown">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+          <a class="dropdown-item" href="water-wastewater-pumps.html">Water & Wastewater Pumps</a>
+          <a class="dropdown-item" href="industrial-water-pumps.html">Industrial Water Pumps</a>
+          <a class="dropdown-item" href="vacuum-pumps.html">Vacuum Pumps & System</a>
+          <a class="dropdown-item" href="water-wastewater-valves.html">Water & Waste Water Valves</a>
+          <a class="dropdown-item" href="industrial-valves.html">Industrial Valves</a>
+          <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a>
+          <a class="dropdown-item" href="fans.html">Fans</a>
+          <a class="dropdown-item" href="electrical-products.html">Electrical Products</a>
+          <a class="dropdown-item" href="metallic-piping-products.html">Metallic Piping Products</a>
+          <a class="dropdown-item" href="frp-grp-piping.html">FRP/GRP Piping</a>
+          <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html">HDPE/CPVC/UPVC Piping Solutions</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+    <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;">
+    <source src="video/home background2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay-content text-center" style="margin-top: -60px;">
+    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+      PE Pipes & Fittings
+    </h1>
+    <p class="homepage-pg text-white lead">
+PE Pipes and Fittings are available in a vast range, Whatever may be your application.  We have the PE Piping System. Range of pipe sizes in various Thermoplastics starts from 3mm dia. to 2500mm dia
+    </p>
+        <a href="#services" class="btn explore-btn">
+      Explore Our PE Pipes <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+
+</div>
+<!-- Filter Buttons -->
+<div class="container py-4">
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h1 class="display-4 font-weight-bold" style="color: var(--primary-blue-dark);">PE Pipes and Fittings</h1>
+        <p class="lead" style="color: var(--primary-blue);">Whatever we manufacture we have aligned with conservation.</p>
+      </div>
+    </div>
+
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Hdpe Pipes</h1>
+                  <div class="product-image">
+            <img src="images/piping/1.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>PE Large Diameter Pipes</h1>
+                  <div class="product-image">
+            <img src="images/piping/2.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>HDPE Pipe Tracer Wire</h1>
+                  <div class="product-image">
+            <img src="images/piping/3.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>HDPE Power Duct</h1>
+                  <div class="product-image">
+            <img src="images/piping/4.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Perforated Hdpe</h1>
+                  <div class="product-image">
+            <img src="images/piping/5.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>PE Coils</h1>
+                  <div class="product-image">
+            <img src="images/piping/6.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>PE Large Diameter Pipes</h1>
+                  <div class="product-image">
+            <img src="images/piping/7.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>PE Sewerage Pipes</h1>
+                  <div class="product-image">
+            <img src="images/piping/8.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+  
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>PE Corrugated Pipes</h1>
+                  <div class="product-image">
+            <img src="images/piping/9.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Cable Ducting System</h1>
+                  <div class="product-image">
+            <img src="images/piping/10.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Coupler</h1>
+                  <div class="product-image">
+            <img src="images/piping/11.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>DWC 4-Way Equal Cross</h1>
+                  <div class="product-image">
+            <img src="images/piping/12.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>DWC BEND 1</h1>
+                  <div class="product-image">
+            <img src="images/piping/13.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>DWC BEND 2</h1>
+                  <div class="product-image">
+            <img src="images/piping/14.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>DWC Concentric Reducer</h1>
+                  <div class="product-image">
+            <img src="images/piping/15.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>DWC Eccentric Reducer</h1>
+                  <div class="product-image">
+            <img src="images/piping/16.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+    <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>DWC Reducing Tee</h1>
+                  <div class="product-image">
+            <img src="images/piping/17.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>DWC Y- Tee</h1>
+                  <div class="product-image">
+            <img src="images/piping/18.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>End Cap</h1>
+                  <div class="product-image">
+            <img src="images/piping/19.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>PE Gas Pipes</h1>
+                  <div class="product-image">
+            <img src="images/piping/20.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+
+    <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Branch Saddle</h1>
+                  <div class="product-image">
+            <img src="images/piping/21.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Top Load</h1>
+                  <div class="product-image">
+            <img src="images/piping/22.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Top Load Outlet</h1>
+                  <div class="product-image">
+            <img src="images/piping/23.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Top Load Outlet 315</h1>
+                  <div class="product-image">
+            <img src="images/piping/24.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+
+    <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Top Load Outlet 315</h1>
+                  <div class="product-image">
+            <img src="images/piping/25.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Coupler 1</h1>
+                  <div class="product-image">
+            <img src="images/piping/26.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Coupler 2</h1>
+                  <div class="product-image">
+            <img src="images/piping/27.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Coupler with Integreal </h1>
+                  <div class="product-image">
+            <img src="images/piping/28.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Cross Connection</h1>
+                  <div class="product-image">
+            <img src="images/piping/29.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Elbow 45</h1>
+                  <div class="product-image">
+            <img src="images/piping/30.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Elbow 45-2</h1>
+                  <div class="product-image">
+            <img src="images/piping/31.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>45 With Integrel Pipe</h1>
+                  <div class="product-image">
+            <img src="images/piping/32.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Elbow 90</h1>
+                  <div class="product-image">
+            <img src="images/piping/33.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Elbow 90-2</h1>
+                  <div class="product-image">
+            <img src="images/piping/34.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Elbow 90 with Pipe</h1>
+                  <div class="product-image">
+            <img src="images/piping/35.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Electro Fusion Cap</h1>
+                  <div class="product-image">
+            <img src="images/piping/36.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+    <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Electro Fusion Saddles</h1>
+                  <div class="product-image">
+            <img src="images/piping/37.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>Endcap Kit</h1>
+                  <div class="product-image">
+            <img src="images/piping/38.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Pipe Fixation</h1>
+                  <div class="product-image">
+            <img src="images/piping/39.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+
+            <div class="card-body p-0 mt-2 ">
+          <h1>End Cap</h1>
+                  <div class="product-image">
+            <img src="images/piping/40.png" alt="Isolation Kits">
+          </div>
+            <div class="tech-specs">
+              <span class="feature-tag">PIPES</span>
+              <span class="feature-tag">FITTINGS</span>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
