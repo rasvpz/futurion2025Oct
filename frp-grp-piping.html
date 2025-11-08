@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FUTURION - Piping Products</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    :root {
+      --primary-blue: #0056b3;
+      --primary-blue-light: #e6f2ff;
+      --primary-blue-dark: #003d80;
+      --accent-gold: #ffd700;
+      --text-dark: #2c3e50;
+      --bg-light: #f8f9fa;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+.nv-bg .dropdown-item:hover,
+.nv-bg .dropdown-item:focus,
+.nv-bg .dropdown-item:active {
+  background-color: #00C2FF !important;
+  color: white !important;
+}
+
+.nv-bg .dropdown-menu {
+  background-color: #1f41b2;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+    .badge-custom {
+      background-color: #e6f0ff;
+      color: #0d47a1;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      margin: 0.4rem;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      padding: 0.5rem 0.75rem;
+    }
+
+    .badge-custom:hover {
+      background-color: #1e5fe6;
+      color: white;
+    }
+
+    .section-title {
+      position: relative;
+      padding-bottom: 0.75rem;
+      margin: 2rem 0 1.5rem;
+      font-weight: 700;
+      color: var(--primary-blue-dark);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1.6rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary-blue), var(--accent-gold));
+      border-radius: 2px;
+    }
+
+    /* Card Design */
+    .product-card {
+      transition: all 0.4s ease;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 86, 179, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+      margin-bottom: 1.5rem;
+      /* display: flex; */
+      flex-direction: row;
+      height: auto;
+      border : 1px solid rgb(189, 223, 255)
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 25px rgba(0, 86, 179, 0.2);
+    }
+
+    .card-header {
+      background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-dark));
+      color: white;
+      padding: 1rem 1.25rem;
+      font-weight: 600;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-top-left-radius: 12px !important;
+      border-top-right-radius: 12px !important;
+    }
+
+    .product-image {
+      height: 100%;
+      min-height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      /* border-right: 1px solid rgba(0, 86, 179, 0.1); */
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      padding: 10px;
+    }
+    .leftText{
+      background: linear-gradient(45deg, var(--primary-blue-light), #cce5ff);
+    }
+    .spec-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+
+    .spec-list li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .spec-list li:last-child {
+      border-bottom: none;
+    }
+
+    .spec-list li i {
+      color: var(--primary-blue);
+      margin-right: 0.5rem;
+      min-width: 20px;
+      font-size: 0.9rem;
+    }
+
+    .tech-specs {
+      background: #f1f8ff;
+      padding: 0.8rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      border:1px solid rgb(155, 133, 255)
+    }
+
+    .feature-tag {
+      display: inline-block;
+      background: #e6f2ff;
+      color: var(--primary-blue-dark);
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      margin-right: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .section-container {
+      padding: 2rem;
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .nv-bg .dropdown-menu {
+  background-color: #00218b;
+  border: none;
+}
+
+.nv-bg .dropdown-item {
+  color: white !important;
+}
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-right: 20px; /* Adjust this value as needed */
+}
+
+h6{
+    color:#0252a8;
+}
+.col-image{
+    padding-right: 0px !important;
+    padding-left: 0px !important;;
+}
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-card {
+        flex-direction: column;
+      }
+      .product-image {
+        /* height: 140px; */
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 86, 179, 0.1);
+      }
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      background: var(--primary-blue-dark);
+      color: white;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #00C2FF;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg nv-bg" style="background-color: #020f3b;">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button" data-toggle="dropdown">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+          <a class="dropdown-item" href="water-wastewater-pumps.html">Water & Wastewater Pumps</a>
+          <a class="dropdown-item" href="industrial-water-pumps.html">Industrial Water Pumps</a>
+          <a class="dropdown-item" href="vacuum-pumps.html">Vacuum Pumps & System</a>
+          <a class="dropdown-item" href="water-wastewater-valves.html">Water & Waste Water Valves</a>
+          <a class="dropdown-item" href="industrial-valves.html">Industrial Valves</a>
+          <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a>
+          <a class="dropdown-item" href="fans.html">Fans</a>
+          <a class="dropdown-item" href="electrical-products.html">Electrical Products</a>
+          <a class="dropdown-item" href="metallic-piping-products.html">Metallic Piping Products</a>
+          <a class="dropdown-item" href="frp-grp-piping.html">FRP/GRP Piping</a>
+          <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html">HDPE/CPVC/UPVC Piping Solutions</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+    <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;">
+    <source src="video/home background2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay-content text-center" style="margin-top: -60px;">
+    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+      FRP / GRP Pipes
+    </h1>
+    <p class="homepage-pg text-white lead">
+Futurion the leading name in the design, manufacture, and installation of FRP Piping, GRP Piping, and advanced composite piping systems for diverse industries
+    </p>
+        <a href="#services" class="btn explore-btn">
+      Explore Our FRP / GRP Pipes <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+
+</div>
+<!-- Filter Buttons -->
+<div class="container py-4">
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h1 class="display-4 font-weight-bold" style="color: var(--primary-blue-dark);">FRP / GRP Pipes</h1>
+        <p class="lead" style="color: var(--primary-blue);">Excellence powered by innovation in FRP/GRP Piping</p>
+      </div>
+    </div>
+
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 leftText p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>GRP PIPING</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> We manufacture GRP/FRP Pipes, Fittings, Ducts for Chemical, Power Plants, Desalination, Water and Oil and Gas Plants. Sizes range from 15mm(NB) upto 4000mm(NB) and we can design for pressures upto 64 bars.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Design standards that we follow</h6>
+              <span class="feature-tag">DIN 16965 / 16966 AWWA C950</span>
+              <span class="feature-tag">API</span>
+              <span class="feature-tag">ABS</span>
+              <span class="feature-tag">PS 15-69</span>
+              <span class="feature-tag">ISO 14692</span>
+              <span class="feature-tag">ASTM 2310 / 2992 / 2996 BS 7159</span>
+              <span class="feature-tag">IS 12709 / 14402</span>
+            </div>
+            <div class="tech-specs">
+            <h6>Resins that we use are</h6>
+              <span class="feature-tag">Isophthalic</span>
+              <span class="feature-tag">Vinlyester</span>
+              <span class="feature-tag">Super Vinlyester</span>
+              <span class="feature-tag">Atlac – 382</span>
+              <span class="feature-tag">Alpolite / Viapal – UP 797</span>
+              <span class="feature-tag">Fire Retardant</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-image">
+        <div class="product-image">
+            <img src="images/FRP_GRP/1.jpg" alt="Isolation Kits">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card row">
+        <div class="col-md-6 col-image">
+          <div class="product-image">
+            <img src="images/FRP_GRP/2.jpg" alt="Materials">
+          </div>
+        </div>
+        <div class="col-md-6 p-3 leftText">
+          <div class="card-body p-0 mt-2 ">
+          <h1>GRP PIPING</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> We manufacture GRP/FRP Pipes, Fittings, Ducts for Chemical, Power Plants, Desalination, Water and Oil and Gas Plants. Sizes range from 15mm(NB) upto 4000mm(NB) and we can design for pressures upto 64 bars.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Design standards that we follow</h6>
+              <span class="feature-tag">DIN 16965 / 16966 AWWA C950</span>
+              <span class="feature-tag">API</span>
+              <span class="feature-tag">ABS</span>
+              <span class="feature-tag">PS 15-69</span>
+              <span class="feature-tag">ISO 14692</span>
+              <span class="feature-tag">ASTM 2310 / 2992 / 2996 BS 7159</span>
+              <span class="feature-tag">IS 12709 / 14402</span>
+            </div>
+            <div class="tech-specs">
+            <h6>Resins that we use are</h6>
+              <span class="feature-tag">Isophthalic</span>
+              <span class="feature-tag">Vinlyester</span>
+              <span class="feature-tag">Super Vinlyester</span>
+              <span class="feature-tag">Atlac – 382</span>
+              <span class="feature-tag">Alpolite / Viapal – UP 797</span>
+              <span class="feature-tag">Fire Retardant</span>
+            </div>
+          </div>
+        </div>
+      </div>      
+  </section>
+
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 leftText p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>LINED GRP PIPING</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Thermoplastic Lined GRP/FRP Pipes, Fittings, Ducts for Chemical, Power Plants and Oil and Gas Plants where high corrosive fluids flow through the piping. The thermoplastic provides the corrosion resistance.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Design standards that we follow</h6>
+              <span class="feature-tag">DIN 16965 / 16966 AWWA C950</span>
+              <span class="feature-tag">API</span>
+              <span class="feature-tag">ABS</span>
+              <span class="feature-tag">PS 15-69</span>
+              <span class="feature-tag">ISO 14692</span>
+              <span class="feature-tag">ASTM 2310 / 2992 / 2996 BS 7159</span>
+              <span class="feature-tag">IS 12709 / 14402</span>
+            </div>
+            <div class="tech-specs">
+            <h6>Resins that we use are</h6>
+              <span class="feature-tag">Isophthalic</span>
+              <span class="feature-tag">Vinlyester</span>
+              <span class="feature-tag">Super Vinlyester</span>
+              <span class="feature-tag">Atlac – 382</span>
+              <span class="feature-tag">Alpolite / Viapal – UP 797</span>
+              <span class="feature-tag">Fire Retardant</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-image">
+        <div class="product-image">
+            <img src="images/FRP_GRP/3.jpg" alt="Isolation Kits">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card row">
+        <div class="col-md-6 col-image">
+          <div class="product-image">
+            <img src="images/FRP_GRP/2.jpg" alt="Materials">
+          </div>
+        </div>
+        <div class="col-md-6 p-3 leftText">
+          <div class="card-body p-0 mt-2 ">
+          <h1>LINED GRP PIPING</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Thermoplastic Lined GRP/FRP Pipes, Fittings, Ducts for Chemical, Power Plants and Oil and Gas Plants where high corrosive fluids flow through the piping. The thermoplastic provides the corrosion resistance.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Design standards that we follow</h6>
+              <span class="feature-tag">DIN 16965 / 16966 AWWA C950</span>
+              <span class="feature-tag">API</span>
+              <span class="feature-tag">ABS</span>
+              <span class="feature-tag">PS 15-69</span>
+              <span class="feature-tag">ISO 14692</span>
+              <span class="feature-tag">ASTM 2310 / 2992 / 2996 BS 7159</span>
+              <span class="feature-tag">IS 12709 / 14402</span>
+            </div>
+            <div class="tech-specs">
+            <h6>Resins that we use are</h6>
+              <span class="feature-tag">Isophthalic</span>
+              <span class="feature-tag">Vinlyester</span>
+              <span class="feature-tag">Super Vinlyester</span>
+              <span class="feature-tag">Atlac – 382</span>
+              <span class="feature-tag">Alpolite / Viapal – UP 797</span>
+              <span class="feature-tag">Fire Retardant</span>
+            </div>
+          </div>
+        </div>
+      </div>      
+  </section>
+
+  <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 leftText p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>GRE PIPING</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> We manufacture GRE Pipes, Fittings, Ducts for Fire Water Service and Oil and Gas Plants, Chemical, Power Plants, Desalination.Sizes range from 15mm(NB) up to 4000mm(NB) and we can design for pressures up to 64 bars.
+
+The resin that we use is Epoxy Resin. The benefit of epoxy resin is that they are fire retardant.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Design standards that we follow</h6>
+              <span class="feature-tag">PS 15-69</span>
+              <span class="feature-tag">DIN 16965 / 16966 AWWA C950</span>
+              <span class="feature-tag">ABS</span>
+              <span class="feature-tag">IS 12709 / 14402</span>
+              <span class="feature-tag">ISO 14692</span>
+              <span class="feature-tag">API</span>
+              <span class="feature-tag">ASTM 2310 / 2992 / 2996 BS 7159</span>
+            </div>
+            <!-- <div class="tech-specs">
+            <h6>Resins that we use are</h6>
+              <span class="feature-tag">Isophthalic</span>
+              <span class="feature-tag">Vinlyester</span>
+              <span class="feature-tag">Super Vinlyester</span>
+              <span class="feature-tag">Atlac – 382</span>
+              <span class="feature-tag">Alpolite / Viapal – UP 797</span>
+              <span class="feature-tag">Fire Retardant</span>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-6 col-image">
+        <div class="product-image">
+            <img src="images/FRP_GRP/5.jpg" alt="Isolation Kits">
+          </div>
+        </div>
+      </div>
+
+   
+  </section>
+
+    <!-- Stud Bolts & Gaskets Section -->
+  <section id="isolation-kits" class="mb-5">      
+      <!-- Card 7 -->
+
+            <div class="product-card row">
+        <div class="col-md-6 col-image">
+          <div class="product-image">
+            <img src="images/FRP_GRP/6.jpg" alt="Materials">
+          </div>
+        </div>
+        <div class="col-md-6 p-3 leftText">
+          <div class="card-body p-0 mt-2 ">
+          <h1>PRE-INSULATED GRP PIPING</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Being energy efficient is crucial today, given the environmental concerns and the difference that consistently saving on energy costs can make to profit margins.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Advantages of ThermoShield Piping</h6>
+              <span class="feature-tag">Corrosion Resistant</span>
+              <span class="feature-tag">UV Resistant</span>
+              <span class="feature-tag">Lightweight</span>
+              <span class="feature-tag">Maintenance free</span>
+              <span class="feature-tag">No special aluminium cladding required</span>
+              <span class="feature-tag">Can be pigmented to any colour</span>
+              <span class="feature-tag">Thermal Insulation.</span>
+            </div>
+            <div class="tech-specs">
+            <h6>Application</h6>
+              <span class="feature-tag">HVAC</span>
+              <span class="feature-tag">Chilled </span>
+              <span class="feature-tag">Water System</span>
+              <span class="feature-tag">Heating System</span>
+              <span class="feature-tag">Gas & Oils</span>
+              <span class="feature-tag">Industrial Applications</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="product-card mb-3 row">
+        <div class="col-md-6 p-0 leftText p-4">
+          <div class="card-body p-0 mt-2 ">
+          <h1>Application</h1>
+            <ul class="spec-list">
+              <li><i class="fas fa-check"></i> Thermoplastic Lined GRP/FRP Pipes, Fittings, Ducts for Chemical, Power Plants and Oil and Gas Plants where high corrosive fluids flow through the piping. The thermoplastic provides the corrosion resistance.</li>
+            </ul>
+            <div class="tech-specs">
+            <h6>Application</h6>
+              <span class="feature-tag">HVAC</span>
+              <span class="feature-tag">Chilled </span>
+              <span class="feature-tag">Water System</span>
+              <span class="feature-tag">Heating System</span>
+              <span class="feature-tag">Gas & Oils</span>
+              <span class="feature-tag">Industrial Applications</span>
+            </div>
+            <ul class="spec-list">
+              <li>
+                <i class="fas fa-check"></i> 
+                The pipes and insulations act as single unit.
+            </li>
+
+                          <li>
+                <i class="fas fa-check"></i> 
+                Any colour can be provided to the outside surface and hence no extra painting is required during the lifecycle of the pipe.
+            </li>             
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-image">
+            <h4 class="p-4">GRP Pipes are corrosion resistant to seawater, chilling water and wide range of chemicals.</h4>
+        <div class="p4">
+            <ul class="spec-list p-4">
+              <li>
+                With this in mind, we introduced GRP Insulated Pipes & Fittings (ThermoShield), keeping in mind the safety and reliability issues. The Insulated GRP piping system is corrosion resistant and results in maintenance free operations.
+            </li>
+            <li>
+                Deterioration of insulation can have a significant impact on the energy consumption and hence a long-term solution provided by ThermoShield prevents thermal loss and a consequent increase in energy cost. The material of insulation is also important. We achieve low thermal conductivity by incorporating insulation as a sandwich material between GRP layers to ensure that a pipe shall remain insulated throughout its lifetime.
+            </li>
+         
+            
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+     
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
