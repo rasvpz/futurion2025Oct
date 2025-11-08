@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FUTURION - Products</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(to right, #2563eb, #1e40af);
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #bfdbfe, white);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .service-card {
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        }
+
+        .badge-custom {
+            background-color: #bfdbfe;
+            color: #1e3a8a;
+        }
+
+        .feature-icon {
+            color: #2563eb;
+        }
+
+        .active {
+            background-color: blue;
+            color: white;
+        }
+
+        .badge-custom {
+            font-size: 16px;
+        }
+
+        .nv-bg {
+            /* background: linear-gradient(to right, #0f1f31, #3360f3); */
+            color: white !important;
+        }
+
+        .nv-bg .dropdown-item {
+            color: white !important;
+        }
+
+        .nv-bg .dropdown-item:hover,
+        .nv-bg .dropdown-item:focus,
+        .nv-bg .dropdown-item:active {
+            background-color: #00C2FF !important;
+            color: white !important;
+        }
+
+        .nv-bg .dropdown-menu {
+            background-color: #1f41b2;
+            border: none;
+        }
+
+        .nv-bg .dropdown-item {
+            color: white !important;
+        }
+
+        .navbar .dropdown-menu {
+            right: 0;
+            left: auto;
+            margin-right: 20px;
+            /* Adjust this value as needed */
+        }
+
+        .explore-btn {
+            background-color: #00C2FF;
+            color: rgb(8, 10, 77);
+            border: 2px solid transparent;
+        }
+
+        .portfolio-btn {
+            background-color: transparent;
+            color: #00C2FF;
+            border: 2px solid #00C2FF;
+            ;
+        }
+
+        /* Hover Effects */
+        .explore-btn:hover {
+            background-color: transparent;
+            color: #00C2FF;
+            border: 2px solid #00C2FF;
+            ;
+        }
+
+        .portfolio-btn:hover {
+            background-color: #00C2FF;
+            color: rgb(8, 10, 77);
+            border: 2px solid transparent;
+        }
+
+        .card img {
+            /* max-height: 180px; */
+            object-fit: contain;
+            padding: 0px;
+            /* border: 4px solid #276ef1; */
+        }
+
+        .badge-custom {
+            background-color: #e6f0ff;
+            /* light blue background */
+            color: #0d47a1;
+            /* dark blue text */
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            margin: 0.4rem;
+            transition: all 0.3s ease;
+        }
+
+        .badge-custom:hover {
+            background-color: #1e5fe6;
+            /* bright blue on hover */
+            color: #fff;
+        }
+
+        .filter-btn {
+            cursor: pointer;
+            border: none;
+            background-color: #9fcfff;
+            color: #000749;
+            margin: 0.3rem;
+            border-radius: 0.25rem;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn.active {
+            background-color: var(--bs-primary);
+            color: #fff;
+        }
+
+        .valve-section {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body class="bg-light">
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg pl-3 nv-bg" style="background-color: #020f3b;">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownProducts" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                        <a class="dropdown-item" href="water-wastewater-pumps.html">Water & Wastewater Pumps</a>
+                        <a class="dropdown-item" href="industrial-water-pumps.html">Industrial Water Pumps</a>
+                        <a class="dropdown-item" href="vacuum-pumps.html">Vacuum Pumps & System</a>
+                        <a class="dropdown-item" href="water-wastewater-valves.html">Water & Waste Water Valves</a>
+                        <a class="dropdown-item" href="industrial-valves.html">Industrial Valves</a>
+                        <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a>
+                        <a class="dropdown-item" href="fans.html">Fans</a>
+                        <a class="dropdown-item" href="electrical-products.html">Electrical Products</a>
+                        <a class="dropdown-item" href="metallic-piping-products.html">Metallic Piping Products</a>
+                        <a class="dropdown-item" href="frp-grp-piping.html">FRP/GRP Piping</a>
+                        <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html">HDPE/CPVC/UPVC Piping Solutions</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <!-- Services Dropdown -->
+                <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+          <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+          <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+          <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+          <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+          <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+          <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+          <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+          <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+          <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+          <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+          <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li> -->
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline style="width: 100%;">
+            <source src="video/home background2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay-content text-center" style="margin-top: -60px;">
+            <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+                Industrial-valves
+            </h1>
+            <p class="homepage-pg text-white lead">
+                Delivering high-performance Industrial-valves from trusted global brands—designed to support innovation,
+                efficiency, and long-term value.
+            </p>
+            <a href="#services" class="btn explore-btn">
+                Explore Our Industrial-valves <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="container text-center">
+        <div class="d-flex flex-wrap justify-content-center align-items-center" style="margin-top: 2.7rem;">
+            <button class="badge badge-custom py-2 px-3 brdnone filter-btn active"
+                data-target="Industrial-fans">Industrial fans</button>
+            <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="air-condition">Air-Conditioning
+                Fans</button>
+            <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="smoke-Ventilation">Smoke
+                ventilation fans</button>
+            <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="Commercial-fans">Commercial
+                Fans</button>
+        </div>
+    </div>
+
+
+
+
+    <!-- Industrial-valves Section -->
+    <section class="py-0" id="Industrial-fans">
+        <div class="container">
+            <div class="text-center mb-5 ">
+                <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Industrial fans</h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;">
+                    General air supply and exhaust
+                    Air conditioning and ventilation
+                    Air supply/exhaust
+                    Air-conditioning</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF3-SOB</h2>
+                        <img src="images/fans/1.jpg" class="card-img-top" alt="Web Development">
+
+
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Mild fans (limit load fan)</h5>
+
+
+                        <p class="pl-4 ">
+                            Single inlet overhang mounted impeller belt driven type
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">① Lineup including CMF3L that offer superior performance for high air volume
+                            applications
+                            Air volume is increased by aorund 10% in the low pressure range compared with CMF3-SOB.
+                            ②By adopting heat-resistant specification, gas up to 90℃ can be handled.</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF3-RS</h2>
+                        <img src="images/fans/2.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Mild fans (limit load fan)</h5>
+
+
+                        <p class="pl-4 ">
+                            Single inlet straddle mounted impeller belt driven type
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">① Achieves high efficiency with high air flow, high pressure fan
+                            Newly developed impeller ideal for high air flow applications.
+                            Air supply/exhaust
+                            Air-conditioning
+                            Ventilation
+                            Cooling
+                            General air supply and exhaust
+                            Air conditioning and ventilation</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF3-OB</h2>
+                        <img src="images/fans/3.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Mild fans (limit load fan)</h5>
+
+
+                        <p class="pl-4 ">
+                            Single inlet overhang mounted impeller belt driven type
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">① Lineup including CMF3L that offer superior performance for high air volume applications（No.6 or lower）
+                            Achieves 80% or higher efficiency with high air flow, high pressure fan (No.6 1/2 or higher)
+                            By adopting heat-resistant specification.</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF3-HOH</h2>
+                        <img src="images/fans/4.jpg" class="card-img-top" alt="Web Development">
+
+
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Mild fans (limit load fan)</h5>
+
+
+                        <p class="pl-4 ">
+                            Single inlet direct driven with horizontal electric motor
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">①By adopting heat-resistant specification, gas up to 90℃ can be handled. Special specifiation is available for gas up to 150℃. Single inlet direct driven with horizontal electric motor.
+                           
+                    Air supply/exhaust
+                    Air-conditioning
+                    Ventilation
+                    Cooling 
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF3-RS</h2>
+                        <img src="images/fans/5.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Mild fans (limit load fan)</h5>
+
+
+                        <p class="pl-4 ">
+                            Single inlet direct driven with vertical electric motor
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">① 
+                                Air supply/exhaust
+                                Air-conditioning
+                                Ventilation
+                                Cooling</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF2-RD</h2>
+                        <img src="images/fans/6.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Mild fans (limit load fan)</h5>
+
+
+                        <p class="pl-4 ">
+                            Double inlet overhang mounted impeller belt driven type
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">① Double inlet allows for high air flow and space-saving in vertical direction
+                            
+                        Air supply/exhaust
+                        Air-conditioning
+                        Ventilation
+                        Cooling
+                        General air supply and exhaust
+                        Air conditioning and ventilation
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Globe Valves -->
+    <section class="py-0" id="air-condition" style="display: none;">
+        <div class="container">
+            <div class="text-center mb-5 ">
+                <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Air Conditioning Fans
+                </h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;">LCF2:Silent type・double inlet direct driven, LCF2-U：Mute type・double inlet direct driven with silencer</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">LCF2</h2>
+                        <img src="images/fans/7.jpg" class="card-img-top" alt="Web Development">
+
+
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Line sirocco fans</h5>
+
+
+                        <p class="p-4 ">
+                           LCF2:Silent type・double inlet direct driven, LCF2-U：Mute type・double inlet direct driven with silencer
+                        </p>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">Applications</h2>
+                        <p class="p-4">
+                            Individual ventilation of pantry, toilet, dressing room, etc.
+                            Air conditioning and ventilation
+                            General air supply and exhaust
+                            Air supply/exhaust
+                            Air-conditioning
+                            </p>
+                                                    <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="p-4">Silent type
+①The adoption of high-dfficiency double suction fan realized low noise and compact size.
+②Air flow can be switched by using the speed control switch (optional).
+(Excluding 25LCF2-180)
+Mute type
+③The adoption of silencer with high sound deadening effect has achieved significant reduction in noise.
+(Excluding 25LCF2-180)
+</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Check Valve-->
+
+    <section class="py-0 valve-section" id="smoke-Ventilation" style="display:none;">
+        <div class="container">
+            <div class="text-center mb-5 ">
+                <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Smoke Ventilation
+                </h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;"> Motor driven, single inlet belt driven straddle mounted impeller type.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CLF2(R)-RS</h2>
+                        <img src="images/fans/8.jpg" class="card-img-top" alt="Web Development">
+
+
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Smoke ventilation fans, Sirocco fan</h5>
+
+
+                        <p class="p-4 ">
+                          ①CLFⅡ(R) sirocco fan for low pressure, CMF3(R)/CMF3L(R) mild fan for high pressure, AESⅣ(R) axial flow fan for installation in the middle of duct.
+You can choose a suitable model according to air volume, static pressure and application.
+                        </p>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">Applications</h2>
+                        <p class="p-4">
+                           ②CLFⅡ(R) sirocco fan and CMF3(R)/CMF3L(R) mild fan are compatible with air conditioning and smoke exhaust system. ③ Floor type and ceiling-suspended anti-vibration type are also available for motor driven type. ④ Outdoor type is also available.
+                            </p>
+                                                    <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="p-4">Smoke exhaust Installation specified in Building Standards Act/Fire Service Act
+</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Butterfly Valve -->
+
+    <section class="py-0 valve-section" id="Commercial-fans" style="display:none;">
+        <div class="container">
+            <div class="text-center mb-5 ">
+                <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Commercial Fans
+                </h2>
+                <p class="text-muted mx-auto" style="max-width: 700px;"> Ideal for cooling critical equipment that requires a failure alarm. ?Equipped with a centrifugal contact switch</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">PF</h2>
+                        <img src="images/fans/9.jpg" class="card-img-top" alt="Web Development">
+
+
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fans (Stadard type)</h5>
+
+
+                        <p class="pl-4 pr-4">
+                            Standard pressure fan. Impeller diameter 20-120cm.
+                        </p>
+
+                        <h4 class="text-primary  p-4">Product description</h4>
+                        <p class="pl-4 pr-4"> ① Low noise design
+                            　Performs large-scale fluid analysis of the entire pressure fan, high-performance silent type impeller shape is optimally designed.
+                            ②Space saving
+                            　Highly reputable low-profile conventional design. Compatible with replacement demand provided with mounting compatibility with existing products.</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">WP</h2>
+                        <img src="images/fans/10.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fans Outdoor type</h5>
+
+
+                        <p class="pl-4 ">
+                            Equipped with waterproof motor suitable for places with high humidity and places where steam is generated.
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">This pressure fan is equipped with outdoor motor suited for conditions of high humidity.
+                                Applications
+                                Ventilation
+                                Gas handled
+                                Air
+                                Liquid temperature
+                                -10 ～ 40℃
+
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">EPP</h2>
+                        <img src="images/fans/11.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fans(pressure-resistant explosion-proof motor type)</h5>
+
+
+                        <p class="pl-4 ">
+                           Conforming to JIS C 0905 and the test requirements formulated by Technical recommendations of National Institute of Occupational Safety and Health. Applicable under conditions with explosion class 2 or lower and ignitability of G4 or lower.
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="p-4">Ideal for ventilation of any space where explosive gas or flammable gas is generated.
+                                    Applications Explosion-proof
+                                    Gas handled
+                                    Air
+                                    Liquid temperature
+                                    -10 ～ 40℃</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">PFS</h2>
+                        <img src="images/fans/12.jpg" class="card-img-top" alt="Web Development">
+
+
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fans stainless steel</h5>
+
+
+                        <p class="pl-4 ">
+                            Stainless steel pressure fan(motor excluded). Ideal Ideal for ventilation/airflow in places where rust prevention is required.
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="p-4">① Low noise design
+　Performs large-scale fluid analysis of the entire pressure fan, high-performance silent type impeller shape is optimally designed.
+②Space saving
+　Highly reputable low-profile conventional design. Compatible with replacement demand provided with mounting compatibility with existing products.
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF3-RS</h2>
+                        <img src="images/fans/13.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fans（Frameless type）</h5>
+
+
+                        <p class="pl-4 ">
+This pressure fan is developed on the assumption of incorporating into equipment without using mounting frames. It is ideal for mounting to oil coolers and unit coolers and other equipment with small mounting space.  </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">① Pressure fan intended for incorporating into equipment without using mounting frames. Ideal for equipment with small mounting space.
+                                Air supply/exhaust
+                                Air-conditioning
+                                Ventilation
+                                Cooling</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"
+                    onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+                    <div class="card service-card">
+                        <h2 class="p-4">CMF2-RD</h2>
+                        <img src="images/fans/14.jpg" class="card-img-top" alt="Web Development">
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Centrifugal Contact Type</h5>
+
+
+                        <p class="pl-4 ">
+                           Ideal for cooling critical equipment that requires a failure alarm. ?Equipped with a centrifugal contact switch so that a signal can be taken out in case of emergency.
+                        </p>
+
+                        <h4 class="text-primary  pl-4">Product description</h4>
+                        <p class="pl-4">These pressure fans are ideal for cooling critical equipment requiring fan failure alarms, such as cubicles, communications equipment, and transformers. They are equipped with centrifugal
+contact switches so that signals can be output when fan revolutions decrease to 70 to 80% or less for some reason.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- our services -->
+    <div class="bg-color">
+        <!-- first section -->
+        <div class="services-section py-5 " id="services">
+            <div class="container">
+                <h2 class="text-center font-weight-bold text-dark-blue">Why Choose Us</h2>
+                <p class="text-center text-muted mb-4">We offer modern technology and environmentally friendly products
+                    to most private, industrial and <br /> governmental sectors</p>
+                <div class="underline mb-5 mx-auto"></div>
+
+                <div class="row">
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                            <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;"
+                                class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fas fa-cogs fa-2x text-blue"></i></div>
+                            <h4 class="font-weight-bolder" style=" color: #0059ff;">Skilled Technicians and
+                                Professionals</h4>
+                            <p class="text-muted small">Our team comprises industry professionals, skilled technicians
+                                with well-equipped infrastructure, and an in-house machine shop. </p>
+                        </div>
+                    </div>
+
+                    <!-- Repeat this block for each service -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                            <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;"
+                                class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fas fa-bolt fa-2x text-blue"></i></div>
+                            <h4 class="font-weight-bolder" style=" color: #0059ff;">Flexible Services</h4>
+                            <p class="text-muted small">We offer on-site and internal machine shop services. Your
+                                specific needs will be considered as our experienced experts provide you with
+                                recommendations.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                            <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;"
+                                class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fas fa-globe fa-2x text-blue"></i></div>
+                            <h4 class="font-weight-bolder" style=" color: #0059ff;">Quick Response</h4>
+                            <p class="text-muted small">Our crew responds promptly, is aware of the time limits, and
+                                offers quick turnaround repair work and services to reduce expensive downtime.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                            <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;"
+                                class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+                            <h4 class="font-weight-bolder" style=" color: #0059ff;">Detailed Reports</h4>
+                            <p class="text-muted small">For all your electro mechanical & marine engineering services,
+                                repairs & overhauls, we offer comprehensive reports.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                            <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;"
+                                class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle">
+                                <i class="fas fa-user-tie fa-2x text-blue"></i></div>
+                            <h4 class="font-weight-bolder" style=" color: #0059ff;">Total Maintenance</h4>
+                            <p class="text-muted small">We are committed to providing comprehensive maintenance services
+                                at economical pricing.</p>
+                        </div>
+                    </div>
+
+                    <!-- Custom Solutions CTA -->
+                    <div class="col-md-6 col-lg-4 mb-4"
+                        style="background: linear-gradient(to right, #2563eb, #1e40af);">
+                        <div
+                            class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="font-weight-bold">Low-cost Services</h5>
+                                <p class="lead">We are experts in industrial mechanical and electric motor repair
+                                    services like reciprocating compressor repair, single phase motor repair, and more.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="cta-section">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+            <a href="#contact" class="btn-contact">Contact Us Now</a>
+        </div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>FUTURION</h3>
+                <p>A professional trading company with high expertise in different engineering fields with over 250
+                    completed projects across the Middle East.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Engineering Solutions</a></li>
+                    <li><a href="#">Technical Services</a></li>
+                    <li><a href="#">Product Delivery</a></li>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Maintenance & Repair</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>UAE, Dubai</li>
+                    <li>+971 4 123 4567</li>
+                    <li>info@futurion.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 FUTURION. All rights reserved.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".filter-btn");
+            const sections = document.querySelectorAll("section");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", () => {
+                    // Remove 'active' class from all buttons
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    // Add 'active' class to clicked button
+                    button.classList.add("active");
+
+                    // Hide all sections
+                    sections.forEach(section => section.style.display = "none");
+
+                    // Show the selected section
+                    const target = button.getAttribute("data-target");
+                    document.getElementById(target).style.display = "block";
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
