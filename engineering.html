@@ -73,13 +73,12 @@
 
     @media (min-width: 992px) {
       .dropdown-menu {
-        left: 0;
-        margin-left: 0; /* Resetting potentially inherited negative margin if any, or just strictly defining standard behavior */
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin-left: 0 !important;
+        text-align: left;
       }
-      /* Specific fix for Services dropdown if needed, but standard leftALIGN is usually safe against overflow unless far right. 
-         The user complained about overflow to the right. 
-         If I use right: 0 it aligns to right edge. 
-         Let's try standardizing it to match index.html effectively. */
+      /* Specific fix for Services dropdown to ensure it stays centered */
     }
 
     .nv-bg .dropdown-item {
