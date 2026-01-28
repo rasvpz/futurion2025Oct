@@ -1,794 +1,977 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Chandan Tech Solutions - About Us</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap 5 -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <style>
-    :root {
-      --primary-blue: #020f3b;
-      --accent-blue: #00C2FF;
-      --light-blue: #e6f4ff;
-      --dark-blue: #010a27;
-    }
-    
-    * {
-      font-family: 'Poppins', sans-serif;
-    }
-    
-    body {
-      overflow-x: hidden;
-    }
-    
-    /* Navbar styling */
-    .navbar {
-      background-color: #001244;
-    }
-    
-    .navbar-brand img {
-      width: 140px;
-    }
-    
-    .navbar-nav .nav-link {
-      color: #fff !important;
-      font-weight: 500;
-      padding-right: 1rem;
-    }
-    
-    .navbar-nav .nav-link:hover {
-      color: #BDC3C7 !important;
-    }
+  <head>
+    <title>Chandan Tech Solutions - About Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap 5 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    /* Custom Toggler Icon */
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 194, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
-    }
-    
-    .navbar-toggler {
-      border-color: rgba(0, 194, 255, 0.5) !important; 
-    }
-
-    @media (max-width: 991px) {
-      .navbar-nav {
-         text-align: left;
+    <style>
+      :root {
+        --primary-blue: #020f3b;
+        --accent-blue: #00c2ff;
+        --light-blue: #e6f4ff;
+        --dark-blue: #010a27;
       }
-      .dropdown-menu {
-         text-align: left;
-         margin-left: -15px !important; /* Pull left to align with screen edge, matching index.html */
-         border: none;
-         background-color: transparent;
-         padding-left: 0; /* Removing extra padding */
+
+      * {
+        font-family: "Poppins", sans-serif;
       }
-      .dropdown-item {
-        color: rgba(255, 255, 255, 0.8) !important; /* Lighter text for submenu */
+
+      body {
+        overflow-x: hidden;
       }
-    }
 
-    @media (min-width: 992px) {
-      .dropdown-menu {
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        margin-left: 0 !important;
-        text-align: left;
+      /* Navbar styling */
+      .navbar {
+        background-color: #001244;
       }
-      /* Specific fix for Services dropdown to ensure it stays centered */
-    }
 
-    .nv-bg .dropdown-item {
-      color: white !important;
-    }
-
-    .nv-bg .dropdown-item:hover,
-    .nv-bg .dropdown-item:focus,
-    .nv-bg .dropdown-item:active {
-      background-color: #00C2FF !important;
-      color: white !important;
-    }
-
-    .nv-bg .dropdown-menu {
-      background-color: #1f41b2;
-      border: none;
-    }
-
-    .nv-bg .dropdown-item {
-      color: white !important;
-    }
-    
-    /* Video background section */
-    .video-background {
-      position: relative;
-      height: 92vh;
-      width: 100%;
-      overflow: hidden;
-    }
-
-    .video-background video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      transform: translate(-50%, -50%);
-      object-fit: cover;
-      z-index: -1;
-    }
-
-    .video-overlay-content {
-      position: relative;
-      z-index: 1;
-      color: white;
-      text-align: center;
-      padding-top: 25vh;
-    }
-    .homepage-header{
-      font-size: 3.5rem;
-    }
-    .homepage-pg {
-      margin-top: 1rem;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 800px; /* Controls the line length for better readability */
-      font-size: 1rem;
-    }
-    .explore-btn {
-      background-color: #00C2FF !important; /* Bright blue */
-      color: rgb(8, 10, 77) !important;
-      font-weight: 600 !important;
-      padding: 0.75rem 1.5rem !important;
-      font-size: 1rem !important;
-      border-radius: 0.5rem !important;
-      transition: background-color 0.3s ease !important;
-      text-decoration: none !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-    }
-
-    .explore-btn:hover {
-      background-color: #1b54c2 !important; /* Darker blue on hover */
-      text-decoration: none !important; 
-    }
-    
-    @media (max-width: 570px) {
-      .video-overlay-content {
-        padding-left: 15px;
-        padding-right: 15px;
+      .navbar-brand img {
+        width: 140px;
       }
-      .video-overlay-content h1 {
-        font-size: 1.8rem;
+
+      .navbar-nav .nav-link {
+        color: #fff !important;
+        font-weight: 500;
+        padding-right: 1rem;
       }
-      .homepage-header{
-        margin-top: -140px;
-        margin-bottom: 40px;
-        padding-left: 4px;
-        padding-right: 4px;
+
+      .navbar-nav .nav-link:hover {
+        color: #bdc3c7 !important;
       }
+
+      /* Custom Toggler Icon */
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 194, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+      }
+
+      .navbar-toggler {
+        border-color: rgba(0, 194, 255, 0.5) !important;
+      }
+
+      @media (max-width: 991px) {
+        .navbar-nav {
+          text-align: left;
+        }
+        .dropdown-menu {
+          text-align: left;
+          margin-left: -15px !important; /* Pull left to align with screen edge, matching index.html */
+          border: none;
+          background-color: transparent;
+          padding-left: 0; /* Removing extra padding */
+        }
+        .dropdown-item {
+          color: rgba(
+            255,
+            255,
+            255,
+            0.8
+          ) !important; /* Lighter text for submenu */
+        }
+      }
+
+      @media (min-width: 992px) {
+        .dropdown-menu {
+          left: 50% !important;
+          transform: translateX(-50%) !important;
+          margin-left: 0 !important;
+          text-align: left;
+        }
+        /* Specific fix for Services dropdown to ensure it stays centered */
+      }
+
+      .nv-bg .dropdown-item {
+        color: white !important;
+      }
+
+      .nv-bg .dropdown-item:hover,
+      .nv-bg .dropdown-item:focus,
+      .nv-bg .dropdown-item:active {
+        background-color: #00c2ff !important;
+        color: white !important;
+      }
+
+      .nv-bg .dropdown-menu {
+        background-color: #1f41b2;
+        border: none;
+      }
+
+      .nv-bg .dropdown-item {
+        color: white !important;
+      }
+
+      /* Video background section */
       .video-background {
-      height: 72vh;
-      width: 100%;  
-    }
-    .homepage-pg {
-      text-align: left !important;
-      font-size: 14px;
-      padding: 12px;
-    }
-    }
-    
-    /* Mission section */
-    .mission-section {
-      padding: 80px 0;
-      background-color: #f8f9fa;
-    }
-    
-    .section-title {
-      font-size: 2.2rem;
-      font-weight: 700;
-      color: var(--primary-blue);
-      position: relative;
-      margin-bottom: 50px;
-      text-align: center;
-    }
-    
-    .section-title:after {
-      content: '';
-      position: absolute;
-      bottom: -15px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 80px;
-      height: 4px;
-      background: var(--accent-blue);
-      border-radius: 2px;
-    }
-    
-    .mission-card {
-      padding: 60px;
-      background: white;
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      margin-bottom: 30px;
-      min-height: 350px;
-    }
-    
-    .mission-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-    }
-    
-    .mission-icon {
-      background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-blue) 100%);
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: -35px auto 20px;
-      box-shadow: 0 5px 15px rgba(0,194,255,0.4);
-    }
-    
-    .mission-icon i {
-      font-size: 28px;
-      color: white;
-    }
-    
-    .mission-title {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: var(--primary-blue);
-      margin-bottom: 15px;
-    }
-    
-    .mission-text {
-      color: #666;
-      line-height: 1.7;
-    }
-    
-    /* Services section */
-    .services-section {
-      padding: 80px 0;
-      background-color: #eef7ff; /* Suitable light color */
-    }
-    
-    .category-card {
-      background: white;
-      border-radius: 12px;
-      padding: 25px;
-      margin-bottom: 25px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-      transition: all 0.3s ease;
-      border: 1px solid #eaeaea;
-    }
-    
-    .category-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-      border-color: var(--accent-blue);
-    }
-    
-    .category-title {
-      font-size: 1.4rem;
-      font-weight: 600;
-      color: var(--primary-blue);
-      margin-bottom: 15px;
-      display: flex;
-      align-items: center;
-    }
-    
-    .category-title i {
-      color: var(--accent-blue);
-      margin-right: 10px;
-      font-size: 1.3rem;
-    }
-    
-    .product-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    .product-list li {
-      padding: 8px 0;
-      color: #555;
-      border-bottom: 1px dashed #eee;
-      transition: color 0.2s ease;
-    }
-    
-    .product-list li:last-child {
-      border-bottom: none;
-    }
-    
-    .product-list li:hover {
-      color: var(--accent-blue);
-      padding-left: 5px;
-    }
-    
-    /* Stats section */
-    .stats-section {
-      background: var(--primary-blue);
-      color: white;
-      padding: 70px 0;
-    }
-    
-    .stat-item {
-      text-align: center;
-      padding: 20px;
-    }
-    
-    .stat-number {
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: var(--accent-blue);
-      margin-bottom: 10px;
-      line-height: 1;
-    }
-    
-    .stat-label {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
-    
-    /* Footer styling */
-    footer {
-      background-color: #1E3A8A;
-      padding: 3rem 2rem 2rem 2rem;
-      color: white;
-    }
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      color: white;
-    }
-    .footer-section {
-      flex: 1 1 200px;
-      margin: 1rem;
-    }
-    .footer-section h3 {
-      margin-bottom: 1rem;
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-    .footer-section ul {
-      list-style: none;
-      padding: 0;
-    }
-    .footer-section ul li {
-      margin-bottom: 0.5rem;
-    }
-    .footer-section ul li a {
-      color: #cbd5e1;
-      text-decoration: none;
-    }
-    .footer-section ul li a:hover {
-      text-decoration: underline;
-    }
-    .footer-social a {
-      color: white;
-      margin-right: 10px;
-      font-size: 1.2rem;
-    }
-    .cta-section {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-    .cta-section h2 {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-    .cta-section p {
-      max-width: 700px;
-      margin: 1rem auto;
-    }
-    .cta-section a {
-      background: white;
-      color: #1E3A8A;
-      padding: 0.75rem 1.5rem;
-      border-radius: 0.5rem;
-      font-weight: bold;
-      display: inline-block;
-      margin-top: 1rem;
-      text-decoration: none;
-    }
-    .footer-bottom {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 0.875rem;
-      color: #cbd5e1;
-    }
-    .btn-contact {
-      background-color: white;
-      color: #1E3A8A;
-      font-weight: 600;
-      border: none;
-      padding: 0.75rem 2rem;
-      border-radius: 0.5rem;
-      transition: all 0.3s ease;
-    }
-
-    .btn-contact:hover {
-      background-color: #1E3A8A;
-      color: white;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      transform: translateY(-2px);
-    }
-    
-    /* Responsive */
-    @media (max-width: 768px) {
-      .hero-title { font-size: 1.8rem; }
-      .stat-number { font-size: 2.8rem; }
-      .mission-card { padding: 30px; }
-    }
-    /* About & Services from index.html */
-    .about {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
-    .text-primary {
-      color: #0B3CC1 !important;
-      margin-bottom: 1rem;
-    }
-    .text-h {
-      margin-bottom: 1rem;
-    }
-    .text-about {
-      font-size: 16px;
-    }
-    .blue-underline {
-      width: 80px;
-      height: 4px;
-      background-color: #276EF1;
-    }
-    .experience-box {
-      position: absolute;
-      top: 17rem;
-      left: 15px;
-      background-color: #276EF1;
-      color: white;
-      padding: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-      text-align: center;
-      width: 140px;
-    }
-    .bg-color {
-      background-color: #F3F4F6;
-    }
-    .text-dark-blue {
-      color: #0B3CC1;
-    }
-    .text-blue {
-      color: #276EF1;
-    }
-    .underline {
-      width: 70px;
-      height: 4px;
-      background-color: #276EF1;
-    }
-    .service-card {
-      transition: all 0.3s ease;
-    }
-    .service-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
-    .service-icon {
-      background-color: #e8f1ff;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .bg-blue {
-      background-color: #276EF1;
-    }
-    .bg-blue .btn-light {
-      color: #276EF1;
-      background-color: white;
-      border: none;
-      padding: 0.5rem 1.25rem;
-      border-radius: 0.375rem;
-    }
-    /* Renamed to avoid duplication/conflict with existing stats-section */
-    .stats-section-index {
-      background-color: #f5f6f8;
-      padding: 40px 0;
-      text-align: center;
-    }
-    .stats-number {
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #1662f6;
-    }
-    .stats-label {
-      color: #333;
-      font-size: 1rem;
-    }
-    
-    @media (max-width: 570px) {
-      .experience-box {
-        margin-top: -100px !important;
+        position: relative;
+        height: 92vh;
+        width: 100%;
+        overflow: hidden;
       }
-    }
 
-    /* Safety & Risk Assessment Section */
-    .safety-section {
-      background: linear-gradient(135deg, #020f3b 0%, #010a27 100%);
-      color: white;
-      padding: 80px 0;
-      position: relative;
-    }
+      .video-background video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        z-index: -1;
+      }
 
-    .safety-section::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=');
-      opacity: 0.3;
-    }
+      .video-overlay-content {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 25vh;
+      }
+      .homepage-header {
+        font-size: 3.5rem;
+      }
+      .homepage-pg {
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px; /* Controls the line length for better readability */
+        font-size: 1rem;
+      }
+      .explore-btn {
+        background-color: #00c2ff !important; /* Bright blue */
+        color: rgb(8, 10, 77) !important;
+        font-weight: 600 !important;
+        padding: 0.75rem 1.5rem !important;
+        font-size: 1rem !important;
+        border-radius: 0.5rem !important;
+        transition: background-color 0.3s ease !important;
+        text-decoration: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+      }
 
-    .safety-card {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 30px;
-      height: 100%;
-      height: 100%;
-      transition: transform 0.3s ease, background 0.3s ease;
-    }
+      .explore-btn:hover {
+        background-color: #1b54c2 !important; /* Darker blue on hover */
+        text-decoration: none !important;
+      }
 
-    .safety-card:hover {
-      transform: translateY(-5px);
-      background: rgba(255, 255, 255, 0.1);
-      border-color: var(--accent-blue);
-    }
+      @media (max-width: 570px) {
+        .video-overlay-content {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        .video-overlay-content h1 {
+          font-size: 1.8rem;
+        }
+        .homepage-header {
+          margin-top: -140px;
+          margin-bottom: 40px;
+          padding-left: 4px;
+          padding-right: 4px;
+        }
+        .video-background {
+          height: 72vh;
+          width: 100%;
+        }
+        .homepage-pg {
+          text-align: left !important;
+          font-size: 14px;
+          padding: 12px;
+        }
+      }
 
-    .safety-icon {
-      width: 60px;
-      height: 60px;
-      background: rgba(0, 194, 255, 0.1);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 20px;
-      color: var(--accent-blue);
-      font-size: 24px;
-    }
+      /* Mission section */
+      .mission-section {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+      }
 
-    .safety-title {
-      color: white;
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 20px;
-      border-bottom: 2px solid var(--accent-blue);
-      padding-bottom: 10px;
-      display: inline-block;
-    }
+      .section-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: var(--primary-blue);
+        position: relative;
+        margin-bottom: 50px;
+        text-align: center;
+      }
 
-    .safety-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
+      .section-title:after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: var(--accent-blue);
+        border-radius: 2px;
+      }
 
-    .safety-list li {
-      margin-bottom: 12px;
-      padding-left: 25px;
-      position: relative;
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 0.95rem;
-      line-height: 1.5;
-    }
+      .mission-card {
+        padding: 60px;
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+        margin-bottom: 30px;
+        min-height: 350px;
+      }
 
-    .safety-list li::before {
-      content: '\f00c';
-      font-family: 'Font Awesome 6 Free';
-      font-weight: 900;
-      position: absolute;
-      left: 0;
-      top: 2px;
-      color: var(--accent-blue);
-      font-size: 0.8rem;
-    }
-  </style>
-</head>
-<body>
+      .mission-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+      }
 
-  <!-- Navbar -->
-<nav class="navbar navbar-expand-lg pl-3 nv-bg" style="background-color: #020f3b;">
-  <a class="navbar-brand" href="#">
-    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-      <!-- <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li> -->
-      <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownProducts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Products
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
-    <a class="dropdown-item" href="water-wastewater-pumps.html">Water & Wastewater Pumps</a>
-    <a class="dropdown-item" href="industrial-water-pumps.html">Industrial Water Pumps</a>
-    <a class="dropdown-item" href="vacuum-pumps.html">Vacuum Pumps & System</a>
-    <a class="dropdown-item" href="water-wastewater-valves.html">Water & Waste Water Valves</a>
-    <a class="dropdown-item" href="industrial-valves.html">Industrial Valves</a>
-    <!-- <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a> -->
-    <a class="dropdown-item" href="fans.html">Fans</a>
-    <a class="dropdown-item" href="electrical-products.html">Electrical Products</a>
-    <a class="dropdown-item" href="metallic-piping-products.html">Metallic Piping Products</a>
-    <a class="dropdown-item" href="frp-grp-piping.html">FRP/GRP Piping</a>
-    <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html">HDPE/CPVC/UPVC Piping Solutions</a>
-  </div>
-</li>
+      .mission-icon {
+        background: linear-gradient(
+          135deg,
+          var(--primary-blue) 0%,
+          var(--accent-blue) 100%
+        );
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -35px auto 20px;
+        box-shadow: 0 5px 15px rgba(0, 194, 255, 0.4);
+      }
 
-      <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Services
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-    <h6 class="dropdown-header">Engineering Solutions</h6>
-    <a class="dropdown-item" href="engineering.html">Engineering Solutions</a>
-    <div class="dropdown-divider"></div>
-    <h6 class="dropdown-header">Technical Services</h6>
-    <a class="dropdown-item" href="pumpOverhaul.html">Pump Overhaul & Maintenance</a>
-    <a class="dropdown-item" href="acDcMotorOverhaul.html">AC/ DC Motor Overhaul</a>
-    <a class="dropdown-item" href="acDcGeneratorOverhaul.html">AC & DC Generator Overhaul</a>
-    <a class="dropdown-item" href="valveRefurbishment.html">Valve refurbishment</a>
-    <a class="dropdown-item" href="technicalManpowerServices.html">Technical Manpower Services</a>
-    <a class="dropdown-item" href="industrialFabrication.html">Industrial Fabrication and Erection</a>
-    <a class="dropdown-item" href="machiningReverseEngineering.html">Machining and Reverse Engineering</a>
-    <a class="dropdown-item" href="startupCommissioning.html">Start-up and Commissioning</a>
-    <a class="dropdown-item" href="afterSalesSupport.html">After Sales Support</a>
-    <a class="dropdown-item" href="otherServices.html">Other Services</a>
-  </div>
-</li>
+      .mission-icon i {
+        font-size: 28px;
+        color: white;
+      }
 
-      <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+      .mission-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--primary-blue);
+        margin-bottom: 15px;
+      }
 
-      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+      .mission-text {
+        color: #666;
+        line-height: 1.7;
+      }
 
-  <!-- Video Background -->
-  <div class="video-background">
-    <video autoplay muted loop playsinline style="width: 100%;">
-      <source src="video/home background.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <div class="video-overlay-content">
-      <h1 class="homepage-header"><b>Engineering Excellence for a Sustainable <br /> Future</b></h1>
-      <p class="homepage-pg text-white text-center">
-    FUTURION is a professional trading company with high expertise in different engineering fields, with over 250 completed projects across the Middle East.
-      </p>
-    </div>
- <!-- button -->
- <div class="mt-4 d-flex justify-content-center">
-      <a href="#services" class="btn explore-btn">
-        Explore Our Services <i class="fas fa-arrow-right ml-2"></i>
+      /* Services section */
+      .services-section {
+        padding: 80px 0;
+        background-color: #eef7ff; /* Suitable light color */
+      }
+
+      .category-card {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        border: 1px solid #eaeaea;
+      }
+
+      .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        border-color: var(--accent-blue);
+      }
+
+      .category-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: var(--primary-blue);
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+      }
+
+      .category-title i {
+        color: var(--accent-blue);
+        margin-right: 10px;
+        font-size: 1.3rem;
+      }
+
+      .product-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-list li {
+        padding: 8px 0;
+        color: #555;
+        border-bottom: 1px dashed #eee;
+        transition: color 0.2s ease;
+      }
+
+      .product-list li:last-child {
+        border-bottom: none;
+      }
+
+      .product-list li:hover {
+        color: var(--accent-blue);
+        padding-left: 5px;
+      }
+
+      /* Stats section */
+      .stats-section {
+        background: var(--primary-blue);
+        color: white;
+        padding: 70px 0;
+      }
+
+      .stat-item {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .stat-number {
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: var(--accent-blue);
+        margin-bottom: 10px;
+        line-height: 1;
+      }
+
+      .stat-label {
+        font-size: 1.2rem;
+        opacity: 0.9;
+      }
+
+      /* Footer styling */
+      footer {
+        background-color: #1e3a8a;
+        padding: 3rem 2rem 2rem 2rem;
+        color: white;
+      }
+      .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+      }
+      .footer-section {
+        flex: 1 1 200px;
+        margin: 1rem;
+      }
+      .footer-section h3 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      .footer-section ul li {
+        margin-bottom: 0.5rem;
+      }
+      .footer-section ul li a {
+        color: #cbd5e1;
+        text-decoration: none;
+      }
+      .footer-section ul li a:hover {
+        text-decoration: underline;
+      }
+      .footer-social a {
+        color: white;
+        margin-right: 10px;
+        font-size: 1.2rem;
+      }
+      .cta-section {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .cta-section h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .cta-section p {
+        max-width: 700px;
+        margin: 1rem auto;
+      }
+      .cta-section a {
+        background: white;
+        color: #1e3a8a;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 1rem;
+        text-decoration: none;
+      }
+      .footer-bottom {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 0.875rem;
+        color: #cbd5e1;
+      }
+      .btn-contact {
+        background-color: white;
+        color: #1e3a8a;
+        font-weight: 600;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s ease;
+      }
+
+      .btn-contact:hover {
+        background-color: #1e3a8a;
+        color: white;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 1.8rem;
+        }
+        .stat-number {
+          font-size: 2.8rem;
+        }
+        .mission-card {
+          padding: 30px;
+        }
+      }
+      /* About & Services from index.html */
+      .about {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .text-primary {
+        color: #0b3cc1 !important;
+        margin-bottom: 1rem;
+      }
+      .text-h {
+        margin-bottom: 1rem;
+      }
+      .text-about {
+        font-size: 16px;
+      }
+      .blue-underline {
+        width: 80px;
+        height: 4px;
+        background-color: #276ef1;
+      }
+      .experience-box {
+        position: absolute;
+        top: 17rem;
+        left: 15px;
+        background-color: #276ef1;
+        color: white;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        width: 140px;
+      }
+      .bg-color {
+        background-color: #f3f4f6;
+      }
+      .text-dark-blue {
+        color: #0b3cc1;
+      }
+      .text-blue {
+        color: #276ef1;
+      }
+      .underline {
+        width: 70px;
+        height: 4px;
+        background-color: #276ef1;
+      }
+      .service-card {
+        transition: all 0.3s ease;
+      }
+      .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      .service-icon {
+        background-color: #e8f1ff;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .bg-blue {
+        background-color: #276ef1;
+      }
+      .bg-blue .btn-light {
+        color: #276ef1;
+        background-color: white;
+        border: none;
+        padding: 0.5rem 1.25rem;
+        border-radius: 0.375rem;
+      }
+      /* Renamed to avoid duplication/conflict with existing stats-section */
+      .stats-section-index {
+        background-color: #f5f6f8;
+        padding: 40px 0;
+        text-align: center;
+      }
+      .stats-number {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #1662f6;
+      }
+      .stats-label {
+        color: #333;
+        font-size: 1rem;
+      }
+
+      @media (max-width: 570px) {
+        .experience-box {
+          margin-top: -100px !important;
+        }
+      }
+
+      /* Safety & Risk Assessment Section */
+      .safety-section {
+        background: linear-gradient(135deg, #020f3b 0%, #010a27 100%);
+        color: white;
+        padding: 80px 0;
+        position: relative;
+      }
+
+      .safety-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=");
+        opacity: 0.3;
+      }
+
+      .safety-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 30px;
+        height: 100%;
+        height: 100%;
+        transition:
+          transform 0.3s ease,
+          background 0.3s ease;
+      }
+
+      .safety-card:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.1);
+        border-color: var(--accent-blue);
+      }
+
+      .safety-icon {
+        width: 60px;
+        height: 60px;
+        background: rgba(0, 194, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        color: var(--accent-blue);
+        font-size: 24px;
+      }
+
+      .safety-title {
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        border-bottom: 2px solid var(--accent-blue);
+        padding-bottom: 10px;
+        display: inline-block;
+      }
+
+      .safety-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .safety-list li {
+        margin-bottom: 12px;
+        padding-left: 25px;
+        position: relative;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      .safety-list li::before {
+        content: "\f00c";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        top: 2px;
+        color: var(--accent-blue);
+        font-size: 0.8rem;
+      }
+
+
+      /* Default: Desktop / Large screens */
+        .img-desktop {
+          display: block;
+        }
+
+        .img-mobile {
+          display: none;
+        }
+
+        /* Mobile screens */
+        @media (max-width: 768px) {
+          .img-desktop {
+            display: none;
+          }
+
+          .img-mobile {
+            display: block;
+          }
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg pl-3 nv-bg"
+      style="background-color: #020f3b"
+    >
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="FUTURION logo" style="height: 40px" />
       </a>
-    </div> 
-    </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li> -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="products.html"
+              id="navbarDropdownProducts"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+              <a class="dropdown-item" href="water-wastewater-pumps.html"
+                >Water & Wastewater Pumps</a
+              >
+              <a class="dropdown-item" href="industrial-water-pumps.html"
+                >Industrial Water Pumps</a
+              >
+              <a class="dropdown-item" href="vacuum-pumps.html"
+                >Vacuum Pumps & System</a
+              >
+              <a class="dropdown-item" href="water-wastewater-valves.html"
+                >Water & Waste Water Valves</a
+              >
+              <a class="dropdown-item" href="industrial-valves.html"
+                >Industrial Valves</a
+              >
+              <!-- <a class="dropdown-item" href="non-metallic-valves.html">Non Metallic Valves</a> -->
+              <a class="dropdown-item" href="fans.html">Fans</a>
+              <a class="dropdown-item" href="electrical-products.html"
+                >Electrical Products</a
+              >
+              <a class="dropdown-item" href="metallic-piping-products.html"
+                >Metallic Piping Products</a
+              >
+              <a class="dropdown-item" href="frp-grp-piping.html"
+                >FRP/GRP Piping</a
+              >
+              <a class="dropdown-item" href="hdpe-cpvc-upvc-piping.html"
+                >HDPE/CPVC/UPVC Piping Solutions</a
+              >
+            </div>
+          </li>
 
-<!-- about us -->
- <div>
-  <section class="about py-5">
-  <div class="container container-dummy">
-    <div class="row align-items-center">
-      
-      <!-- Text Column -->
-      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
-        <h2 class="font-weight-bold text-primary">About FUTURION</h2>
-        <h5 class="text-muted mb-3 text-h">
-          A professional trading company with high expertise in different engineering fields
-        </h5>
-        <div class="blue-underline mb-4"></div>
-        <p class="text-about text-muted">
-          FUTURION is built on leadership and a relentless adherence to our values, the core of which are Ethics, safety, quality, and employee welfare. These values are what we believe, we practice, what we expect, what we deliver to our customers and the society we live in.
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownServices"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+              <h6 class="dropdown-header">Engineering Solutions</h6>
+              <a class="dropdown-item" href="engineering.html"
+                >Engineering Solutions</a
+              >
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Technical Services</h6>
+              <a class="dropdown-item" href="pumpOverhaul.html"
+                >Pump Overhaul & Maintenance</a
+              >
+              <a class="dropdown-item" href="acDcMotorOverhaul.html"
+                >AC/ DC Motor Overhaul</a
+              >
+              <a class="dropdown-item" href="acDcGeneratorOverhaul.html"
+                >AC & DC Generator Overhaul</a
+              >
+              <a class="dropdown-item" href="valveRefurbishment.html"
+                >Valve refurbishment</a
+              >
+              <a class="dropdown-item" href="technicalManpowerServices.html"
+                >Technical Manpower Services</a
+              >
+              <a class="dropdown-item" href="industrialFabrication.html"
+                >Industrial Fabrication and Erection</a
+              >
+              <a class="dropdown-item" href="machiningReverseEngineering.html"
+                >Machining and Reverse Engineering</a
+              >
+              <a class="dropdown-item" href="startupCommissioning.html"
+                >Start-up and Commissioning</a
+              >
+              <a class="dropdown-item" href="afterSalesSupport.html"
+                >After Sales Support</a
+              >
+              <a class="dropdown-item" href="otherServices.html"
+                >Other Services</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Video Background -->
+    <div class="video-background">
+      <video autoplay muted loop playsinline style="width: 100%">
+        <source src="video/home background.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay-content">
+        <h1 class="homepage-header">
+          <b
+            >Engineering Excellence for a Sustainable <br />
+            Future</b
+          >
+        </h1>
+        <p class="homepage-pg text-white text-center">
+          FUTURION is a professional trading company with high expertise in
+          different engineering fields, with over 250 completed projects across
+          the Middle East.
         </p>
-        <p class="text-about text-muted">
-          Our marketing and technical proposal teams work closely with our worldwide network of suppliers and service partners to offer cost effective and environmental friendly solutions, provide quality products that confirm with ISO & API standards and to ensure technical compliance with the specified requirements.
-        </p>
-        <a href="#about" class="text-primary font-weight-bold">
-          Learn More About Us <i class="fas fa-arrow-right ml-1"></i>
+      </div>
+      <!-- button -->
+      <div class="mt-4 d-flex justify-content-center">
+        <a href="#services" class="btn explore-btn">
+          Explore Our Services <i class="fas fa-arrow-right ml-2"></i>
         </a>
       </div>
+    </div>
 
-      <!-- Image Column -->
-      <div class="col-lg-6 col-md-12 position-relative text-center">
-        <img src="images/homepage image 1.jpg" alt="About Futurion" class="img-fluid rounded shadow">
-        <div class="experience-box">
+    <!-- about us -->
+    <div>
+      <section class="about py-5">
+        <div class="container container-dummy">
+          <div class="row align-items-center">
+            <!-- Text Column -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+              <h2 class="font-weight-bold text-primary">About FUTURION</h2>
+              <h5 class="text-muted mb-3 text-h">
+                Commercial and Residential Construction.
+              </h5>
+              <div class="blue-underline mb-4"></div>
+              <p class="text-about text-muted">
+                Specialist in Manufacturing and Precision Machining for DRDO,
+                ARDE (Indian Defence Sector) and Valve Parts Using Advance CNCs,
+                VMCs.
+              </p>
+              <p class="text-about text-muted">
+                Engineering Services, 3D Plant Design & Modeling Services,
+                Training -SP3D, PDS, PDMS, Laser Scanning, Automation &
+                Instrumentation Services and Manpower Supply for EPC Industry.
+              </p>
+              <a href="#" class="text-primary font-weight-bold">
+                Feasibility Studies, Option Screening, Technology Selection &
+                Risk assessments<i class="fas fa-arrow-right ml-1"></i>
+              </a>
+            </div>
+
+            <!-- Image Column -->
+            <div class="col-lg-6 col-md-12 position-relative text-center">
+              <img
+                src="images/enigineeringPage/IndustryServed.jpg"
+                alt="About Futurion"
+                class="img-fluid rounded shadow"
+              />
+              <!-- <div class="experience-box">
           <h4 class="mb-0 font-weight-bold">15+</h4>
           <small>Years of Excellence</small>
+        </div> -->
+            </div>
+          </div>
         </div>
-      </div>
-
+      </section>
     </div>
-  </div>
-</section>
-</div>
 
-<!-- our services -->
- <div class="bg-color">
-  <!-- first section -->
- <section class="services-section py-5 " id="services">
-  <div class="container">
-    <h2 class="text-center font-weight-bold text-dark-blue">Our Services</h2>
-    <p class="text-center text-muted mb-4">We offer modern technology and environmentally friendly products to most private, industrial and <br /> governmental sectors</p>
-    <div class="underline mb-5 mx-auto"></div>
+    <!-- our services -->
+    <div class="bg-color">
+      <!-- first section -->
+      <section class="services-section py-5" id="services">
+        <div class="container">
+          <h2 class="text-center font-weight-bold text-dark-blue">
+            Industry Served
+          </h2>
+          <p class="text-center text-muted mb-4">
+            We offer modern technology and environmentally friendly products to
+            most private, industrial and <br />
+            governmental sectors
+          </p>
+          <div class="underline mb-5 mx-auto"></div>
 
-    <div class="row">
-      <!-- Service Card -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
-          <div class="service-icon mb-3"><i class="fas fa-cogs fa-2x text-blue"></i></div>
-          <h5 class="font-weight-bold text-dark-blue">Engineering Solutions</h5>
-          <p class="text-muted small">Comprehensive engineering solutions tailored to meet the specific needs of industrial and governmental projects.</p>
-          <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
-        </div>
-      </div>
+          <div class="row">
+            <!-- Service Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-cogs fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">Oil and Gas</h5>
+                <!-- <p class="text-muted small">Comprehensive engineering solutions tailored to meet the specific needs of industrial and governmental projects.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
 
-      <!-- Repeat this block for each service -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
-          <div class="service-icon mb-3"><i class="fas fa-bolt fa-2x text-blue"></i></div>
-          <h5 class="font-weight-bold text-dark-blue">Technical Services</h5>
-          <p class="text-muted small">On-site alignments, troubleshooting, overhauling and repairs of electromechanical equipment.</p>
-          <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
-        </div>
-      </div>
+            <!-- Repeat this block for each service -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-bolt fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Upstream-Facilities , Offshore & Onshore
+                </h5>
+                <!-- <p class="text-muted small">On-site alignments, troubleshooting, overhauling and repairs of electromechanical equipment.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
 
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
-          <div class="service-icon mb-3"><i class="fas fa-globe fa-2x text-blue"></i></div>
-          <h5 class="font-weight-bold text-dark-blue">Global Supply Chain</h5>
-          <p class="text-muted small">Working with our worldwide network of suppliers to deliver quality products that meet international standards.</p>
-          <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
-        </div>
-      </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-globe fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Mid Stream-Terminals, Tank Farm & Pipelines
+                </h5>
+                <!-- <p class="text-muted small">Working with our worldwide network of suppliers to deliver quality products that meet international standards.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
 
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
-          <div class="service-icon mb-3"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
-          <h5 class="font-weight-bold text-dark-blue">Quality Assurance</h5>
-          <p class="text-muted small">Ensuring all products confirm with ISO & API standards and meet technical compliance requirements.</p>
-          <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
-        </div>
-      </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-shield-alt fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Downstream-Refinery & Petrochemicals
+                </h5>
+                <!-- <p class="text-muted small">Ensuring all products confirm with ISO & API standards and meet technical compliance requirements.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
 
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
-          <div class="service-icon mb-3"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
-          <h5 class="font-weight-bold text-dark-blue">Consulting Services</h5>
-          <p class="text-muted small">Expert consultation on engineering projects, sustainability, and environmental compliance.</p>
-          <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
-        </div>
-      </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-user-tie fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Power –Thermal, Combined cycle & Co-Generation
+                </h5>
+                <!-- <p class="text-muted small">Expert consultation on engineering projects, sustainability, and environmental compliance.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
 
-      <!-- Custom Solutions CTA -->
-      <div class="col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-user-tie fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Chemical & Other Allied Process Industries
+                </h5>
+                <!-- <p class="text-muted small">Expert consultation on engineering projects, sustainability, and environmental compliance.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-user-tie fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Water & Waste Management
+                </h5>
+                <!-- <p class="text-muted small">Expert consultation on engineering projects, sustainability, and environmental compliance.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+                <!-- <div class="service-icon mb-3"><i class="fas fa-user-tie fa-2x text-blue"></i></div> -->
+                <h5 class="font-weight-bold text-dark-blue">
+                  Metals and Mining
+                </h5>
+                <!-- <p class="text-muted small">Expert consultation on engineering projects, sustainability, and environmental compliance.</p> -->
+                <!-- <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a> -->
+              </div>
+            </div>
+
+            <!-- Custom Solutions CTA -->
+            <!-- <div class="col-md-6 col-lg-4 mb-4">
         <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
           <div>
             <h5 class="font-weight-bold">Need Custom Solutions?</h5>
@@ -796,185 +979,465 @@
           </div>
           <a href="#contact" class="btn btn-light font-weight-bold mt-3">Contact Us</a>
         </div>
-      </div>
-    </div>
+      </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- Safety & Risk Assessment Section -->
+      <section class="safety-section">
+        <div class="container position-relative">
+          <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+              <h2 class="font-weight-bold text-white mb-3">
+                Scope of Services
+              </h2>
+              <div
+                class="separator mx-auto bg-primary mb-4"
+                style="
+                  height: 4px;
+                  width: 80px;
+                  background-color: #00c2ff !important;
+                "
+              ></div>
+              <p class="text-white-50">
+                • PMC and Project Expediting Services • EPC Manpower Deputation
+                to Support EPC Project - Client Office/ Project Site. •
+                Technical and Software Trainings
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- Group 1: Safety Systems & Modelling -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Process Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/processEng.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Concept Identification, Selection & Conceptual Engineering.
+                  </li>
+                  <li>Process Design Philosophies</li>
+                  <li>Process Data Sheets</li>
+                  <li>Process System Design & Sizing Calculations</li>
+                  <li>Piping and Instrumentation Diagram</li>
+                  <li>Static and Dynamic / Engineering Simulation</li>
+                  <li>
+                    SP P&ID, AVEVA P&ID- As-Built / Intelligent Data Conversion.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Group 2: Advanced Analysis -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Safety & Risk Assessment Studies
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/engSafty.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Safety Valve Sizing, Safeguarding Philosophy, and Relief /
+                    Vent / Flare Network Modelling
+                  </li>
+
+                  <li>
+                    Fire, Explosion & Quantitative Risk Assessment (QRA)
+                    including Fire Explosion Analysis (FEA)
+                  </li>
+
+                  <li>
+                    Thermal Radiation, Gas Dispersion, Plume, Smoke & Gas
+                    Ingress Studies (SGIA)
+                  </li>
+
+                  <li>
+                    Emergency Systems, Survivability Analysis (ESSA),
+                    Evacuation, Escape & Rescue Analysis (EERA)
+                  </li>
+
+                  <li>
+                    Temporary Refuge Impairment Analysis (TRIA) and HAC Drawings
+                  </li>
+
+                  <li>
+                    Acoustically Induced Vibration (AIV), Flow Induced Vibration
+                    (FIV), and Fire & Gas Mapping (FGS)
+                  </li>
+
+                  <li>
+                    Fire Safety Assessment and Integrated Risk-Based Safety
+                    Studies
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Group 3: Fire Protection Systems -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Process Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/pipeEng.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Concept Identification, Selection & Conceptual Engineering.
+                  </li>
+                  <li>GA Drawings/Detailed Fabrication Drawings with Nozzle Orientations.</li>
+                  <li>Material Handling Study with Inventory Management Plot Plan for Warehouse.</li>
+                  <li>HVAC Design Calculations, Equipment Sizing Specifications, Duct Fabrication Drawings.</li>
+                  <li>RFQ and BID Evaluations for All Skids, Static, Rotating & HVAC.</li>
+                  <li>PV Elite,  Compress, E-Tank, HVAC Solutions/Carmel Software Tools are Used.</li>
+                  <li>
+                    Field Engineering Support for Static Equipment Fabrication & Commissioning.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Group 4: Workshops & Facilitation -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Pipeline Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/pipping.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Site Surveys
+                  </li>
+                  <li>Optimizing Layout Route</li>
+                  <li>Preparation of Alignment Sheets & Design Manual</li>
+                  <li>Perform/Review Installation Design Analysis</li>
+                  <li>Static and Dynamic/Engineering Simulation</li>
+                  <li>Study of Thermo-Hydrodynamic and Fluid Behavior of  Pipeline Transportation Systems (Surge and Water Hammer)</li>
+                  <li>
+                    Complete Engineering & Erection Support for Underground Pipelines (GRE, FRP, HDPE, etc….)
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Group 5: Piping Eng -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Piping Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/pipping.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Piping Design Basis, Engineering Specifications & Piping Calculation Reports
+                  </li>
+                  <li>Piping Materials & Valve Materials Specifications/Datasheets  </li>
+                  <li>RFQ/PR for Piping, Valves & Piping Specialty Materials </li>
+                  <li>Technical Bid Evaluations for Piping & Special Piping Components</li>
+                  <li>Piping Layout- GAD, Pipe Rack Study and Design Layout</li>
+                  <li>MTO (With / Without Procurement Allowances)</li>
+                  <li>
+                    Piping Supports Design and Detail Drawings (with Fabrication and Material Handling Philosophy)
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Group 6: Piping Eng -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Civil & Structural Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/civil.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Piling &Foundation Details.
+                  </li>
+                  <li>BoxCulvert and Thrust Block Design.</li>
+                  <li>Trenchlayout Design</li>
+                  <li>Structural Specifications</li>
+                  <li>Detailed Calculations on Loads & Stresses.</li>
+                  <li>Design & Analysis using STAADPRO of Plant Facility Structures</li>
+                  <li>Structural Analysis Detailing & Fabrication Drawings </li>
+                  <li>3DStructural Modeling using PDMS, SP3D. </li>
+                  <li>Advanced Analysis for Major Modifications & Life Extension of Existing Structures And Process Plant </li>
+                </ul>
+              </div>
+            </div>
+
+                        <!-- Group 7: Electrical Eng Eng -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Electrical Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/electricalEng.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Design Basis, Electrical Equipment Sizing, Datasheet & Specifications
+                  </li>
+                  <li>Load Calculations, Fault Analysis, Cable Sizing & Scheduling, Tray Sizing, Tower Design, Transformer Sizing.</li>
+                  <li>Power System Simulation Calculations using ETAP/EDSA Software</li>
+                  <li>3D Modeling– Cable Tray, Lighting & Electrical Equipment</li>
+                  <li>Detailed Calculations on Loads & Stresses.</li>
+                  <li>Design & Analysis using STAADPRO of Plant Facility Structures</li>
+                  <li>Structural Analysis Detailing & Fabrication Drawings </li>
+                  <li>3DStructural Modeling using PDMS, SP3D. </li>
+                </ul>
+              </div>
+            </div>
+
+                                    <!-- Group 8: Instrumentation Eng -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Instrumentation Engineering
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/instraments.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Instrument Design Basis & Components Specification
+                  </li>
+                  <li>FlowElements, Control Valve Sizing Specification & Datasheets</li>
+                  <li>P&ID’SReview, Logic Diagrams & Loop Diagrams</li>
+                  <li>Control System Design, Specifications & Hardware Selection.</li>
+                  <li>Wiring Drawings & Instrumentation Hook-ups</li>
+                </ul>
+              </div>
+            </div>
+
+            
+                                    <!-- Group 9: 3D modeling Eng -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    3D Modeling & Laser Scanning 
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/3dModeling.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Intergraph PPM tools – PDS/ SP3D/S3D/CADWORKS  
+                  </li>
+                  <li>AVEVA PDMS/E3D </li>
+                  <li>AUTODESK-Plant 3D Data </li>
+                  <li>Control System Design, Specifications & Hardware Selection.</li>
+                  <li>3D Model Data Conversion tools like CADWORKS, AUTOPLANT, CADPIPE, PROCAD, CADMATIC, PLANT4D to PDS/PDMS/E3D/SP3D/S3D or Vice Versa.</li>
+                  <li>Laser Scanning and Conversion to Intelligent 3D Model</li>
+                  <li>As-built Engineering and Data Incorporation into 2D Drawings & 3D Models</li>
+                </ul>
+              </div>
+            </div>
+
+                                                <!-- Group 9: 3D modeling Eng -->
+            <div class="col-lg-6 mb-4">
+              <div class="safety-card">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="safety-icon me-3">
+                    <i class="fas fa-shield-virus"></i>
+                  </div>
+                  <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
+                    Specialty Engineering Services
+                  </h3>
+                </div>
+                <img
+                  src="images/enigineeringPage/3dModeling2.jpg"
+                  alt="Engineering Services"
+                  class="img-fluid mb-3 rounded"/>
+                <ul class="safety-list">
+                  <li>
+                    Process Debottleneck & Optimization Studies for Owner/Operators  
+                  </li>
+                  <li>Flow Assurance Studies for Upstream & Pipeline Projects  </li>
+                  <li>Benchmarking, Route Cause Analysis & Optimization of Performance. </li>
+                  <li>Piping Stress Analysis for Non-Metallic Piping Systems.</li>
+                  <li>Dynamic Stress Analysis of Piping (CEASAR-2/TRIFLEX)</li>
+                  <li>Acoustic and Flow Induced vibrations (AIV/FIV)</li>
+                  <li>Pulsation and Vibration Analysis Piping Integrity Assessment & Risk Based Inspection</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- second section -->
+
+<section class="stats-section-index">
+  <div class="">
+    <img src="images/enigineeringPage/pipelineBig.jpg" alt="Desktop Image" class="img-desktop" />
+    <img src="images/enigineeringPage/pipelineSmall.jpg" alt="Mobile Image" class="img-mobile" />
   </div>
 </section>
-<!-- Safety & Risk Assessment Section -->
-<section class="safety-section">
-  <div class="container position-relative">
-    <div class="row justify-content-center mb-5">
-      <div class="col-lg-8 text-center">
-        <h2 class="font-weight-bold text-white mb-3">Safety & Risk Assessment Studies</h2>
-        <div class="separator mx-auto bg-primary mb-4" style="height: 4px; width: 80px; background-color: #00C2FF !important;"></div>
-        <p class="text-white-50">Comprehensive safety studies and risk analysis to ensure operational integrity and compliance.</p>
-      </div>
+
+
+
+      <!-- <section class="stats-section-index">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <div class="stats-number">250+</div>
+              <div class="stats-label">Projects Completed</div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <div class="stats-number">100+</div>
+              <div class="stats-label">Brands</div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <div class="stats-number">15+</div>
+              <div class="stats-label">Years Experience</div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <div class="stats-number">5+</div>
+              <div class="stats-label">Countries Served</div>
+            </div>
+          </div>
+        </div>
+      </section> -->
     </div>
 
-    <div class="row g-4">
-      <!-- Group 1: Safety Systems & Modelling -->
-      <div class="col-lg-6 mb-4">
-        <div class="safety-card">
-          <div class="d-flex align-items-center mb-3">
-            <div class="safety-icon me-3">
-              <i class="fas fa-shield-virus"></i>
-            </div>
-            <h3 class="safety-title mb-0 border-0 pb-0">Safety Systems & Modelling</h3>
+    <!-- Footer -->
+    <footer>
+      <div class="cta-section">
+        <h2>Ready to Start Your Project?</h2>
+        <p>
+          Contact our team today to discuss how FUTURION can help with your
+          engineering and technical needs.
+        </p>
+        <a href="#contact" class="btn-contact">Contact Us Now</a>
+      </div>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>FUTURION</h3>
+          <p>
+            A professional trading company with high expertise in different
+            engineering fields with over 250 completed projects across the
+            Middle East.
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </div>
-          <ul class="safety-list">
-            <li>Sizing of Safety Valves</li>
-            <li>Safeguarding Philosophy</li>
-            <li>Relief, Vent, Flare Network Modelling</li>
-            <li>Dispersion and Radiations Studies</li>
-            <li>HAC Drawings (Hazardous Area Classification)</li>
-            <li>Quantitative Risk Assessment (QRA) incl. Fire Explosion Analysis (FEA)</li>
-            <li>Thermal Radiation, Gas Dispersion and Plume Study</li>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Engineering Solutions</a></li>
+            <li><a href="#">Technical Services</a></li>
+            <li><a href="#">Product Delivery</a></li>
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Maintenance & Repair</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              P.O. Box: 932, Ajman Free Zone, Office - C1-1F-SF5968, Ajman, UAE
+            </li>
+            <li>
+              Phone: +971 67655204 | Mobile: +971 507217383/ +971 504617383
+            </li>
+            <li>sales@futurionfze.com</li>
+            <li>www.futurionfze.com</li>
           </ul>
         </div>
       </div>
-
-      <!-- Group 2: Advanced Analysis -->
-      <div class="col-lg-6 mb-4">
-        <div class="safety-card">
-          <div class="d-flex align-items-center mb-3">
-            <div class="safety-icon me-3">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <h3 class="safety-title mb-0 border-0 pb-0">Advanced Hazard Analysis</h3>
-          </div>
-          <ul class="safety-list">
-            <li>Smoke and Gas Ingress Analysis (SGIA)</li>
-            <li>Emergency System and Survivability Analysis (ESSA)</li>
-            <li>Evacuation, Escape and Rescue Analysis (EERA)</li>
-            <li>Temporary Refuge Impairment Analysis (TRIA)</li>
-            <li>Acoustically Induced Vibration (AIV) & FIV</li>
-          </ul>
-        </div>
+      <div class="footer-bottom">
+        &copy; 2025 FUTURION. All rights reserved.
       </div>
+    </footer>
 
-      <!-- Group 3: Fire Protection Systems -->
-      <div class="col-lg-6 mb-4">
-        <div class="safety-card">
-          <div class="d-flex align-items-center mb-3">
-            <div class="safety-icon me-3">
-              <i class="fas fa-fire-extinguisher"></i>
-            </div>
-            <h3 class="safety-title mb-0 border-0 pb-0">Fire Protection Systems</h3>
-          </div>
-          <ul class="safety-list">
-            <li>Fire and Gas Mapping (FGS)</li>
-            <li>Fire Safety Assessment (FSA)</li>
-            <li>Firewater Demand Analysis</li>
-            <li>Firewater Hydraulic Study</li>
-            <li>Transient Surge Analysis of Fire Water System</li>
-            <li>Hydrant, Monitor, Deluge Sprinkler & Foam System</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Group 4: Workshops & Facilitation -->
-      <div class="col-lg-6 mb-4">
-        <div class="safety-card">
-          <div class="d-flex align-items-center mb-3">
-            <div class="safety-icon me-3">
-              <i class="fas fa-users-cog"></i>
-            </div>
-            <h3 class="safety-title mb-0 border-0 pb-0">Workshops & Facilitation</h3>
-          </div>
-          <ul class="safety-list">
-            <li>WORKSHOP/ Brainstorming Sessions Facilitator</li>
-            <li>Hazard Identification (HAZID)</li>
-            <li>Hazard and Operability Study (HAZOP)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- second section -->
- <section class="stats-section-index">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-6 col-md-3 mb-4 mb-md-0">
-          <div class="stats-number">250+</div>
-          <div class="stats-label">Projects Completed</div>
-        </div>
-        <div class="col-6 col-md-3 mb-4 mb-md-0">
-          <div class="stats-number">100+</div>
-          <div class="stats-label">Brands</div>
-        </div>
-        <div class="col-6 col-md-3 mb-4 mb-md-0">
-          <div class="stats-number">15+</div>
-          <div class="stats-label">Years Experience</div>
-        </div>
-        <div class="col-6 col-md-3 mb-4 mb-md-0">
-          <div class="stats-number">5+</div>
-          <div class="stats-label">Countries Served</div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-
-
-  <!-- Footer -->
-<footer>
-  <div class="cta-section">
-    <h2>Ready to Start Your Project?</h2>
-    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
-    <a href="#contact" class="btn-contact">Contact Us Now</a>
-  </div>
-  <div class="footer-container">
-    <div class="footer-section">
-      <h3>FUTURION</h3>
-      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
-      <div class="footer-social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-    <div class="footer-section">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Services</h3>
-      <ul>
-        <li><a href="#">Engineering Solutions</a></li>
-        <li><a href="#">Technical Services</a></li>
-        <li><a href="#">Product Delivery</a></li>
-        <li><a href="#">Consulting</a></li>
-        <li><a href="#">Maintenance & Repair</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Contact Us</h3>
-      <ul>
-        <li>P.O. Box: 932, Ajman Free Zone, Office - C1-1F-SF5968, Ajman, UAE</li>
-        <li>Phone: +971 67655204 | Mobile: +971 507217383/ +971 504617383</li>
-        <li>sales@futurionfze.com</li>
-        <li>www.futurionfze.com</li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    &copy; 2025 FUTURION. All rights reserved.
-  </div>
-</footer>
-
-  <!-- Bootstrap 5 JS -->
-  <!-- Bootstrap 4 JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <!-- Bootstrap 5 JS -->
+    <!-- Bootstrap 4 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
