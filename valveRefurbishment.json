@@ -1,0 +1,70 @@
+[
+    
+    {
+        "mainFilter": "CheckValves",
+        "title": "Oil Industry",
+        "category": "Check Valves",
+        "name": "Wafer Design Dual Valves",
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_9451da48bc764804aabfffada9cd033c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png ",
+        "class": "Class: 2500, Class: 150, Class: 1500, Class: 300, Class: 600, Class: 900",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48'', 54'', 60'', 72'', 80'', 84''"
+    },
+    {
+        "mainFilter": "CheckValves",
+        "title": "Oil Industry",
+        "category": "Check Valves",
+        "name": "Piston Check Valves",
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_3cd5a0b64ca140c4875c3bd9c78210ac~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "Class: 600, Class: 900, Class: 1500, Class: 300, Class: 150, Class: 2500",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel, Alloy",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+    },
+    {
+        "mainFilter": "CheckValves",
+        "title": "Oil Industry",
+        "category": "Check Valves",
+        "name": "Swing Check Valves",
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_95cfb0ffc9c448cab64065ca52a6677b~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "Class: 600, Class: 900, Class: 1500, Class: 300, Class: 150, Class: 2500",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        },
+    {
+        "mainFilter": "CheckValves",
+        "title": "Oil Industry",
+        "category": "Check Valves",
+        "name": "Poppet Check Valves",
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_4511846742774e7ba47783ff45b1dcd1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "Class: 150",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4''"
+    },
+        {
+        "mainFilter": "CheckValves",
+        "title": "Oil Industry",
+        "category": "Check Valves",
+        "name": "Lug Design Dual Check Valves",
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_afebfec50fc0429daa0e05239abcd9a1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "Class: 600, Class: 900, Class: 300, Class: 150",
+        "material": "Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36''"
+        },
+        
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "Full Welded Ball Valves ",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_afebfec50fc0429daa0e05239abcd9a1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "Class: 600, Class: 900, Class: 300, Class: 150, Class: 1500",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        }
+]
