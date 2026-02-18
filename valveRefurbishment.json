@@ -1,57 +1,57 @@
 [
     
     {
-        "mainFilter": "CheckValves",
+        "mainFilter": "checkValves",
         "title": "Oil Industry",
         "category": "Check Valves",
         "name": "Wafer Design Dual Valves",
         "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
         "image": "https://static.wixstatic.com/media/95504a_9451da48bc764804aabfffada9cd033c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png ",
-        "class": "Class: 2500, Class: 150, Class: 1500, Class: 300, Class: 600, Class: 900",
+        "class": " 2500,  150,  1500,  300,  600,  900",
         "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
         "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48'', 54'', 60'', 72'', 80'', 84''"
     },
     {
-        "mainFilter": "CheckValves",
+        "mainFilter": "checkValves",
         "title": "Oil Industry",
         "category": "Check Valves",
         "name": "Piston Check Valves",
         "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
         "image": "https://static.wixstatic.com/media/95504a_3cd5a0b64ca140c4875c3bd9c78210ac~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
-        "class": "Class: 600, Class: 900, Class: 1500, Class: 300, Class: 150, Class: 2500",
+        "class": " 600,  900,  1500,  300,  150,  2500",
         "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel, Alloy",
         "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
     },
     {
-        "mainFilter": "CheckValves",
+        "mainFilter": "checkValves",
         "title": "Oil Industry",
         "category": "Check Valves",
         "name": "Swing Check Valves",
         "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
         "image": "https://static.wixstatic.com/media/95504a_95cfb0ffc9c448cab64065ca52a6677b~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
-        "class": "Class: 600, Class: 900, Class: 1500, Class: 300, Class: 150, Class: 2500",
+        "class": " 600,  900,  1500,  300,  150,  2500",
         "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel",
         "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
         },
     {
-        "mainFilter": "CheckValves",
+        "mainFilter": "checkValves",
         "title": "Oil Industry",
         "category": "Check Valves",
         "name": "Poppet Check Valves",
         "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
         "image": "https://static.wixstatic.com/media/95504a_4511846742774e7ba47783ff45b1dcd1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
-        "class": "Class: 150",
+        "class": " 150",
         "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
         "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4''"
     },
         {
-        "mainFilter": "CheckValves",
+        "mainFilter": "checkValves",
         "title": "Oil Industry",
         "category": "Check Valves",
         "name": "Lug Design Dual Check Valves",
         "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
         "image": "https://static.wixstatic.com/media/95504a_afebfec50fc0429daa0e05239abcd9a1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
-        "class": "Class: 600, Class: 900, Class: 300, Class: 150",
+        "class": " 600,  900,  300,  150",
         "material": "Cast Steel, Forged Steel, Brass, Bronze",
         "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36''"
         },
@@ -62,9 +62,671 @@
         "category": "Ball Valves",
         "name": "Full Welded Ball Valves ",
         "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
-        "image": "https://static.wixstatic.com/media/95504a_afebfec50fc0429daa0e05239abcd9a1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
-        "class": "Class: 600, Class: 900, Class: 300, Class: 150, Class: 1500",
+        "image": "https://static.wixstatic.com/media/95504a_219bb5724b914db6b6a43e237c61c9eb~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 600,  900,  300,  150,  1500",
         "material": "SS316, 316L, 304, Brass, Bronze, WCB",
         "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "Side Entry Ball Valve",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_199ddc47045946e4bd195e31fa5575f3~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 300,  150, ",
+        "material": "Carbon Steel, Alloy Steel, Stainless Steel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12''"
+        },
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "Trunnion Mounted Ball Valves",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_292c4409b7da4d20adbdd8e7f9a43671~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "1 Piece Ball Valves",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_5615099b77f5447b93315ab8d3afea5c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "3 Piece Ball Valves",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_febd762964444c20b704952afd852647~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "Floating Ball Valves",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_3f2fc9ce2b0a4b999d8b1808be2440d5~mv2.jpeg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpeg",
+        "class": " 150,  300,  600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "ballValves",
+        "title": "Oil Industry",
+        "category": "Ball Valves",
+        "name": "2 Piece Ball Valves",
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_bed571985b39433c82f1cb5939a50117~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "butterflyValves",
+        "title": "Oil Industry",
+        "category": "Butterfly Valves",
+        "name": "Wafer Type Butterfly Valve",
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_2c5db8555a0b45dba25cb0f9c6d5d00a~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": " 150,  300,  600",
+        "material": "Carbon Steel A216 WCB/A105, Stainless Steel, CI, DI, Al-Bronze",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48'', 54'', 60'', 72'', 80''"
+        },
+        {
+        "mainFilter": "butterflyValves",
+        "title": "Oil Industry",
+        "category": "Butterfly Valves",
+        "name": "Lug Type Butterfly Valve",
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_e5ea238b575a4c569d33d56ec40a2e5c~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": " 150,  300",
+        "material": "Carbon Steel A216 WCB/A105, Stainless Steel, CI, DI, Al-Bronze",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 40''"
+        },
+        {
+        "mainFilter": "butterflyValves",
+        "title": "Oil Industry",
+        "category": "Butterfly Valves",
+        "name": "Double Flanged Type Butterfly Valve",
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_ccb4a4dde15b4818b2a3edc4559f1dc5~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": ",  125,  150,  300",
+        "material": "CI, DI, Al-Bronze, Stainless Steel, Monel, Inconel, Hastelloy",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        },
+        {
+        "mainFilter": "butterflyValves",
+        "title": "Oil Industry",
+        "category": "Butterfly Valves",
+        "name": "U Flanged Type Butterfly Valve",
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_bfadeeefbe084a1abc11b84abe473d8f~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": " 125,  150,  300",
+        "material": "CI, DI, Al-Bronze, Stainless Steel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        }, 
+        {
+        "mainFilter": "gateValves",
+        "title": "Oil Industry",
+        "category": "Gate Valves",
+        "name": "OS & Y Gate Valves",
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_0452fc176051495380d12c9c4507e96c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "WCB, Cast Iron, Stainless Steel",
+        "size" : "12'', 14'', 16'', 18'', 20'', 24''"
         }
+        , 
+        {
+        "mainFilter": "gateValves",
+        "title": "Oil Industry",
+        "category": "Gate Valves",
+        "name": "Knife Gate Valve",
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_9dacc610a47b436980bb6110ed02666b~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "WCB, Cast Iron, Stainless Steel",
+        "size" : "2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        }, 
+        {
+        "mainFilter": "gateValves",
+        "title": "Oil Industry",
+        "category": "Gate Valves",
+        "name": "Rising Stem Gate Valves",
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_d11c7930e9a1446eaa9779d34e87b694~mv2.png/v1/fill/w_309,h_174,al_c,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "WCB, Cast Iron, Stainless Steel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        }, 
+        {
+        "mainFilter": "gateValves",
+        "title": "Oil Industry",
+        "category": "Gate Valves",
+        "name": "BB Gate Valves",
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_9b86c078befb4864aaf95d8ccdce9ca5~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "WCB, Cast Steel, Stainless Steel, Cast Iron, Ductile Iron",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        }, 
+        {
+        "mainFilter": "globeValves",
+        "title": "Oil Industry",
+        "category": "Globe Valves",
+        "name": "Angle Globe Valve",
+        "description": "Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_93dd829833ad4b8cab3db6c3ca6d80f8~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500,  4500",
+        "material": "Carbon Steel A216 WCB/A105, Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+        }, 
+        {
+        "mainFilter": "globeValves",
+        "title": "Oil Industry",
+        "category": "Globe Valves",
+        "name": "Y Angle Globe Valve",
+        "description": "Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_46c8c9c988384bb499aa4f4153cdfbee~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500,  4500",
+        "material": "Forged Steel, Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+        }, 
+        {
+        "mainFilter": "globeValves",
+        "title": "Oil Industry",
+        "category": "Globe Valves",
+        "name": "Z Type Globe Valve",
+        "description": "Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "image": "https://static.wixstatic.com/media/95504a_46c8c9c988384bb499aa4f4153cdfbee~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500,  4500",
+        "material": "Forged Steel, Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+  }, 
+        {
+        "mainFilter": "controlValves",
+        "title": "Oil Industry",
+        "category": "Control Valves",
+        "name": "Globe Control Valve",
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_171387b7cf3e48ce89e0b4d0e6b9d4fe~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "Carbon Steel, Chrome-Molybdenum Steel And Stainless Steel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+  }, 
+        {
+        "mainFilter": "controlValves",
+        "title": "Oil Industry",
+        "category": "Control Valves",
+        "name": "Butterfly Control Valves",
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_ae19d35a41794674af7607a3b644cc12~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "Cast Iron, Ductile Iron, Aluminum, Carbon Steel, Stainless Steel And Exotic Metals.",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+  }, 
+        {
+        "mainFilter": "controlValves",
+        "title": "Oil Industry",
+        "category": "Control Valves",
+        "name": "Control Ball Valves",
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_f16a9615fbc74b159166cf703568c793~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": " 150,  300,  600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+  }, 
+        {
+        "mainFilter": "pressureReliefValves",
+        "title": "Oil Industry",
+        "category": "Pressure Relief Valves",
+        "name": "Pilot Operated PRV",
+        "description": "A Pressure Relief Valve is a safety device that protects systems from overpressure by releasing fluid when pressure exceeds a set limit. <br /> These valves are essential in preventing damage to equipment and ensuring safe operation in industrial processes.",
+        "image": "https://static.wixstatic.com/media/95504a_f969217aaa6146e38eca1bcf3beeb58c~mv2.png/v1/fill/w_309,h_174,al_c,lg_1,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "Carbon Steel, WCB, Inconel 625, Cast Iron",
+        "size" : "1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8''"
+  }, 
+        {
+        "mainFilter": "pressureReliefValves",
+        "title": "Oil Industry",
+        "category": "Pressure Relief Valves",
+        "name": "Spring Loaded PRV",
+        "description": "A Pressure Relief Valve is a safety device that protects systems from overpressure by releasing fluid when pressure exceeds a set limit. <br /> These valves are essential in preventing damage to equipment and ensuring safe operation in industrial processes.",
+        "image": "https://static.wixstatic.com/media/95504a_46589f659532414c950b35cca93e9984~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "Cast Iron, Stainless Steel 625, Inconel",
+        "size" : "1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8''"
+  }, 
+        {
+        "mainFilter": "solenoidValves",
+        "title": "Oil Industry",
+        "category": "Solenoid Valves",
+        "name": "3-3/2 Way Solenoid Valve",
+        "description": "A Solenoid Valve is an electrically controlled valve. The valve features a solenoid, which is an electric coil with a movable ferromagnetic core (plunger) in its center. In the rest position, the plunger closes off a small orifice.<br /> When an electric current is passed through the coil, it creates a magnetic field that pulls the plunger away from the orifice, allowing fluid to flow through the valve. When the current is turned off, the plunger returns to its original position, closing the valve and stopping the flow of fluid.",
+        "image": "https://static.wixstatic.com/media/95504a_99c2cb873a0f422c8b9d3d11e33502e2~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "Voltage: 100-240, 100-241, 100-242",
+        "material": "Brass",
+        "size" : "1/2'', 3/4'', 1''"
+  }, 
+        {
+        "mainFilter": "solenoidValves",
+        "title": "Oil Industry",
+        "category": "Solenoid Valves",
+        "name": "2-2/2 Way Solenoid Valves",
+        "description": "A Solenoid Valve is an electrically controlled valve. The valve features a solenoid, which is an electric coil with a movable ferromagnetic core (plunger) in its center. In the rest position, the plunger closes off a small orifice.<br /> When an electric current is passed through the coil, it creates a magnetic field that pulls the plunger away from the orifice, allowing fluid to flow through the valve. When the current is turned off, the plunger returns to its original position, closing the valve and stopping the flow of fluid.",
+        "image": "https://static.wixstatic.com/media/95504a_b2181c4ca44a4260ade7821550097560~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": "Voltage: 100-240, 100-241",
+        "material": "Brass",
+        "size" : "3/8'', 3/4'', 11/2'', 1'', 1-1/4'', 2''"
+  }, 
+        {
+        "mainFilter": "solenoidValves",
+        "title": "Oil Industry",
+        "category": "Solenoid Valves",
+        "name": "2-2/2 Way Solenoid Valves",
+        "description": "A Solenoid Valve is an electrically controlled valve. The valve features a solenoid, which is an electric coil with a movable ferromagnetic core (plunger) in its center. In the rest position, the plunger closes off a small orifice.<br /> When an electric current is passed through the coil, it creates a magnetic field that pulls the plunger away from the orifice, allowing fluid to flow through the valve. When the current is turned off, the plunger returns to its original position, closing the valve and stopping the flow of fluid.",
+        "image": "https://static.wixstatic.com/media/95504a_b2181c4ca44a4260ade7821550097560~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": "Voltage: 100-240, 100-241",
+        "material": "Brass",
+        "size" : "3/8'', 3/4'', 11/2'', 1'', 1-1/4'', 2''"
+  },{
+        "mainFilter": "doubleBlockValves",
+        "title": "Oil Industry",
+        "category": "Double Block Valves",
+        "name": "DBB Trunnion Mounted Valves",
+        "description": "Trunnion Mounted Ball Valves feature a double bearing construction, which means that the ball is anchored both at the top and at the bottom. This increases life of the seals and reduces friction and torque significantly when the valve is activated. Savings can be achieved when choosing gear",
+        "image": "https://static.wixstatic.com/media/95504a_2f6a369c169a45a4bd90ba7503749450~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "CS, SS, Duplex SS, Alloy",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48''"
+
+  },{
+        "mainFilter": "needleValves",
+        "title": "Gas Product Categories",
+        "category": "Needle Valves",
+        "name": "Angle Type Series",
+        "description": "A Needle Valve is a type of valve with a small port and a threaded, needle-shaped plunger. It allows precise regulation of flow, although it is generally only capable of relatively low flow rates.",
+        "image": "https://static.wixstatic.com/media/95504a_5878fc4557124e51be0af44d793e3295~mv2.png/v1/fill/w_309,h_174,al_c,lg_1,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "pressure": "10,000, 6000, 20000, 15000",
+        "material": "Stainless Steel And Carbon Steel",
+        "size" : " 1/4'', 1/2'', 3/4'', 1''"
+
+  },{
+        "mainFilter": "needleValves",
+        "title": "Gas Product Categories",
+        "category": "Needle Valves",
+        "name": "Hex Body Series",
+        "description": "A Needle Valve is a type of valve with a small port and a threaded, needle-shaped plunger. It allows precise regulation of flow, although it is generally only capable of relatively low flow rates.",
+        "image": "https://static.wixstatic.com/media/95504a_6b4bc85c8ae64ea6a51e2e6b012fbe30~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "pressure": "10,000, 6000, 20000, 15000",
+        "material": "Stainless Steel And Carbon Steel",
+        "size" : " 1/4'', 1/2'', 3/4'', 1''"
+
+  },{
+        "mainFilter": "needleValves",
+        "title": "Gas Product Categories",
+        "category": "Needle Valves",
+        "name": "Square Body Series",
+        "description": "A Needle Valve is a type of valve with a small port and a threaded, needle-shaped plunger. It allows precise regulation of flow, although it is generally only capable of relatively low flow rates.",
+        "image": "https://static.wixstatic.com/media/95504a_d98d76a377cd4414a478932922d637fa~mv2.png/v1/fill/w_309,h_174,al_c,lg_1,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "pressure": "10,000, 6000, 20000, 15000",
+        "material": "Stainless Steel And Carbon Steel",
+        "size" : " 1/4'', 1/2'', 3/4'', 1''"
+
+  },{
+        "mainFilter": "pressureRelief",
+        "title": "Gas Product Categories",
+        "category": "Pressure Relief Valves",
+        "name": "Spring Loaded PRV",
+        "description": "A Pressure Relief Valve is a safety device designed to protect a pressurized vessel or system during an overpressure event. <br /> An Overpressure event refers to any condition which would cause pressure in a vessel or system to increase beyond the specified design pressure or maximum allowable working pressure (MAWP).",
+        "image": "images/modalImages/sprinLoadedPrv.jpg",
+        "pressure": "",
+        "material": "",
+        "size" : " "
+
+  },{
+        "mainFilter": "pressureRelief",
+        "title": "Gas Product Categories",
+        "category": "Pressure Relief Valves",
+        "name": "Pilot Operated PRV",
+        "description": "A Pressure Relief Valve is a safety device designed to protect a pressurized vessel or system during an overpressure event. <br /> An Overpressure event refers to any condition which would cause pressure in a vessel or system to increase beyond the specified design pressure or maximum allowable working pressure (MAWP).",
+        "image": "images/modalImages/pilotOperatedPrv.jpg",
+        "pressure": "",
+        "material": "",
+        "size" : " "
+
+  },{
+        "mainFilter": "doubleBlockBleed",
+        "title": "Gas Product Categories",
+        "category": "Double Block And Bleed Valves",
+        "name": "Flanged Connection",
+        "description": "Double Block and Bleed Valves are most commonly used in the oil and gas industry, but can also be helpful in many other industries. <br /> It's typically used where bleeding the valve cavity is required, where piping needs isolation for maintenance, or for any of these other scenarios: Prevent product contamination",
+        "image": "images/modalImages/flangedConnection.jpg",
+        "pressure": "",
+        "material": "",
+        "size" : " "
+
+  },{
+        "mainFilter": "doubleBlockBleed",
+        "title": "Gas Product Categories",
+        "category": "Double Block And Bleed Valves",
+        "name": "Screwed Connection",
+        "description": "Double Block and Bleed Valves are most commonly used in the oil and gas industry, but can also be helpful in many other industries. <br /> It's typically used where bleeding the valve cavity is required, where piping needs isolation for maintenance, or for any of these other scenarios: Prevent product contamination",
+        "image": "images/modalImages/screwedConnection.jpg",
+        "pressure": "",
+        "material": "",
+        "size" : " "
+
+  },{
+        "mainFilter": "manifold",
+        "title": "Gas Product Categories",
+        "category": "Valve Manifolds",
+        "name": "2 Way",
+        "description": "A Manifold is a device that connects one or more block/isolate valves of a hydraulic system. Valves of a hydraulic system can include a ball, needle, bleed and vent valves.",
+        "image": "https://static.wixstatic.com/media/95504a_380537f041ad43b99c262059a4c5c437~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "6000-10000",
+        "material": "Stainless Steel",
+        "size" : "1/2'' 1/4''"
+
+  },{
+        "mainFilter": "manifold",
+        "title": "Gas Product Categories",
+        "category": "Valve Manifolds",
+        "name": "3 Way",
+        "description": "A Manifold is a device that connects one or more block/isolate valves of a hydraulic system. Valves of a hydraulic system can include a ball, needle, bleed and vent valves.",
+        "image": "https://static.wixstatic.com/media/95504a_afe668d133044bd6b7d36a778861b5b4~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "6000-10000",
+        "material": "Stainless Steel",
+        "size" : "1/2'' 1/4''"
+
+  },{
+        "mainFilter": "manifold",
+        "title": "Gas Product Categories",
+        "category": "Valve Manifolds",
+        "name": "5 Way",
+        "description": "A Manifold is a device that connects one or more block/isolate valves of a hydraulic system. Valves of a hydraulic system can include a ball, needle, bleed and vent valves.",
+        "image": "https://static.wixstatic.com/media/95504a_e3d0cf4cea21477cab1147ca8824f15a~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "6000-10000",
+        "material": "Stainless Steel",
+        "size" : "1/2'' 1/4''"
+
+  },{
+        "mainFilter": "trunionValves",
+        "title": "Gas Product Categories",
+        "category": "Trunnion Valve",
+        "name": "Flanged Connection",
+        "description": "......",
+        "image": "https://static.wixstatic.com/media/95504a_3a1ddeac919b4f30ba3cdf85a19bbfba~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "Stainless Steel, Cast Iron, Aluminium, Bronze",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 5'', 6'', 8'', 10'', 12''"
+  },{
+        "mainFilter": "subsesTemporary",
+        "title": "Gas Product Categories",
+        "category": "Subsea Temporary Service Valves ",
+        "name": "SSTS Temporary Services",
+        "description": "Subsea production and pipeline transmission are considered critical service applications for valves because of the high pressures, extreme temperatures, and remote location of the equipment. subsea valve technology should provide superior reliability in comparison with seat-supported floating balls.",
+        "image": "https://static.wixstatic.com/media/95504a_cd3cd83dc3374497ba17e7903987488f~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": " 150,  300,  600,  900,  1500,  2500",
+        "material": "Stainless Steel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "poppetValves",
+        "title": "Gas Product Categories",
+        "category": "Poppet Valves",
+        "name": "Poppet Valves",
+        "description": "A poppet valve (also called mushroom valve) is a valve typically used to control the timing and quantity of gas or vapor flow into an engine. <br /> It consists of a hole or open-ended chamber, usually round or oval in cross-section, and a plug, usually a disk shape on the end of a shaft known as a valve stem. The working end of this plug, the valve face, is typically ground at a 45° bevel to seal against a corresponding valve seat ground into the rim of the chamber being sealed. The shaft travels through a valve guide to maintain its alignment.",
+        "image": "https://static.wixstatic.com/media/95504a_ba09544c6541482e9a6ad8591a78f66d~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "pressure": "2-10 Bar",
+        "material": "Aluminium, Nitrile, Brass, Polymer",
+        "size" : ""
+  },{
+        "mainFilter": "wGlobeValves",
+        "title": "Water And Waste Water Management",
+        "category": "Globe Valves",
+        "name": "Stainless Steel Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal ,br />baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_b794b196a7824ab897272773e8f63b22~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Stainless Steel",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "wGlobeValves",
+        "title": "Water And Waste Water Management",
+        "category": "Globe Valves",
+        "name": "Cast Iron Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal ,br />baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_fb3098b3185f42f79dcafc7b64a5634a~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Cast Iron",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 6'', 8''"
+  },{
+        "mainFilter": "wGlobeValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Globe Valves",
+        "name": "Bolted Bonnet Globe Valves", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal ,br />baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_4ee58a5ec8854177af4d1e902e318abc~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500",
+        "material": "WCB / LCB / LCC / CF8M / CF8 / CF3M / 4A / 6A /",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "wGlobeValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Globe Valves",
+        "name": "Forged Steel Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal ,br />baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_208bbd98dc3845ff9c659f4fd5d0c23c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500",
+        "material": "A105 / LF2 / F5 / F9 / F11 / F22 / F316 / F304 / F316L / F321 / F51 / F55",
+        "size" : "1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "wGlobeValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Globe Valves",
+        "name": "Pressure Seal Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal ,br />baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_363a2433e01f4a17a3d8604c557f89fb~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500",
+        "material": "WCB / LCB / LCC / CF8M / CF8 / CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'' "
+  },{
+        "mainFilter": "wGateValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Gate Valves",
+        "name": "Pressure Seal Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate.",
+        "image": "https://static.wixstatic.com/media/95504a_53a06588374d4df4a85b4359d4c4a399~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500",
+        "material": " WCB / LCB / LCC / CF8M / CF8 / CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'' "
+  },{
+        "mainFilter": "wGateValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Gate Valves",
+        "name": "Other Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate.",
+        "image": "https://static.wixstatic.com/media/95504a_28d59adadee944f8ad9897e53e2fac0d~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Brass Female BSPP, Cast Iron Gate Valve, Flanged Ends Metal to Metal Seat and Cast Iron Gate Valve, Flanged Ends Metal/EPDM Seal",
+        "size" : " 1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'' "
+  },{
+        "mainFilter": "wGateValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Gate Valves",
+        "name": "Forged Steel Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate.",
+        "image": "https://static.wixstatic.com/media/95504a_a056e57c52db427893e5e17bd4bdf454~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500",
+        "material": "A105 / LF2 / F5 / F9 / F11 / F22 / F316 / F304 / F316L / F321 / F51 / F55",
+        "size" : " 1/2'', 3/4'', 1'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "wGateValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Gate Valves",
+        "name": "Parallel Side Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate.",
+        "image": "https://static.wixstatic.com/media/95504a_28aa7a38bdb947dd9af835b9afd4e1ba~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": "WCB / LCB / LCC / CF8M / CF8 / CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'' "
+  },{
+        "mainFilter": "wGateValves",
+        "title": "Bolted Bonnet Globe Valve",
+        "category": "Gate Valves",
+        "name": "Bolted Bonnet Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate.",
+        "image": "https://static.wixstatic.com/media/95504a_09195e4adc064ff49483ffa3384071ae~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": "A105 / LF2 / LF3 / F316 / F304 / F316L / F51 / F55 / F6a / WCB / LCB / LCC / CF8M / CF8 / CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48'', 54'', 56''"
+  },{
+        "mainFilter": "wControlValves",
+        "title": "Control Valves",
+        "category": "Control Valves",
+        "name": "Butterfly Control Valves", 
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_0f4a822a841041de83a08067ba5e3e34~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": "Introseal (No Seat) Butterfly Control Valve",
+        "size" : " 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36'', 42'', 48'', 54'', 56''"
+  },{
+        "mainFilter": "wControlValves",
+        "title": "Control Valves",
+        "category": "Control Valves",
+        "name": "Globe Control Valves", 
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_72835663943d4e938e400e54d2e9d3ff~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500, 4500",
+        "material": "Introseal (No Seat) Butterfly Control Valve",
+        "size" : " 1'', 1-1/4'', 1-1/2'', 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24''"
+  },{
+        "mainFilter": "wFlapValves",
+        "title": "Flap Valve",
+        "category": "Flap Valves",
+        "name": "Flap Valve", 
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": " ",
+        "class": " ",
+        "material": " ",
+        "size" : "  "
+  },{
+        "mainFilter": "wCheckValves",
+        "title": "Check Valves",
+        "category": "Check Valves",
+        "name": "Swing Type", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc.",
+        "image": "https://static.wixstatic.com/media/95504a_2e34779786a840b38a6eed7a7d86ae8f~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": "Bolted Cover, Swing Check Valve WCB / LCB / LCC / CF8M / CF8 /CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36''"
+  },{
+        "mainFilter": "wCheckValves",
+        "title": "Check Valves",
+        "category": "Check Valves",
+        "name": "Cast Iron", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc.",
+        "image": "https://static.wixstatic.com/media/95504a_e1c4ec2bcb58420fb9fd685a7c218634~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Bolted Cover, Swing Check Valve WCB / LCB / LCC / CF8M / CF8 /CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12''"
+  },{
+        "mainFilter": "wCheckValves",
+        "title": "Check Valves",
+        "category": "Check Valves",
+        "name": "Spring Type", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc.",
+        "image": "https://static.wixstatic.com/media/95504a_e11a96d4e1f94829aebb59b3a154085a~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Stainless Steel Spring Check Valve. 316SS 2 piece construction",
+        "size" : " 1/4'', 1/2'', 3/4'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "wCheckValves",
+        "title": "Check Valves",
+        "category": "Check Valves",
+        "name": "Forged Steel", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc.",
+        "image": "https://static.wixstatic.com/media/95504a_a86351f71f084487a9aee25b5022625d~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 1500",
+        "material": "A105 / LF2 / F5 / F9 / F11 / F22 / F316 / F304 / F316L / F321 / F51 / F55",
+        "size" : "1/2'', 3/4'', 1-1/4'', 1-1/2'', 2''"
+  },{
+        "mainFilter": "wCheckValves",
+        "title": "Check Valves",
+        "category": "Check Valves",
+        "name": "Dual Plate Type", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc.",
+        "image": "https://static.wixstatic.com/media/95504a_7a472e9bb0004ff5b67c5746670c7a47~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600,900, 1500, 2500",
+        "material": "WCB / LCB / LCC / CF8M / CF8 / CF3M / 4A / 6A",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36''"
+
+  },{
+        "mainFilter": "wButterflyValves",
+        "title": "Butterfly Valves",
+        "category": "Butterfly Valves",
+        "name": "Double Offset Type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_05495c14ec124599b6f1eddf8be56a4c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300",
+        "material": "WCB / LCB / LCC / CF8M / CF8 /CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10'', 12'', 14'', 16'', 18'', 20'', 24'', 36''"
+
+  },{
+        "mainFilter": "wButterflyValves",
+        "title": "Butterfly Valves",
+        "category": "Butterfly Valves",
+        "name": "Wafer Type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_4abed60e7d4d442989c8d5eb3a13a590~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Coated Ductile Iron Body, SS 316 Disc, EPDM Seat",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8''"
+  },{
+        "mainFilter": "wButterflyValves",
+        "title": "Butterfly Valves",
+        "category": "Butterfly Valves",
+        "name": "Lug Type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_0de8e4a5437943b890ed3b4fffbf18dc~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": "150",
+        "material": "Material: Lug Type (Threaded) SS 316 Disc And EPDM Seat",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8''"
+  },{
+        "mainFilter": "wButterflyValves",
+        "title": "Butterfly Valves",
+        "category": "Butterfly Valves",
+        "name": "Triple Offset Type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates.",
+        "image": "https://static.wixstatic.com/media/95504a_4b105140dd4c4db1afde17eed55b1d43~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": " WCB / LCB / LCC / CF8M / CF8 /CF3M / 4A / 6A / Inconel",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10, 12'', 16'', 18'', 20''', 24'', 36'' "
+  }
+
+
+  
+  
+
+
+
+  
+      
+  
+
+  
+        
 ]
