@@ -715,18 +715,334 @@
         "class": "150",
         "material": " WCB / LCB / LCC / CF8M / CF8 /CF3M / 4A / 6A / Inconel",
         "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10, 12'', 16'', 18'', 20''', 24'', 36'' "
+  },{
+        "mainFilter": "cGlobeValve",
+        "title": "Cryogenic Industry",
+        "category": "Globe Valves",
+        "name": "Cryogenic Globe Valve...", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "https://static.wixstatic.com/media/95504a_4b105140dd4c4db1afde17eed55b1d43~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "300, 600, 900, 1500, 2500",
+        "material": " A105 / LF2 / LF3 / F316 / F304 | F316L / F51 / F55 / F6a / WCB / LCB | LCC / CF8M / CF8 / CF3M / 4A / 6A / Inconel | Trims F316 / F304 / F316L | Seats Soft / Metal | Ends Flange Ends | Butt-Weld End",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10, 12'', 16'' "
+  },{
+        "mainFilter": "cBallValve",
+        "title": "Cryogenic Industry",
+        "category": "Ball Valves",
+        "name": "Cryogenic Ball Valve", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_f9355b082b5c485da941d12f9990bf16~mv2.png/v1/fill/w_309,h_174,al_c,lg_1,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "300, 600, 900, 1500, 2500",
+        "material": "Bore Type Full Bore And Reduced Bore | Materials: LF2 / LF3 / F316 / F304 / F316L / | LCB / LCC / CF8M / CF8 / CF3M | Trims: F316 / F304 / F316L | Seats: Soft / Metal | Ends: Flange Ends, | Butt-Weld End",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10, 12'', 16'', 18'', 20'', 24'', 36'' "
+  },{
+        "mainFilter": "cGateValve",
+        "title": "Cryogenic Industry",
+        "category": "Gate Valves",
+        "name": "Cryogenic Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_0c5beacd34fd4ad88ef319217362045f~mv2.png/v1/fill/w_309,h_174,al_c,lg_1,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "300, 600, 900, 1500",
+        "material": "Bore Type Full Bore And Reduced Bore | Materials: LF2 / LF3 / F316 / F304 / F316L / | LCB / LCC / CF8M / CF8 / CF3M | Trims: F316 / F304 / F316L | Seats: Soft / Metal | Ends: Flange Ends, | Butt-Weld End",
+        "size" : " 2'', 2-1/2'', 3'', 4'', 6'', 8'', 10, 12'', 16'', 18'', 20'', 24'', 36'' "
+  },{
+        "mainFilter": "cButterflyValve",
+        "title": "Cryogenic Industry",
+        "category": "Butterfly Valves",
+        "name": "Cryogenic Butterfly Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_0e32ff88eedc4d9285b6847ff3f554ba~mv2.png/v1/fill/w_225,h_225,q_75,enc_avif,quality_auto/95504a_0e32ff88eedc4d9285b6847ff3f554ba~mv2.png",
+        "class": "300, 600, 900, 1500",
+        "material": "LF2 / LF3 / F316 / F304 / F316L / | LCB / LCC / CF8M / CF8 / CF3M | Trims: F316 / F304 / F316L | Seats: Metal | Ends: Flange Ends, | Butt-Weld End",
+        "size" : "4'', 6'', 8'', 10, 12'', 16'', 18'', 20'', 24'', 36'' "
+  },{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "Pressure Seal Bonnet Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/NuclearGateValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "Slab Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/SlabGateValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "Rising Stem Groved Gate", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/grovedGate.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  }
+  ,{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "OS & Y Bolted Bonnet Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/odAndY.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  }  
+  ,{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "Flanged Non - Rising Stem Gate", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/risingStemGate.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  }  
+  ,{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "Parallel Slide Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/parallelSlide.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  }  ,{
+        "mainFilter": "nGateValve",
+        "title": "Nuclear Industry Product",
+        "category": "Gate Valve",
+        "name": "Flexible Wedge Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "images/modalImages/flexibleWedge.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nGlobeValve",
+        "title": "Nuclear Industry Product",
+        "category": "Globe Valve",
+        "name": "Boltted Bonnet Globe Valves", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/bolttedBonnet.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nGlobeValve",
+        "title": "Nuclear Industry Product",
+        "category": "Globe Valve",
+        "name": "Angle Globe Valves", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/angleGlobeValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nGlobeValve",
+        "title": "Nuclear Industry Product",
+        "category": "Globe Valve",
+        "name": "bellowSealed Globed Valves", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/bellowSealed.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nGlobeValve",
+        "title": "Nuclear Industry Product",
+        "category": "Globe Valve",
+        "name": "Y-Pattern Globed Valves", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/yPattern.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nCheckValve",
+        "title": "Nuclear Industry Product",
+        "category": "Check Valve",
+        "name": "Full Opening Check Valve", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/FullOpeningCheckValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nCheckValve",
+        "title": "Nuclear Industry Product",
+        "category": "Check Valve",
+        "name": "Dual Plate Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/dualPlateCheckValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : " "
+  },{
+        "mainFilter": "nCheckValve",
+        "title": "Nuclear Industry Product",
+        "category": "Check Valve",
+        "name": "Swing Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/swingCheckValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nCheckValve",
+        "title": "Nuclear Industry Product",
+        "category": "Check Valve",
+        "name": "Bolted Bonnet Piston Check Valve", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/boltedBonnetPiston.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nPressureValve",
+        "title": "Nuclear Industry Product",
+        "category": "Pressure Relief Valves",
+        "name": "Pilot Operated Safety Valve", 
+        "description": "A Pressure Relief Valve is a safety device designed to protect a pressurized vessel or system during an overpressure event..<br /> An Overpressure event refers to any condition which would cause pressure in a vessel or system to increase beyond the specified design pressure or maximum allowable working pressure (MAWP). <br /> The primary purpose of a pressure Relief Valve is protection of life and property by venting fluid from an over pressurized vessel.",
+        "image": "images/modalImages/pilotOperatedSafetyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nPressureValve",
+        "title": "Nuclear Industry Product",
+        "category": "Pressure Relief Valves",
+        "name": "Pilot Operated Safety Valve", 
+        "description": "A Pressure Relief Valve is a safety device designed to protect a pressurized vessel or system during an overpressure event..<br /> An Overpressure event refers to any condition which would cause pressure in a vessel or system to increase beyond the specified design pressure or maximum allowable working pressure (MAWP). <br /> The primary purpose of a pressure Relief Valve is protection of life and property by venting fluid from an over pressurized vessel.",
+        "image": "images/modalImages/springLoadSafetyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nPlugValve",
+        "title": "Nuclear Industry Product",
+        "category": "Plug Valves",
+        "name": "Lubricated Plug Valve", 
+        "description": "Plug Valves are valves with cylindrical or conically tapered plugs which can be rotated inside the valve body to control flow through the valve. <br /> The Plugs in Plug Valves have one or more hollow passageways going sideways through the plug, so that fluid can flow through the plug when the valve is open. Plug valves are simple and often economical.",
+        "image": "images/modalImages/lubricatedPlugValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nPlugValve",
+        "title": "Nuclear Industry Product",
+        "category": "Plug Valves",
+        "name": "Eccentric Plug Valve", 
+        "description": "Eccentric Plug Valves are a type of plug valve in which the plug is offset from the centerline of the valve body. This offset allows for better sealing and reduced wear compared to standard plug valves.",
+        "image": "images/modalImages/eccentricPlugValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nDiaphramValve",
+        "title": "Nuclear Industry Product",
+        "category": "Diaphragm Valves",
+        "name": "Straight Diaphragm Valves", 
+        "description": "Diaphragm valves are used in applications where contamination of the fluid being controlled must be avoided. The diaphragm acts as a barrier between the fluid and the valve's moving parts.",
+        "image": "images/modalImages/diaphragmValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nControlValve",
+        "title": "Nuclear Industry Product",
+        "category": "Control Valves",
+        "name": "Single Seated Control Valve", 
+        "description": "Single seated control valves are used in applications where precise control of fluid flow is required. They feature a single seat and a single valve plug.",
+        "image": "images/modalImages/singleSe€atedControlValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nBallValve",
+        "title": "Nuclear Industry Product",
+        "category": "Ball Valves",
+        "name": "Lubricated Ball Valve", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. ,br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/eccentricBallValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nBallValve",
+        "title": "Nuclear Industry Product",
+        "category": "Ball Valves",
+        "name": "Reduced Bore Ball Valve", 
+        "description": "A Reduced Bore Ball Valve is a type of ball valve where the bore diameter is smaller than the nominal pipe size. This design allows for a more compact valve while maintaining the same flow characteristics.",
+        "image": "images/modalImages/reducedBoreBallValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nBallValve",
+        "title": "Nuclear Industry Product",
+        "category": "Ball Valves",
+        "name": "Rising Stem Ball Valve", 
+        "description": "A Rising Stem Ball Valve is a type of ball valve where the stem rises as the valve is opened. This design allows for visual confirmation of the valve position and is commonly used in applications requiring precise control.",
+        "image": "images/modalImages/risingStemBallValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nBallValve",
+        "title": "Nuclear Industry Product",
+        "category": "Ball Valves",
+        "name": "V-Port Ball Valve", 
+        "description": "A V-Port Ball Valve is a type of ball valve with a V-shaped port in the ball. This design allows for precise flow control and is commonly used in applications requiring linear flow characteristics.",
+        "image": "images/modalImages/v-PortBallValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nButterflyValve",
+        "title": "Nuclear Industry Product",
+        "category": "Butterfly Valves",
+        "name": "Water Lug Type Butterfly Valve", 
+        "description": "A Butterfly Valve is a quarter-turn rotary motion valve that uses a disc to control the flow of fluid. It is commonly used in applications where quick shut-off and precise flow control are required.",
+        "image": "images/modalImages/waterLugTypebutterflyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nButterflyValve",
+        "title": "Nuclear Industry Product",
+        "category": "Butterfly Valves",
+        "name": "Tipple Offset Butterfly Valve", 
+        "description": "A Tipple Offset Butterfly Valve is a type of butterfly valve with an offset disc that provides better sealing and flow characteristics compared to standard butterfly valves.",
+        "image": "images/modalImages/tippleOffsetButterflyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "nButterflyValve",
+        "title": "Nuclear Industry Product",
+        "category": "Butterfly Valves",
+        "name": "Flange Type Butterfly Valve", 
+        "description": "A Flange Type Butterfly Valve is a butterfly valve that is connected to pipes using flanges. This design allows for easy installation and maintenance.",
+        "image": "images/modalImages/flangeButterflyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
   }
 
 
   
-  
 
 
 
-  
-      
-  
-
-  
-        
 ]
