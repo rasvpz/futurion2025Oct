@@ -1038,7 +1038,702 @@
         "class": "",
         "material": "",
         "size" : ""
+  },{
+        "mainFilter": "mGlobeValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Globe Valves",
+        "name": "Carbon Steel Body Ansi Flanged Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/carbonSteelBodyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mGlobeValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Globe Valves",
+        "name": "Bellow Globe Valve With Din Flanges", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/bellowGlobeValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mGlobeValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Globe Valves",
+        "name": "Globe Valve Ansi Flanged Steel forged body", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/globeValveSteelForgedBody.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mGlobeValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Globe Valves",
+        "name": "Ansi Flanged Stainless Steel Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. <br /> Globe Valves are named for their spherical body shape with the two halves of the body being separated by an internal baffle. This has an opening that forms a seat onto which a movable plug can be screwed in to close (or shut) the valve. The plug is also called a disc.",
+        "image": "images/modalImages/ansiFlangedStainless.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Ball Valve Carbon Steel 2-Piece Ansi", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/steel2-PieceAnsi.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Trunnion Ball Valve Metal Seated", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/trunnionBallValveMetalSeated.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Ball Valve Wafer Valve Metal Seated", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/waferBallValveMetalSeated.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Ball Valve 3 Piece Bsp Threaded", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/3PieceBspThreaded.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Ball Valve 2 Piece Dip Flange", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/2PieceDipFlange.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Ball Valve 2-Piece Ansi Flanged", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/2PieceAnsiFlanged.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mBallValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Ball Valves",
+        "name": "Ball Valve 3 Pieces Bsp Thread Full", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/3PieceBspThreadedFull.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mButterflyValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Butterfly Valves",
+        "name": "Butterfly Valve With Clamn", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates. When the disk is turned parallel to the flow, the valve is open, and when it is turned perpendicular to the flow, the valve is closed. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/valveWithClamn.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mButterflyValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Butterfly Valves",
+        "name": "Butterfly Valve Lug Type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates. When the disk is turned parallel to the flow, the valve is open, and when it is turned perpendicular to the flow, the valve is closed. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/valveLugType.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mButterflyValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Butterfly Valves",
+        "name": "Butterfly Valve Water Type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates. When the disk is turned parallel to the flow, the valve is open, and when it is turned perpendicular to the flow, the valve is closed. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/valveWaterType.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mButterflyValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Butterfly Valves",
+        "name": "Butterfly Valve Wafer type", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates. When the disk is turned parallel to the flow, the valve is open, and when it is turned perpendicular to the flow, the valve is closed. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/valveWaferType.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mButterflyValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Butterfly Valves",
+        "name": "Butterfly Valve Wafer Type With PTFE Disc", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates. When the disk is turned parallel to the flow, the valve is open, and when it is turned perpendicular to the flow, the valve is closed. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/valveWaferTypeWithPTFE.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mCheckValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Check Valves",
+        "name": "Stainless Steel check Valve", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/checkValveStainlessSteel.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mCheckValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Check Valves",
+        "name": "Forged Steel Check Valve With Ansi", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/checkValveForgedSteelWithAnsi.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mCheckValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Check Valves",
+        "name": "BSP Vertical Check Valve", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/bspVerticalCheck.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mCheckValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Check Valves",
+        "name": "Check Valve With Ansi Flange", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/checkValveWithAnsiFlange.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mCheckValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Check Valves",
+        "name": "Check Valve Class 800 With Weldable", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/checkValveClass800WithWeldable.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mCheckValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Check Valves",
+        "name": "Check Valve Weldable Ends Inconel", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "images/modalImages/checkValveWeldableEndsInconel.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "mGateValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Gate Valves",
+        "name": "Stainless Steel Forged Gate Valve With Welldable Ends", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_b18a8c9715fd49ceb74e9009f3bc2f16~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "900",
+        "material": "F316 class 800 stainless steel forged body gate valve with weld ends",
+        "size" : "1-1/2\" - 12\""
+  },{
+        "mainFilter": "mGateValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Gate Valves",
+        "name": "Carbon Steel Gate Valve Ansi Flanged", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_2017b3acad534f0caf16d5948232ec3a~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300,600,900 ",
+        "material": "A53,A283,A106-A,A179-C,A214-C,A192,A226,A315,A106-B,A178,",
+        "size" : "50, 65, 80, 100, 150, 200, 250, 300, 350, 400, 450, 500"
+  },{
+        "mainFilter": "mGateValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Gate Valves",
+        "name": "Gate Valve Weldable Ends In Forged Steel", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_3e391c978d2046cfa9201222c35a4ff4~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "800",
+        "material": "Forging A105 Steel",
+        "size" : "1-1/2\", 2\" "
+  },{
+        "mainFilter": "mGateValve",
+        "title": "Marine and Offshore Industry",
+        "category": "Gate Valves",
+        "name": "Gate Valve NPT Thread Steel Forged Body", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_6bccf0ba1fce4ff08736c59354c2b701~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "800",
+        "material": "Forged A105 Steel",
+        "size" : "1-1/2\", 2\""
+  },{
+        "mainFilter": "pGateValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Gate Valves",
+        "name": "Rising Stem Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_d11c7930e9a1446eaa9779d34e87b694~mv2.png/v1/fill/w_309,h_174,al_c,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300,600,900,1500,2500",
+        "material": "WCB, Bronze, Stainless Steel, Cast Steel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pGateValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Gate Valves",
+        "name": "Non Rising Stem Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> Gate Valves are used to isolate specific areas of the water supply network during maintenance, repair works, new installations, as well as to reroute water flow throughout the pipeline.",
+        "image": "https://static.wixstatic.com/media/95504a_6b6a571ddcee4644ae887951be4dae0c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300,600,900",
+        "material": "full-port, ceramic-lined valves",
+        "size" : "1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pButterflyValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Butterfly Valves",
+        "name": "Double Offset Butterfly Valve", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates",
+        "image": "images/modalImages/powerButterflyValve.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "pButterflyValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Butterfly Valves",
+        "name": "Triple Offset Butterfly Valve", 
+        "description": "A Butterfly Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates",
+        "image": "images/modalImages/powerTrippleOffset.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "pGlobeValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Globe Valves",
+        "name": "Y Type Globe Valve", 
+        "description": "A Globe Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates",
+        "image": "images/modalImages/powerYTpe.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "pGlobeValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Globe Valves",
+        "name": "Z Type Globe Valve", 
+        "description": "A Globe Valve is a valve that isolates or regulates the flow of a fluid. The closing mechanism is a disk that rotates",
+        "image": "images/modalImages/powerZType.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "pBallValve",
+        "title": "POWER AND DIESEL INDUSTRY",
+        "category": "Ball Valves",
+        "name": "Lined Ball Valves", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked. <br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "images/modalImages/powerLinedBall.jpg",
+        "class": "",
+        "material": "",
+        "size" : ""
+  },{
+        "mainFilter": "pcCheckValve",
+        "title": "POWER AND DIESEL INDUSTRY PRODUCTS",
+        "category": "Check Valve",
+        "name": "Piston Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_9451da48bc764804aabfffada9cd033c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": " Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel, Alloy",
+        "size" : " 1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\", 42\", 48\", 54\", 60\", 72\", 80\", 84\""
+  },{
+        "mainFilter": "pcCheckValve",
+        "title": "POWER AND DIESEL INDUSTRY PRODUCTS",
+        "category": "Check Valve",
+        "name": "Piston Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_3cd5a0b64ca140c4875c3bd9c78210ac~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": " Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel, Alloy",
+        "size" : "3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 42\", 48\""
+  },{
+        "mainFilter": "pcCheckValve",
+        "title": "POWER AND DIESEL INDUSTRY PRODUCTS",
+        "category": "Check Valve",
+        "name": "Swing Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_95cfb0ffc9c448cab64065ca52a6677b~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900, 1500, 2500",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel",
+        "size" : "2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcCheckValve",
+        "title": "POWER AND DIESEL INDUSTRY PRODUCTS",
+        "category": "Check Valve",
+        "name": "Poppet Check Valves", 
+        "description": "Poppet Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_4511846742774e7ba47783ff45b1dcd1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "2\", 2-1/2\", 3\", 4\""
+  },{
+        "mainFilter": "pcCheckValve",
+        "title": "POWER AND DIESEL INDUSTRY PRODUCTS",
+        "category": "Check Valve",
+        "name": "Lug Design Dual Check Valves", 
+        "description": "Poppet Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_afebfec50fc0429daa0e05239abcd9a1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900",
+        "material": "Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\""
+  },
+  
+  
+  {
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Ball Valve",
+        "name": "Lug Design Dual Check Valves", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_219bb5724b914db6b6a43e237c61c9eb~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900,1500",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Ball Valve",
+        "name": "Side Entry Ball Valves ", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_199ddc47045946e4bd195e31fa5575f3~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300",
+        "material": "Carbon Steel, Alloy Steel, Stainless Steel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\""
+  },{
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL",
+        "category": "Ball Valve",
+        "name": "Trunnion Mounted Ball Valves", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_292c4409b7da4d20adbdd8e7f9a43671~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Ball Valve",
+        "name": "1 Piece Ball Valve", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_5615099b77f5447b93315ab8d3afea5c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Ball Valve",
+        "name": "3 Way Ball Valve", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_febd762964444c20b704952afd852647~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : " 1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Ball Valve",
+        "name": "Floating Ball Valves", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_3f2fc9ce2b0a4b999d8b1808be2440d5~mv2.jpeg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpeg",
+        "class": "150, 300, 600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcBallValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Ball Valve",
+        "name": "2 Piece Ball Valves", 
+        "description": "A Ball Valve is a shut off valve that controls the flow of a liquid or gas by means of a rotary ball having a bore. By rotating the ball a quarter turn (90 degrees) around its axis, the medium can flow through or is blocked.<br /> They are characterized by a long service life and provide a reliable sealing over the life span, even when the valve is not in use for a long time.",
+        "image": "https://static.wixstatic.com/media/95504a_bed571985b39433c82f1cb5939a50117~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : "1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },
+
+
+
+  {
+        "mainFilter": "pcButterflyValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Check Valves",
+        "name": "Wafer Design Dual Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_9451da48bc764804aabfffada9cd033c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900,1500,2500",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\", 42\", 48\", 54\", 60\", 72\", 80\", 84\""
+  },{
+        "mainFilter": "pcButterflyValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Check Valves",
+        "name": "Piston Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_3cd5a0b64ca140c4875c3bd9c78210ac~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900,1500,2500",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel, Alloy",
+        "size" : "3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 42\", 48\""
+  },{
+        "mainFilter": "pcButterflyValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Check Valves",
+        "name": "Swing Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_95cfb0ffc9c448cab64065ca52a6677b~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150, 300, 600, 900,1500,2500",
+        "material": " Cast Iron, Cast Steel, Forged Steel, Brass, Bronze, Carbon Steel, Alloy Steel, Stainless Steel, Ultra-Low Carbon Stainless Steel Monel",
+        "size" : "2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcButterflyValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Check Valves",
+        "name": "Poppet Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_4511846742774e7ba47783ff45b1dcd1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\""
+  },{
+        "mainFilter": "pcButterflyValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Check Valves",
+        "name": "Lug Design Dual Check Valves", 
+        "description": "Check valves are generally installed in pipelines to prevent backflow. A check valve is basically a one-way valve, in which the flow can run freely one way, but if the flow turns the valve will close to protect the piping, other valves, pumps etc. <br /> If the flow turns and no check valve is installed, water hammer can occur. Water hammer often occur with an extreme force and will easily damage a pipeline or components.",
+        "image": "https://static.wixstatic.com/media/95504a_afebfec50fc0429daa0e05239abcd9a1~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900",
+        "material": "Cast Iron, Cast Steel, Forged Steel, Brass, Bronze",
+        "size" : "1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\""
+  },
+
+
+  
+  {
+        "mainFilter": "pcGateValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Gate Valves",
+        "name": "OS & Y Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_0452fc176051495380d12c9c4507e96c~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "WCB, Cast Iron, Stainless Steel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcGateValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Gate Valves",
+        "name": "Knife Gate Valve", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_9dacc610a47b436980bb6110ed02666b~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "WCB, Cast Iron, Stainless Steel",
+        "size" : "2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcGateValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Gate Valves",
+        "name": "Rising Stem Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_d11c7930e9a1446eaa9779d34e87b694~mv2.png/v1/fill/w_309,h_174,al_c,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "WCB, Cast Iron, Stainless Steel",
+        "size" : "2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcGateValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Gate Valves",
+        "name": "BB Gate Valves", 
+        "description": "A Gate Valve is the most common valve for water supply systems. It represents a linear-motion isolation valve and has a function to stop or allow the flow. Gate Valves got their name from the closure element sliding into the flow stream to provide shutoff and, therefore, acting like a gate. <br /> The gate is a flat or wedge-shaped disc that moves perpendicular to the flow of the fluid. When the valve is fully open, the gate is completely removed from the flow path, resulting in minimal pressure drop across the valve. When the valve is closed, the gate blocks the flow of fluid, providing a tight seal. Gate valves are commonly used in applications where a straight-line flow of fluid and minimum restriction is desired.",
+        "image": "https://static.wixstatic.com/media/95504a_9b86c078befb4864aaf95d8ccdce9ca5~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "WCB, Cast Steel, Stainless Steel, Cast Iron, Ductile Iron",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\""
+  },
+
+
+
+  {
+        "mainFilter": "pcGlobeValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Globe Valves",
+        "name": "Angle Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. The plug can be screwed in to the seat, which allows for precise throttling and flow control. Globe valves are commonly used in applications where flow needs to be regulated or throttled, such as in steam systems, cooling water systems, and chemical processing plants.",
+        "image": "https://static.wixstatic.com/media/95504a_93dd829833ad4b8cab3db6c3ca6d80f8~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Carbon Steel A216 WCB/A105, Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\", 42\", 48\""
+  },  {
+        "mainFilter": "pcGlobeValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Globe Valves",
+        "name": "Y Angle Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. The plug can be screwed in to the seat, which allows for precise throttling and flow control. Globe valves are commonly used in applications where flow needs to be regulated or throttled, such as in steam systems, cooling water systems, and chemical processing plants.",
+        "image": "https://static.wixstatic.com/media/95504a_46c8c9c988384bb499aa4f4153cdfbee~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Forged Steel, Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
+  },{
+        "mainFilter": "pcGlobeValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Globe Valves",
+        "name": "Z Type Globe Valve", 
+        "description": "A Globe Valve, different from ball valve, is a type of valve used for regulating flow in a pipeline, consisting of a movable plug or disc element and a stationary ring seat in a generally spherical body. The plug can be screwed in to the seat, which allows for precise throttling and flow control. Globe valves are commonly used in applications where flow needs to be regulated or throttled, such as in steam systems, cooling water systems, and chemical processing plants.",
+        "image": "https://static.wixstatic.com/media/95504a_3c349bc3cd22495884b06e7d8fd2f86f~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500, 4500",
+        "material": "Stainless Steel, Metallic Alloys, Synthetic Materials, Carbon Steel, Hastelloy, Monel, Inconel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 42\", 48\""
+  },
+
+
+
+{
+        "mainFilter": "pcControlValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Control Valves",
+        "name": "Globe Control Valve", 
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_171387b7cf3e48ce89e0b4d0e6b9d4fe~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Carbon Steel, Chrome-Molybdenum Steel And Stainless Steel",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\", 42\", 48\""
+  },{
+        "mainFilter": "pcControlValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Control Valves",
+        "name": "Butterfly Control Valves", 
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_ae19d35a41794674af7607a3b644cc12~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600",
+        "material": " Cast Iron, Ductile Iron, Aluminum, Carbon Steel, Stainless Steel And Exotic Metals.",
+        "size" : "1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\", 42\", 48\""
+  },{
+        "mainFilter": "pcControlValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Control Valves",
+        "name": "Control Ball Valves", 
+        "description": "A Control Valve regulates the rate of fluid flow as the position of the valve plug or disk is changed by an actuator. Control valves are used to maintain a process variable as close as possible to the desired set point. <br /> Controller set points are typically flow rate, pressure, and temperature. Product parameters, such as density, concentration, liquid level and others can also be controlled with control valves.",
+        "image": "https://static.wixstatic.com/media/95504a_f16a9615fbc74b159166cf703568c793~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": "150,300, 600",
+        "material": "SS316, 316L, 304, Brass, Bronze, WCB",
+        "size" : " 1/2\", 3/4\", 1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\""
   }
+
+
+
+  ,{
+        "mainFilter": "pcPressureReliefValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Pressure Relief Valves",
+        "name": "Pilot Operated PRV", 
+        "description": "A Pressure Relief Valve is a safety device designed to protect a pressurized vessel or system during an overpressure event. <br /> An Overpressure event refers to any condition which would cause pressure in a vessel or system to increase beyond the specified design pressure or maximum allowable working pressure (MAWP).",
+        "image": "https://static.wixstatic.com/media/95504a_f969217aaa6146e38eca1bcf3beeb58c~mv2.png/v1/fill/w_309,h_174,al_c,lg_1,q_85,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Carbon Steel, WCB, Inconel 625, Cast Iron",
+        "size" : " 1, 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\""
+  }  ,{
+        "mainFilter": "pcPressureReliefValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Pressure Relief Valves",
+        "name": "Spring Loaded PRV", 
+        "description": "A Pressure Relief Valve is a safety device designed to protect a pressurized vessel or system during an overpressure event. <br /> An Overpressure event refers to any condition which would cause pressure in a vessel or system to increase beyond the specified design pressure or maximum allowable working pressure (MAWP).",
+        "image": "https://static.wixstatic.com/media/95504a_46589f659532414c950b35cca93e9984~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Cast Iron, Stainless Steel 625, Inconel",
+        "size" : "1\", 1-1/4\", 1-1/2\", 2\", 2-1/2\", 3\", 4\", 6\", 8\""
+  }
+
+
+  
+    ,{
+        "mainFilter": "pcBlockValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "DBB Trunnion Mounted Valves",
+        "name": "DBB Trunnion Mounted", 
+        "description": "Trunnion Mounted Ball Valves feature a double bearing construction, which means that the ball is anchored both at the top and at the bottom. <br /> This design provides enhanced stability and support to the ball, allowing it to handle higher pressures and larger sizes compared to floating ball valves. The trunnion mounting also helps to reduce the torque required to operate the valve, making it easier to open and close, especially in larger sizes.",
+        "image": "https://static.wixstatic.com/media/95504a_2f6a369c169a45a4bd90ba7503749450~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "CS, SS, Duplex SS, Alloy",
+        "size" : "2\", 2-1/2\", 3\", 4\", 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", 24\", 36\", 42\", 48\""
+  }
+
+
+
+
+    
+    ,{
+        "mainFilter": "pcSolenoidValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Solenoid Valves ",
+        "name": "3-3/2 Way Solenoid Valve", 
+        "description": "A Solenoid Valve is an electrically controlled valve. The valve features a solenoid, which is an electric coil with a movable ferromagnetic core (plunger) in its center. In the rest position, the plunger closes off a small orifice. <br /> An electric current through the coil creates a magnetic field. The magnetic field exerts an upwards force on the plunger opening the orifice. This is the basic principle that is used to open and close solenoid valves.",
+        "image": "https://static.wixstatic.com/media/95504a_99c2cb873a0f422c8b9d3d11e33502e2~mv2.png/v1/fill/w_309,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Brass",
+        "size" : "1/2\", 3/4\", 1\" Voltage : 100-240, 100-241,  100-242"
+  }    ,{
+        "mainFilter": "pcSolenoidValve",
+        "title": "PETROCHEMICAL INDUSTRY PRODUCTS",
+        "category": "Solenoid Valves",
+        "name": "2-2/2 Way Solenoid Valves", 
+        "description": "A Solenoid Valve is an electrically controlled valve. The valve features a solenoid, which is an electric coil with a movable ferromagnetic core (plunger) in its center. In the rest position, the plunger closes off a small orifice. <br /> An electric current through the coil creates a magnetic field. The magnetic field exerts an upwards force on the plunger opening the orifice. This is the basic principle that is used to open and close solenoid valves.",
+        "image": "https://static.wixstatic.com/media/95504a_b2181c4ca44a4260ade7821550097560~mv2.jpg/v1/fill/w_309,h_174,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg",
+        "class": "150,300, 600, 900, 1500, 2500",
+        "material": "Brass",
+        "size" : "3/8\", 3/4\", 1 1/2\", 1\", 1-1/2\", 1/2\", 1 1/4\", 1\" Voltage : 100-240, 100-241"
+  }
+
+
+  
+
+
+  
+
+
+
+
+
+  
 
 
   
