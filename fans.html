@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -52,10 +52,7 @@
             color: #2563eb;
         }
 
-        .active {
-            background-color: blue;
-            color: white;
-        }
+        .filter-btn.active { background-color: blue; color: white; }
 
         .badge-custom {
             font-size: 16px;
@@ -165,6 +162,11 @@
         }
     </style>
 
+<style>
+    .hero-carousel {
+      background: linear-gradient(135deg, #ffffff 0%, #95a8fd 50%, #ffffff 100%) !important;
+    }
+    </style>
 </head>
 
 <body class="bg-light">
@@ -228,28 +230,67 @@
     </ul>
   </div>
 </nav>
+  <!-- Video Background (Commented Out) -->
+  <!--
+  <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;"></video>
+  </div>
+  -->
 
-    <!-- Video Background -->
-    <div class="video-background">
-        <video autoplay muted loop playsinline style="width: 100%;">
-            <source src="video/home background2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="video-overlay-content text-center" style="margin-top: -60px;">
-            <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
-                Commercial fans
-            </h1>
-            <p class="homepage-pg text-white lead">
-We offer an extensive range of fans and blowers, from large ventilation fans for large-scale commercial facilities, underground parking lots, subway stations and factories, to small fans for kitchens, and set fans that can be incorporated into industrial equipment.
-            </p>
-            <a href="#services" class="btn explore-btn">
-                Commercial fans <i class="fas fa-arrow-right ml-2"></i>
-            </a>
-        </div>
-
+  <!-- Hero Carousel -->
+  <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-ride="carousel" data-interval="4500">
+    <ol class="carousel-indicators">
+      <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#heroCarousel" data-slide-to="1"></li>
+      <li data-target="#heroCarousel" data-slide-to="2"></li>
+      <li data-target="#heroCarousel" data-slide-to="3"></li>
+      <li data-target="#heroCarousel" data-slide-to="4"></li>
+      <li data-target="#heroCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <img src="images/carousal/carousal5.png" class="d-block w-100 carousel-img" alt="Futurion Excellence">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousal6.png" class="d-block w-100 carousel-img" alt="Futurion Service">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump1.png" class="d-block w-100 carousel-img" alt="Pump Service">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump2.png" class="d-block w-100 carousel-img" alt="Pump Service 2">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump3.png" class="d-block w-100 carousel-img" alt="Pump Service 3">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump4.png" class="d-block w-100 carousel-img" alt="Pump Service 4">
+      </div>
     </div>
-
-
+    <!-- Overlay Content -->
+    <div class="hero-carousel-overlay d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="hero-content-box animate-up px-3">
+        <h1 class="homepage-header text-white mb-3"><b>FUTURION ENGINEERING</b></h1>
+        <p class="homepage-pg text-white mx-auto mb-4" style="max-width: 800px; font-size: 1.5rem;">
+          is a professional trading company with high expertise in different engineering fields...
+        </p>
+        <div class="d-flex justify-content-center mt-5">
+          <a href="#services" class="btn explore-btn pb-3 px-4 shadow-lg text-uppercase" style="display: flex !important; margin: 0 auto; letter-spacing: 1px;">
+            Explore Our Services <i class="fas fa-arrow-right ml-2 mt-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev" style="z-index: 10;">
+      <span class="carousel-control-prev-icon shadow-sm" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next" style="z-index: 10;">
+      <span class="carousel-control-next-icon shadow-sm" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
     <div class="container text-center">
         <div class="d-flex flex-wrap justify-content-center align-items-center" style="margin-top: 2.7rem;">
             <button class="badge badge-custom py-2 px-3 brdnone filter-btn active"
@@ -292,10 +333,10 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">① Lineup including CMF3L that offer superior performance for high air volume
+                        <p class="pl-4">â‘  Lineup including CMF3L that offer superior performance for high air volume
                             applications
                             Air volume is increased by aorund 10% in the low pressure range compared with CMF3-SOB.
-                            ②By adopting heat-resistant specification, gas up to 90℃ can be handled.</p>
+                            â‘¡By adopting heat-resistant specification, gas up to 90â„ƒ can be handled.</p>
 
 
                     </div>
@@ -314,7 +355,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">① Achieves high efficiency with high air flow, high pressure fan
+                        <p class="pl-4">â‘  Achieves high efficiency with high air flow, high pressure fan
                             Newly developed impeller ideal for high air flow applications.
                             Air supply/exhaust
                             Air-conditioning
@@ -340,7 +381,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">① Lineup including CMF3L that offer superior performance for high air volume applications（No.6 or lower）
+                        <p class="pl-4">â‘  Lineup including CMF3L that offer superior performance for high air volume applicationsï¼ˆNo.6 or lowerï¼‰
                             Achieves 80% or higher efficiency with high air flow, high pressure fan (No.6 1/2 or higher)
                             By adopting heat-resistant specification.</p>
 
@@ -365,7 +406,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">①By adopting heat-resistant specification, gas up to 90℃ can be handled. Special specifiation is available for gas up to 150℃. Single inlet direct driven with horizontal electric motor.
+                        <p class="pl-4">â‘ By adopting heat-resistant specification, gas up to 90â„ƒ can be handled. Special specifiation is available for gas up to 150â„ƒ. Single inlet direct driven with horizontal electric motor.
                            
                     Air supply/exhaust
                     Air-conditioning
@@ -390,7 +431,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">① 
+                        <p class="pl-4">â‘  
                                 Air supply/exhaust
                                 Air-conditioning
                                 Ventilation
@@ -413,7 +454,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">① Double inlet allows for high air flow and space-saving in vertical direction
+                        <p class="pl-4">â‘  Double inlet allows for high air flow and space-saving in vertical direction
                             
                         Air supply/exhaust
                         Air-conditioning
@@ -436,7 +477,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
             <div class="text-center mb-5 ">
                 <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Air Conditioning Fans
                 </h2>
-                <p class="text-muted mx-auto" style="max-width: 700px;">LCF2:Silent type・double inlet direct driven, LCF2-U：Mute type・double inlet direct driven with silencer</p>
+                <p class="text-muted mx-auto" style="max-width: 700px;">LCF2:Silent typeãƒ»double inlet direct driven, LCF2-Uï¼šMute typeãƒ»double inlet direct driven with silencer</p>
             </div>
 
 
@@ -452,7 +493,7 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
 
 
                         <p class="p-4 ">
-                           LCF2:Silent type・double inlet direct driven, LCF2-U：Mute type・double inlet direct driven with silencer
+                           LCF2:Silent typeãƒ»double inlet direct driven, LCF2-Uï¼šMute typeãƒ»double inlet direct driven with silencer
                         </p>
 
 
@@ -474,11 +515,11 @@ We offer an extensive range of fans and blowers, from large ventilation fans for
                             </p>
                                                     <h4 class="text-primary  pl-4">Product description</h4>
                         <p class="p-4">Silent type
-①The adoption of high-dfficiency double suction fan realized low noise and compact size.
-②Air flow can be switched by using the speed control switch (optional).
+â‘ The adoption of high-dfficiency double suction fan realized low noise and compact size.
+â‘¡Air flow can be switched by using the speed control switch (optional).
 (Excluding 25LCF2-180)
 Mute type
-③The adoption of silencer with high sound deadening effect has achieved significant reduction in noise.
+â‘¢The adoption of silencer with high sound deadening effect has achieved significant reduction in noise.
 (Excluding 25LCF2-180)
 </p>
                     </div>
@@ -515,7 +556,7 @@ Mute type
 
 
                         <p class="p-4 ">
-                          ①CLFⅡ(R) sirocco fan for low pressure, CMF3(R)/CMF3L(R) mild fan for high pressure, AESⅣ(R) axial flow fan for installation in the middle of duct.
+                          â‘ CLFâ…¡(R) sirocco fan for low pressure, CMF3(R)/CMF3L(R) mild fan for high pressure, AESâ…£(R) axial flow fan for installation in the middle of duct.
 You can choose a suitable model according to air volume, static pressure and application.
                         </p>
 
@@ -530,7 +571,7 @@ You can choose a suitable model according to air volume, static pressure and app
                     <div class="card service-card">
                         <h2 class="p-4">Applications</h2>
                         <p class="p-4">
-                           ②CLFⅡ(R) sirocco fan and CMF3(R)/CMF3L(R) mild fan are compatible with air conditioning and smoke exhaust system. ③ Floor type and ceiling-suspended anti-vibration type are also available for motor driven type. ④ Outdoor type is also available.
+                           â‘¡CLFâ…¡(R) sirocco fan and CMF3(R)/CMF3L(R) mild fan are compatible with air conditioning and smoke exhaust system. â‘¢ Floor type and ceiling-suspended anti-vibration type are also available for motor driven type. â‘£ Outdoor type is also available.
                             </p>
                                                     <h4 class="text-primary  pl-4">Product description</h4>
                         <p class="p-4">Smoke exhaust Installation specified in Building Standards Act/Fire Service Act
@@ -572,10 +613,10 @@ You can choose a suitable model according to air volume, static pressure and app
                         </p>
 
                         <h4 class="text-primary  p-4">Product description</h4>
-                        <p class="pl-4 pr-4"> ① Low noise design
-                            　Performs large-scale fluid analysis of the entire pressure fan, high-performance silent type impeller shape is optimally designed.
-                            ②Space saving
-                            　Highly reputable low-profile conventional design. Compatible with replacement demand provided with mounting compatibility with existing products.</p>
+                        <p class="pl-4 pr-4"> â‘  Low noise design
+                            ã€€Performs large-scale fluid analysis of the entire pressure fan, high-performance silent type impeller shape is optimally designed.
+                            â‘¡Space saving
+                            ã€€Highly reputable low-profile conventional design. Compatible with replacement demand provided with mounting compatibility with existing products.</p>
 
 
                     </div>
@@ -600,7 +641,7 @@ You can choose a suitable model according to air volume, static pressure and app
                                 Gas handled
                                 Air
                                 Liquid temperature
-                                -10 ～ 40℃
+                                -10 ï½ž 40â„ƒ
 
                         </p>
 
@@ -626,7 +667,7 @@ You can choose a suitable model according to air volume, static pressure and app
                                     Gas handled
                                     Air
                                     Liquid temperature
-                                    -10 ～ 40℃</p>
+                                    -10 ï½ž 40â„ƒ</p>
 
 
                     </div>
@@ -649,10 +690,10 @@ You can choose a suitable model according to air volume, static pressure and app
                         </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="p-4">① Low noise design
-　Performs large-scale fluid analysis of the entire pressure fan, high-performance silent type impeller shape is optimally designed.
-②Space saving
-　Highly reputable low-profile conventional design. Compatible with replacement demand provided with mounting compatibility with existing products.
+                        <p class="p-4">â‘  Low noise design
+ã€€Performs large-scale fluid analysis of the entire pressure fan, high-performance silent type impeller shape is optimally designed.
+â‘¡Space saving
+ã€€Highly reputable low-profile conventional design. Compatible with replacement demand provided with mounting compatibility with existing products.
                         </p>
 
 
@@ -664,14 +705,14 @@ You can choose a suitable model according to air volume, static pressure and app
                     <div class="card service-card">
                         <h2 class="p-4">CMF3-RS</h2>
                         <img src="images/fans/13.jpg" class="card-img-top" alt="Web Development">
-                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fans（Frameless type）</h5>
+                        <h5 class="display-6 text-primary pl-4 pt-4 pb-0">Pressure fansï¼ˆFrameless typeï¼‰</h5>
 
 
                         <p class="pl-4 ">
 This pressure fan is developed on the assumption of incorporating into equipment without using mounting frames. It is ideal for mounting to oil coolers and unit coolers and other equipment with small mounting space.  </p>
 
                         <h4 class="text-primary  pl-4">Product description</h4>
-                        <p class="pl-4">① Pressure fan intended for incorporating into equipment without using mounting frames. Ideal for equipment with small mounting space.
+                        <p class="pl-4">â‘  Pressure fan intended for incorporating into equipment without using mounting frames. Ideal for equipment with small mounting space.
                                 Air supply/exhaust
                                 Air-conditioning
                                 Ventilation

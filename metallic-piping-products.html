@@ -301,24 +301,67 @@
     </ul>
   </div>
 </nav>
-    <div class="video-background">
-    <video autoplay muted loop playsinline style="width: 100%;">
-    <source src="video/home background2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <div class="video-overlay-content text-center" style="margin-top: -60px;">
-    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
-      Metalic Piping
-    </h1>
-    <p class="homepage-pg text-white lead">
-      Delivering high-performance Industrial-valves from trusted global brands—designed to support innovation, efficiency, and long-term value.
-    </p>
-        <a href="#services" class="btn explore-btn">
-      Explore Our Metalic-Piping <i class="fas fa-arrow-right ml-2"></i>
+  <!-- Video Background (Commented Out) -->
+  <!--
+  <div class="video-background">
+    <video autoplay muted loop playsinline style="width: 100%;"></video>
+  </div>
+  -->
+
+  <!-- Hero Carousel -->
+  <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-ride="carousel" data-interval="4500">
+    <ol class="carousel-indicators">
+      <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#heroCarousel" data-slide-to="1"></li>
+      <li data-target="#heroCarousel" data-slide-to="2"></li>
+      <li data-target="#heroCarousel" data-slide-to="3"></li>
+      <li data-target="#heroCarousel" data-slide-to="4"></li>
+      <li data-target="#heroCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <img src="images/carousal/carousal5.png" class="d-block w-100 carousel-img" alt="Futurion Excellence">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousal6.png" class="d-block w-100 carousel-img" alt="Futurion Service">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump1.png" class="d-block w-100 carousel-img" alt="Pump Service">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump2.png" class="d-block w-100 carousel-img" alt="Pump Service 2">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump3.png" class="d-block w-100 carousel-img" alt="Pump Service 3">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="images/carousal/carousalPump4.png" class="d-block w-100 carousel-img" alt="Pump Service 4">
+      </div>
+    </div>
+    <!-- Overlay Content -->
+    <div class="hero-carousel-overlay d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="hero-content-box animate-up px-3">
+        <h1 class="homepage-header text-white mb-3"><b>FUTURION ENGINEERING</b></h1>
+        <p class="homepage-pg text-white mx-auto mb-4" style="max-width: 800px; font-size: 1.5rem;">
+          is a professional trading company with high expertise in different engineering fields...
+        </p>
+        <div class="d-flex justify-content-center mt-5">
+          <a href="#services" class="btn explore-btn pb-3 px-4 shadow-lg text-uppercase" style="display: flex !important; margin: 0 auto; letter-spacing: 1px;">
+            Explore Our Services <i class="fas fa-arrow-right ml-2 mt-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev" style="z-index: 10;">
+      <span class="carousel-control-prev-icon shadow-sm" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next" style="z-index: 10;">
+      <span class="carousel-control-next-icon shadow-sm" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+      <span class="sr-only">Next</span>
     </a>
   </div>
-
-</div>
 <!-- Filter Buttons -->
 <div class="container py-4">
   <div class="d-flex flex-wrap justify-content-center align-items-center mb-4">
