@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Chandan Tech Solutions - About Us</title>
+    <title>Engineering Solutions | FUTURION</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap 5 -->
@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="index.css" />
 
     <style>
       :root {
@@ -115,85 +116,6 @@
         color: white !important;
       }
 
-      /* Video background section */
-      .video-background {
-        position: relative;
-        height: 92vh;
-        width: 100%;
-        overflow: hidden;
-      }
-
-      .video-background video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        transform: translate(-50%, -50%);
-        object-fit: cover;
-        z-index: -1;
-      }
-
-      .video-overlay-content {
-        position: relative;
-        z-index: 1;
-        color: white;
-        text-align: center;
-        padding-top: 25vh;
-      }
-      .homepage-header {
-        font-size: 3.5rem;
-      }
-      .homepage-pg {
-        margin-top: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 800px; /* Controls the line length for better readability */
-        font-size: 1rem;
-      }
-      .explore-btn {
-        background-color: #00c2ff !important; /* Bright blue */
-        color: rgb(8, 10, 77) !important;
-        font-weight: 600 !important;
-        padding: 0.75rem 1.5rem !important;
-        font-size: 1rem !important;
-        border-radius: 0.5rem !important;
-        transition: background-color 0.3s ease !important;
-        text-decoration: none !important;
-        display: inline-flex !important;
-        align-items: center !important;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-      }
-
-      .explore-btn:hover {
-        background-color: #1b54c2 !important; /* Darker blue on hover */
-        text-decoration: none !important;
-      }
-
-      @media (max-width: 570px) {
-        .video-overlay-content {
-          padding-left: 15px;
-          padding-right: 15px;
-        }
-        .video-overlay-content h1 {
-          font-size: 1.8rem;
-        }
-        .homepage-header {
-          margin-top: -140px;
-          margin-bottom: 40px;
-          padding-left: 4px;
-          padding-right: 4px;
-        }
-        .video-background {
-          height: 72vh;
-          width: 100%;
-        }
-        .homepage-pg {
-          text-align: left !important;
-          font-size: 14px;
-          padding: 12px;
-        }
-      }
 
       /* Mission section */
       .mission-section {
@@ -795,6 +717,8 @@
     </nav>
 
     <!-- Video Background -->
+    <!-- Video Background (Commented Out) -->
+    <!--
     <div class="video-background">
       <video autoplay muted loop playsinline style="width: 100%">
         <source src="video/home background.mp4" type="video/mp4" />
@@ -802,35 +726,92 @@
       </video>
       <div class="video-overlay-content">
         <h1 class="homepage-header">
-          <b
-            >Engineering Excellence for a Sustainable <br />
-            Future</b
-          >
+          <b>Engineering Solutions for a Sustainable <br /> Future</b>
         </h1>
         <p class="homepage-pg text-white text-center">
           FUTURION is a professional trading company with high expertise in
           different engineering fields, with over 250 completed projects across
           the Middle East.
         </p>
+
+        <div class="mt-4 d-flex justify-content-center">
+          <a href="#about" class="btn explore-btn">
+            Explore Our Services <i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
       </div>
-      <!-- button -->
-      <div class="mt-4 d-flex justify-content-center">
-        <a href="#services" class="btn explore-btn">
-          Explore Our Services <i class="fas fa-arrow-right ml-2"></i>
-        </a>
+    </div>
+    -->
+
+    <!-- Hero Carousel -->
+    <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-ride="carousel" data-interval="4500">
+      <ol class="carousel-indicators">
+        <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#heroCarousel" data-slide-to="1"></li>
+        <li data-target="#heroCarousel" data-slide-to="2"></li>
+        <li data-target="#heroCarousel" data-slide-to="3"></li>
+        <li data-target="#heroCarousel" data-slide-to="4"></li>
+        <li data-target="#heroCarousel" data-slide-to="5"></li>
+      </ol>
+
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="images/carousal/carousal7.png" class="d-block w-100 carousel-img" alt="Futurion Service">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/carousal/carousal8.png" class="d-block w-100 carousel-img" alt="Pump Service">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/carousal/carousal9.png" class="d-block w-100 carousel-img" alt="Pump Service 2">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/carousal/carousal10.png" class="d-block w-100 carousel-img" alt="Pump Service 3">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/carousal/carousal11.png" class="d-block w-100 carousel-img" alt="Pump Service 4">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/carousal/carousal12.png" class="d-block w-100 carousel-img" alt="Pump Service 4">
+        </div>
       </div>
+
+      <!-- Overlay Content -->
+      <div class="hero-carousel-overlay d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="hero-content-box animate-up px-3">
+          <h6 class="text-uppercase mb-3" style="color: #00C2FF; letter-spacing: 3px; font-weight: 600;">Our Services</h6>
+          <h1 class="homepage-header text-white mb-3"><b>Engineering Solutions</b></h1>
+          <p class="homepage-pg text-white mx-auto mb-4" style="max-width: 800px; font-size: 1.2rem;">
+            Professional engineering expertise across multiple fields, delivering sustainable solutions for industrial and governmental sectors.
+          </p>
+          <div class="d-flex justify-content-center mt-5">
+            <a href="#about" class="btn explore-btn pb-3 px-4 shadow-lg text-uppercase tracking-wide" style="display: flex !important; margin: 0 auto; letter-spacing: 1px;">
+              Explore Our Services <i class="fas fa-arrow-right ml-2 mt-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev" style="z-index: 10;">
+        <span class="carousel-control-prev-icon shadow-sm" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next" style="z-index: 10;">
+        <span class="carousel-control-next-icon shadow-sm" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
     <!-- about us -->
-    <div>
+    <div id="about">
       <section class="about py-5">
-        <div class="container container-dummy">
+        <div class="container">
           <div class="row align-items-center">
             <!-- Text Column -->
             <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
               <h2 class="font-weight-bold text-primary">About FUTURION</h2>
               <h5 class="text-muted mb-3 text-h">
-                Commercial and Residential Construction.
+                Specialized Engineering & Technical Services
               </h5>
               <div class="blue-underline mb-4"></div>
               <p class="text-about text-muted">
@@ -1007,12 +988,12 @@
             </div>
           </div>
 
-          <div class="row g-4">
+          <div class="row">
             <!-- Group 1: Safety Systems & Modelling -->
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1043,7 +1024,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1092,15 +1073,15 @@
               </div>
             </div>
 
-            <!-- Group 3: Fire Protection Systems -->
+            <!-- Group 3: Piping Engineering -->
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
-                    Process Engineering
+                    Mechanical Engineering
                   </h3>
                 </div>
                 <img
@@ -1127,7 +1108,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1158,7 +1139,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1189,7 +1170,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1220,7 +1201,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1250,7 +1231,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1278,7 +1259,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1307,7 +1288,7 @@
             <div class="col-lg-6 mb-4">
               <div class="safety-card">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="safety-icon me-3">
+                  <div class="safety-icon mr-3">
                     <i class="fas fa-shield-virus"></i>
                   </div>
                   <h3 class="safety-title mb-0 border-0 pb-0 ml-4">
@@ -1434,8 +1415,7 @@
       </div>
     </footer>
 
-    <!-- Bootstrap 5 JS -->
-    <!-- Bootstrap 4 JS -->
+    <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

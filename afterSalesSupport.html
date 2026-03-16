@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>FUTURION - Products</title>
+  <title>FUTURION - After Sales Support</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap 4 CSS -->
@@ -306,10 +306,10 @@
   </video>
   <div class="video-overlay-content text-center" style="margin-top: -60px;">
     <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
-      Our Products
+      After Sales Support
     </h1>
     <p class="homepage-pg text-white lead">
-      Delivering high-performance engineering products from trusted global brands—designed to support innovation, efficiency, and long-term value.
+      At Futurion, our commitment doesn't end at delivery. We provide comprehensive after-sales support to keep your equipment running at peak performance — long after installation. From emergency response to scheduled maintenance, we are your lasting partner in operational excellence.
     </p>
         <a href="#services" class="btn explore-btn">
       Explore Our products <i class="fas fa-arrow-right ml-2"></i>
@@ -355,13 +355,13 @@
     <div class="hero-carousel-overlay d-flex flex-column justify-content-center align-items-center text-center">
       <div class="hero-content-box animate-up px-3">
         <h6 class="text-uppercase mb-3" style="color: #00C2FF; letter-spacing: 3px; font-weight: 600;">Our Services</h6>
-        <h1 class="homepage-header text-white mb-3"><b>AC & DC Generator Overhaul</b></h1>
+        <h1 class="homepage-header text-white mb-3"><b>After Sales Support</b></h1>
         <p class="homepage-pg text-white mx-auto mb-4" style="max-width: 800px; font-size: 1.2rem;">
-          Reviving exhausted AC and DC generators to peak output, restoring critical continuous and standby power reliability.
+          At Futurion, our commitment doesn't end at delivery. We provide comprehensive after-sales support to keep your equipment running at peak performance — long after installation.
         </p>
         <div class="d-flex justify-content-center mt-5">
           <a href="#services" class="btn explore-btn pb-3 px-4 shadow-lg text-uppercase tracking-wide" style="display: flex !important; margin: 0 auto; letter-spacing: 1px;">
-            Explore Our Services <i class="fas fa-arrow-right ml-2 mt-1"></i>
+            Explore Our products <i class="fas fa-arrow-right ml-2 mt-1"></i>
           </a>
         </div>
       </div>
@@ -382,25 +382,23 @@
 
 
 
-
-
 <style>
-  /* Premium Design Styles for AC/DC Motor Overhaul */
-  .motor-hero-container {
+  /* Premium Design Styles for Startup & Commissioning */
+  .commissioning-hero-container {
     background: linear-gradient(135deg, #020f3b 0%, #1e3a8a 100%);
     color: white;
     padding: 80px 0;
     position: relative;
     overflow: hidden;
   }
-  .motor-hero-container::before {
+  .commissioning-hero-container::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NiIgaGVpZ2h0PSI4NiI+CjxyZWN0IHdpZHRoPSI4NiIgaGVpZ2h0PSI4NiIgZmlsbD0idHJhbnNwYXJlbnQiLz4KPGNpcmNsZSBjeD0iNDMiIGN5PSI0MyIgcj0iMSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEpIi8+Cjwvc3ZnPg==') repeat;
     opacity: 0.5;
   }
-  .motor-title {
+  .commissioning-title {
     font-size: 3rem;
     font-weight: 800;
     background: linear-gradient(90deg, #00C2FF, #ffffff);
@@ -410,7 +408,7 @@
     margin-bottom: 20px;
     position: relative;
   }
-  .motor-lead {
+  .commissioning-lead {
     font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.8;
@@ -473,7 +471,7 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    min-height: 350px;
+    min-height: 400px;
   }
 
   .custom-list {
@@ -503,6 +501,11 @@
     border-radius: 50%;
   }
 
+  .info-cards-wrapper {
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+  }
   .info-card {
     background: #ffffff;
     border-radius: 16px;
@@ -561,383 +564,461 @@
     line-height: 1.7;
     margin: 0;
   }
-
-  .service-box {
+  .process-step {
     text-align: left;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    height: 100%;
-    border: 1px solid #edf2f7;
-    transition: all 0.3s ease;
+    position: relative;
+    padding: 20px;
   }
-  .service-box:hover {
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-    transform: translateY(-5px);
-    border-color: #00C2FF;
+  .process-step::after {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: -15px;
+    top: 40px;
+    font-size: 2rem;
+    color: #00C2FF;
   }
-  .service-box img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  .process-step:last-child::after {
+    display: none;
   }
-  .service-box h4 {
+  @media (max-width: 991px) {
+    .process-step::after { display: none; }
+  }
+  .process-icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 0 20px 0;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
     color: #1E3A8A;
-    font-weight: 700;
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
   }
-  .service-box p {
+  .process-step h4 {
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-bottom: 10px;
+  }
+  .process-step p {
     color: #6b7280;
     font-size: 0.95rem;
-    line-height: 1.6;
   }
 </style>
 
 <style>
-  /* Premium Design Styles for AC/DC Generator Overhaul */
-  .generator-hero-container {
-    background: linear-gradient(135deg, #020f3b 0%, #1e3a8a 100%);
-    color: white;
-    padding: 80px 0;
+  /* ── After Sales Support – Extra Styles ── */
+
+  /* animated stat counters */
+  .stats-band {
+    background: linear-gradient(135deg, #020f3b 0%, #0d47a1 100%);
+    padding: 60px 0;
     position: relative;
     overflow: hidden;
   }
-  .generator-hero-container::before {
+  .stats-band::before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NiIgaGVpZ2h0PSI4NiI+CjxyZWN0IHdpZHRoPSI4NiIgaGVpZ2h0PSI4NiIgZmlsbD0idHJhbnNwYXJlbnQiLz4KPGNpcmNsZSBjeD0iNDMiIGN5PSI0MyIgcj0iMSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEpIi8+Cjwvc3ZnPg==') repeat;
-    opacity: 0.5;
+    inset: 0;
+    background: radial-gradient(ellipse at 70% 50%, rgba(0,194,255,0.15) 0%, transparent 70%);
   }
-  .generator-title {
-    font-size: 3rem;
+  .stat-card {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+  }
+  .stat-number {
+    font-size: 3.5rem;
     font-weight: 800;
     background: linear-gradient(90deg, #00C2FF, #ffffff);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 20px;
-    position: relative;
-  }
-  .generator-lead {
-    font-size: 1.25rem;
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  .content-section {
-    padding: 80px 0;
-    background-color: #ffffff;
-  }
-  .content-section.alt-bg {
-    background-color: #f4f7f9;
-  }
-  
-  .section-heading {
-    color: #1E3A8A;
-    font-weight: 700;
-    font-size: 2.2rem;
-    margin-bottom: 30px;
-    position: relative;
-    padding-bottom: 15px;
-  }
-  .section-heading::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, #00C2FF, #1E3A8A);
-    border-radius: 2px;
-  }
-  .text-center .section-heading::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .text-body-custom {
-    font-size: 1.1rem;
-    color: #4b5563;
-    line-height: 1.8;
-    margin-bottom: 20px;
-  }
-
-  .img-wrapper {
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    transform: translateY(0);
-    transition: transform 0.5s ease;
-  }
-  .img-wrapper:hover {
-    transform: translateY(-10px);
-  }
-  .img-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-clip: text;
     display: block;
-    min-height: 350px;
+    line-height: 1;
+  }
+  .stat-label {
+    color: rgba(255,255,255,0.85);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 8px;
+    display: block;
+    letter-spacing: 0.5px;
   }
 
-  .custom-list {
-    list-style: none;
-    padding: 0;
+  /* support service grid cards */
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 28px;
+    margin-top: 20px;
   }
-  .custom-list li {
-    position: relative;
-    padding-left: 45px;
-    margin-bottom: 25px;
-    font-size: 1.1rem;
-    color: #4b5563;
-    line-height: 1.7;
-  }
-  .custom-list li i {
-    position: absolute;
-    left: 0;
-    top: 3px;
-    font-size: 1.4rem;
-    color: #00C2FF;
-    background: rgba(0, 194, 255, 0.1);
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-  }
-
-  .info-card {
-    background: #ffffff;
-    border-radius: 16px;
-    padding: 40px 30px;
-    text-align: left;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    height: 100%;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    border: 1px solid rgba(0,0,0,0.02);
+  .service-grid-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 38px 30px;
+    box-shadow: 0 6px 30px rgba(30,58,138,0.07);
+    border: 1px solid rgba(0,0,0,0.04);
+    transition: all 0.4s cubic-bezier(0.165,0.84,0.44,1);
     position: relative;
     overflow: hidden;
   }
-  .info-card::before {
+  .service-grid-card::after {
     content: '';
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 4px;
+    bottom: 0; left: 0; right: 0;
+    height: 4px;
     background: linear-gradient(90deg, #1E3A8A, #00C2FF);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.4s ease;
+    border-radius: 0 0 18px 18px;
   }
-  .info-card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.1);
+  .service-grid-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(30,58,138,0.13);
   }
-  .info-card:hover::before {
-    transform: scaleX(1);
-  }
-  .icon-container {
-    width: 80px;
-    height: 80px;
-    margin: 0 0 25px 0;
-    border-radius: 50%;
-    background: linear-gradient(135deg, rgba(30, 58, 138, 0.05), rgba(0, 194, 255, 0.1));
+  .service-grid-card:hover::after { transform: scaleX(1); }
+  .sgc-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(30,58,138,0.08), rgba(0,194,255,0.12));
     color: #1E3A8A;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.9rem;
+    margin-bottom: 22px;
     transition: all 0.4s ease;
   }
-  .info-card:hover .icon-container {
-    background: #1E3A8A;
-    color: #ffffff;
-    transform: scale(1.1);
+  .service-grid-card:hover .sgc-icon {
+    background: linear-gradient(135deg, #1E3A8A, #00C2FF);
+    color: #fff;
+    transform: scale(1.08) rotate(-3deg);
   }
-  .info-card h4 {
+  .service-grid-card h4 {
     color: #1E3A8A;
     font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
   }
-  .info-card p {
+  .service-grid-card p {
     color: #6b7280;
-    font-size: 1rem;
+    font-size: 0.97rem;
     line-height: 1.7;
     margin: 0;
   }
 
-  .service-box {
-    text-align: left;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    height: 100%;
-    border: 1px solid #edf2f7;
-    transition: all 0.3s ease;
+  /* CTA band */
+  .cta-band {
+    background: linear-gradient(135deg, #00C2FF 0%, #1E3A8A 100%);
+    padding: 70px 20px;
+    text-align: center;
+    color: #fff;
   }
-  .service-box:hover {
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-    transform: translateY(-5px);
-    border-color: #00C2FF;
+  .cta-band h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 16px;
   }
-  .service-box img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  .cta-band p {
+    font-size: 1.15rem;
+    opacity: 0.9;
+    max-width: 650px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
   }
-  .service-box h4 {
+  .cta-band .btn-cta {
+    background: #fff;
     color: #1E3A8A;
     font-weight: 700;
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+    padding: 14px 40px;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   }
-  .service-box p {
-    color: #6b7280;
-    font-size: 0.95rem;
-    line-height: 1.6;
+  .cta-band .btn-cta:hover {
+    background: #020f3b;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  }
+
+  @media (max-width: 576px) {
+    .stat-number { font-size: 2.5rem; }
+    .cta-band h2  { font-size: 1.8rem; }
   }
 </style>
 
-<section class="acDcGenerators">
-  <!-- Hero / Intro -->
-  <div class="generator-hero-container text-center">
+<section class="afterSalesSupport">
+
+  <!-- ① Hero / Intro -->
+  <div class="commissioning-hero-container text-center">
     <div class="container">
       <h6 class="text-uppercase mb-3" style="color: #00C2FF; letter-spacing: 3px; font-weight: 600;">Technical Services</h6>
-      <h1 class="generator-title">AC &amp; DC Generator Overhaul</h1>
-      <p class="generator-lead">
-        At <strong>Futurion</strong>, we recognize that robust power generation is the lifeline of your industrial infrastructure. Our comprehensive generator overhaul and rewinding operations revive exhausted AC and DC generators to peak output, restoring critical continuous and standby power reliability.
+      <h1 class="commissioning-title">After Sales Support</h1>
+      <p class="commissioning-lead">
+        At <strong>Futurion</strong>, our commitment doesn't end at delivery. We provide comprehensive after-sales support to keep your equipment running at peak performance — long after installation. From emergency response to scheduled maintenance, we are your lasting partner in operational excellence.
       </p>
     </div>
   </div>
 
-  <!-- Intro Continuation -->
+  <!-- ② Animated Stats Band -->
+  <div class="stats-band">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 mb-4 mb-md-0">
+          <div class="stat-card">
+            <span class="stat-number" data-target="500">0</span>
+            <span class="stat-label">Projects Supported</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-4 mb-md-0">
+          <div class="stat-card">
+            <span class="stat-number" data-target="24">0</span>
+            <span class="stat-label">Hour Response Time</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-number" data-target="98">0</span>
+            <span class="stat-label">% Client Satisfaction</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-number" data-target="15">0</span>
+            <span class="stat-label">Years of Expertise</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ③ Intro text -->
   <div class="content-section pb-0">
     <div class="container text-center">
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <p class="text-body-custom">
-            Industrial generators endure immense thermal stresses, vibration, and continuous load cycling that gradually degrade their insulation systems and mechanical tolerances. From heavy-duty backup diesel AC alternators protecting medical facilities to primary DC power plants running naval vessels, precision maintenance is absolutely non-negotiable.
+            Equipment reliability is a continuous journey. Futurion's After Sales Support team is dedicated to extending the operational life of every product and system we supply or service. Through proactive maintenance programs, rapid spare-parts sourcing, and on-site technical assistance, we minimize unplanned downtime and maximize your return on investment.
           </p>
           <p class="text-body-custom">
-            Futurion's specialized winding facilities perform intricate rotor re-wedging, stator restacking, and commutator overhauls. We guarantee that every overhauled generator not only meets but often exceeds its original factory output parameters, ensuring uninterrupted power when you need it most.
+            Whether you require a routine inspection, an emergency repair, or in-depth operator training, our expert engineers are available across the Middle East to respond quickly and effectively — because your uptime is our priority.
           </p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Comprehensive Generator Services (With 2 Images) -->
+  <!-- ④ Support Services Grid -->
+  <div class="content-section alt-bg">
+    <div class="container">
+      <h2 class="section-heading text-center mb-5">Our After Sales Services</h2>
+      <div class="service-grid">
+
+        <div class="service-grid-card">
+          <div class="sgc-icon"><i class="fas fa-tools"></i></div>
+          <h4>Preventive Maintenance</h4>
+          <p>Scheduled, systematic servicing of your pumps, motors, valves, and generators to detect issues before they cause costly failures and unplanned shutdowns.</p>
+        </div>
+
+        <div class="service-grid-card">
+          <div class="sgc-icon"><i class="fas fa-bolt"></i></div>
+          <h4>Emergency Breakdown Support</h4>
+          <p>Round-the-clock emergency response with mobilisation of qualified engineers to your site within 24 hours — restoring operations with minimal disruption.</p>
+        </div>
+
+        <div class="service-grid-card">
+          <div class="sgc-icon"><i class="fas fa-exchange-alt"></i></div>
+          <h4>Spare Parts Supply</h4>
+          <p>Fast-track procurement of OEM and compatible spare parts from our trusted global network, ensuring genuine components reach you with minimal lead time.</p>
+        </div>
+
+        <div class="service-grid-card">
+          <div class="sgc-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h4>Operator Training</h4>
+          <p>Structured on-site and classroom training programmes that empower your plant operators with the knowledge to safely and efficiently manage installed equipment.</p>
+        </div>
+
+        <div class="service-grid-card">
+          <div class="sgc-icon"><i class="fas fa-search-plus"></i></div>
+          <h4>Performance Audits</h4>
+          <p>In-depth operational audits and diagnostic assessments to benchmark equipment efficiency, identify performance gaps, and recommend corrective actions.</p>
+        </div>
+
+        <div class="service-grid-card">
+          <div class="sgc-icon"><i class="fas fa-file-alt"></i></div>
+          <h4>Service Agreements (AMC)</h4>
+          <p>Flexible Annual Maintenance Contracts tailored to your operational needs, providing priority access to our engineering teams, planned service visits, and cost certainty.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ How We Work – Process Flow -->
   <div class="content-section">
     <div class="container">
-      <div class="row align-items-center mb-5">
-        <div class="col-lg-6 mb-4 mb-lg-0 pr-lg-5">
-          <h2 class="section-heading">Comprehensive Generator Solutions</h2>
-          <p class="text-body-custom">
-            A catastrophic generator failure means total facility blackout. Our proactive engineering solutions intercept anomalies before they cause cascading damage. Relying on deep root-cause failure analysis, we pinpoint electrical tracking, magnetic core deterioration, and mechanical imbalance to execute completely custom-engineered repair scopes. 
-          </p>
+      <h2 class="section-heading text-center mb-5">How We Work</h2>
+      <div class="row pt-3">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-step">
+            <div class="process-icon"><i class="fas fa-phone-alt"></i></div>
+            <h4>Contact &amp; Assessment</h4>
+            <p>Reach out via phone, email, or our service portal. Our team quickly assesses your request and assigns the right specialist.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-step">
+            <div class="process-icon"><i class="fas fa-clipboard-list"></i></div>
+            <h4>Diagnosis &amp; Planning</h4>
+            <p>Our engineers carry out detailed on-site or remote diagnostics and prepare a transparent, prioritised action plan with timelines and cost estimates.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-step">
+            <div class="process-icon"><i class="fas fa-wrench"></i></div>
+            <h4>Execution &amp; Repair</h4>
+            <p>Qualified technicians carry out repairs, replacements, or maintenance using OEM-approved methods and rigorously tested components.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-step">
+            <div class="process-icon"><i class="fas fa-check-double"></i></div>
+            <h4>Testing &amp; Sign-off</h4>
+            <p>Post-service performance testing and comprehensive documentation provided, along with operator handover to confirm full operational readiness.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑥ What We Offer – Text + Image -->
+  <div class="content-section alt-bg">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0 pr-lg-5">
+          <h2 class="section-heading">What We Offer?</h2>
           <ul class="custom-list mt-4">
-            <li><i class="fas fa-hammer"></i><strong>Mechanical Precision:</strong> Complete rotor shaft runout correction, bearing journal metalizing, slip ring skim turning, and dynamic load balancing.</li>
-            <li><i class="fas fa-bolt"></i><strong>Electrical Rewinding:</strong> Total stripping, cleaning, and custom form-wound coil manufacturing using advanced Class H slot insulation schemes and VPI processing.</li>
-            <li><i class="fas fa-microscope"></i><strong>Advanced Diagnostics:</strong> Insulation resistance profiling, exciter diode testing, EL CID core testing, and full dynamic load bank performance verification.</li>
+            <li>
+              <i class="fas fa-headset"></i>
+              <strong>Dedicated Support Engineers:</strong> Named account engineers who understand your specific equipment, site conditions, and operational history — delivering consistent, high-quality support.
+            </li>
+            <li>
+              <i class="fas fa-sync-alt"></i>
+              <strong>Lifecycle Management:</strong> End-to-end management of your equipment lifecycle — from warranty support through to planned replacement strategies — ensuring maximum asset return.
+            </li>
+            <li>
+              <i class="fas fa-chart-bar"></i>
+              <strong>Condition Monitoring:</strong> Advanced vibration analysis, thermographic scanning, and oil analysis to track equipment health trends and predict failures before they occur.
+            </li>
+            <li>
+              <i class="fas fa-shield-alt"></i>
+              <strong>Warranty Administration:</strong> Seamless management of all warranty claims and in-warranty service activities, coordinating directly with OEM manufacturers on your behalf.
+            </li>
           </ul>
         </div>
         <div class="col-lg-6">
-          <div class="row">
-            <div class="col-sm-6 mb-4 mb-sm-0">
-              <div class="img-wrapper">
-                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80" alt="Generator Stator Core Repair" style="min-height: 480px;">
-              </div>
-            </div>
-            <div class="col-sm-6 mt-lg-5">
-              <div class="img-wrapper">
-                <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80" alt="Generator Electrical Diagnostics" style="min-height: 480px;">
-              </div>
-            </div>
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="After Sales Support Operations">
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Specialized Capabilities (With 2 More Images) -->
-  <div class="content-section alt-bg">
-    <div class="container">
-      <h2 class="section-heading text-center mb-5">Specialized Generator Overhaul Capabilities</h2>
-      <div class="row pt-2">
-        
-        <div class="col-md-6 mb-5">
-          <div class="service-box">
-            <img src="https://rkelectromech.com.au/wp-content/uploads/2025/06/Generator-Alternator-Rweind.jpg" alt="AC Alternator Overhaul">
-            <h4>AC Alternators & Synchronous Generators</h4>
-            <p>From standby low-voltage alternators to multi-megawatt high-voltage turbine generators, our capabilities are vast. We specialize in rotating rectifier assembly testing, exciter field rewinding, and comprehensive stator coil replacements with high-dielectric mica tapes ensuring absolute reliability under peak load conditions.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mb-5">
-          <div class="service-box">
-            <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/VD/GC/WA/1061548/soft-starters-repair-service.jpeg" alt="DC Generator Overhaul">
-            <h4>Heavy-Duty DC Generators</h4>
-            <p>Operating legacy DC power systems requires intricate attention to commutating components. We provide absolute precision in commutator profiling, mica undercutting, carbon brush gear tensioning, and robust armature rewinding. We ensure your DC generators deliver perfectly stable voltage signatures without destructive sparkling.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- Why Choose Futurion cards -->
+  <!-- ⑦ Why Choose Futurion Cards -->
   <div class="content-section" style="padding-bottom: 80px;">
     <div class="container">
-      <h2 class="section-heading text-center mb-5">Why Trust Futurion for Generator Repairs?</h2>
+      <h2 class="section-heading text-center mb-5">Why Choose Futurion?</h2>
       <div class="row pt-4">
-        
+
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="info-card text-left">
-            <div class="icon-container">
-              <i class="fas fa-certificate"></i>
-            </div>
-            <h4>OEM Standard Compliance</h4>
-            <p>Our overhaul procedures adhere strictly to OEM guidelines and international engineering standards (EASA / IEEE). We ensure the repaired generator completely aligns with its original voltage, frequency, and thermal operational limits.</p>
+            <div class="icon-container mx-auto mx-md-0"><i class="fas fa-clock"></i></div>
+            <h4>Rapid Response</h4>
+            <p>With strategically positioned service teams across the UAE and wider Middle East, we guarantee fast mobilisation and minimal response times to keep your operations running.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="info-card text-left">
-            <div class="icon-container">
-              <i class="fas fa-shield-alt"></i>
-            </div>
-            <h4>VPI Insulation Systems</h4>
-            <p>We utilize advanced Vacuum Pressure Impregnation (VPI) for complete epoxy resin penetration into the thickest generator windings. This totally seals out moisture and corrosive industrial gases, preventing premature ground faults.</p>
+            <div class="icon-container mx-auto mx-md-0"><i class="fas fa-medal"></i></div>
+            <h4>OEM-Certified Expertise</h4>
+            <p>Our engineers are factory-trained and OEM-certified on the brands we represent, ensuring repairs and maintenance are performed to the highest manufacturer standards.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="info-card text-left">
-            <div class="icon-container">
-              <i class="fas fa-check-double"></i>
-            </div>
-            <h4>Load Bank Verification</h4>
-            <p>No generator leaves our facility unproven. Extensive resistive and reactive load bank testing accurately simulates real-world electrical demands, confirming proper exciter reaction, voltage regulation, and governor response.</p>
+            <div class="icon-container mx-auto mx-md-0"><i class="fas fa-handshake"></i></div>
+            <h4>Trusted Long-Term Partnership</h4>
+            <p>We measure success by the longevity of our client relationships. Futurion's after-sales philosophy is built on trust, transparency, and a genuine commitment to your success.</p>
           </div>
         </div>
 
       </div>
     </div>
   </div>
+
+  <!-- ⑧ CTA Band -->
+  <div class="cta-band">
+    <div class="container">
+      <h2>Need Support Right Now?</h2>
+      <p>Our support engineers are available around the clock. Get in touch and we'll have the right expert on your case today.</p>
+      <a href="contact.html" class="btn-cta">Contact Our Support Team <i class="fas fa-arrow-right ml-2"></i></a>
+    </div>
+  </div>
+
 </section>
 
+<script>
+  // Counter animation for stat numbers
+  function animateCounter(el) {
+    const target = +el.getAttribute('data-target');
+    const duration = 2000;
+    const step = target / (duration / 16);
+    let current = 0;
+    const update = () => {
+      current += step;
+      if (current < target) {
+        el.textContent = Math.floor(current);
+        requestAnimationFrame(update);
+      } else {
+        el.textContent = target;
+      }
+    };
+    update();
+  }
+
+  // Trigger when stats section enters viewport
+  const statNumbers = document.querySelectorAll('.stat-number[data-target]');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  statNumbers.forEach(n => observer.observe(n));
+</script>
 
 <!-- Footer -->
 <footer>
